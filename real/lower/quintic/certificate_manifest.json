@@ -1,0 +1,83 @@
+{
+  "format_version": 1,
+  "claim": "K_G^R >= 1375*pi/2454",
+  "integration_checker_sha256": "73200d9baf164bb527c70ae1a2700bc253b1110b0da766f395bf7db2a659176d",
+  "inventory_content_sha256": "e94d2d8c809353431822bf1d1e0f448438672743673e60cd0d1f9ea233e4c893",
+  "vertices": 252021,
+  "leaves": 47399,
+  "parts": 4,
+  "precision_bits": 256,
+  "grid_bits": 52,
+  "integral_tolerance": "1/281474976710656",
+  "supplied_execution_runtime": {
+    "python": "3.11.14",
+    "python_flint": "0.8.0",
+    "flint": "3.3.1"
+  },
+  "files": {
+    "PROOF_01.md": "ca28b8fda104747b972e15eae36a7edd7939f9d02dc6810a8ae6ba28304b1550",
+    "REPLAY_MATHEMATICS_01.md": "97f0f59f533c026d0997d024786c22f61865110c111a637798a0378d6e6f34d8",
+    "check_quintic_01.py": "73200d9baf164bb527c70ae1a2700bc253b1110b0da766f395bf7db2a659176d",
+    "check_scalar_01.py": "ea4abf480cda629c4cbaa6d3553749858f620a97f11ca50aa6d6b36a2bb33a5f",
+    "targets_01.json": "c01b72567d72a37256fb70b18bb920d83018275203b4809b2c023683fd8148a3",
+    "bindings_01.json": "37e5c520014cd2bfbfca64b69dc7c4af334b18192f97570aa344b84a9762bda9",
+    "SCALAR_MATHEMATICAL_DATA_01.json": "4cbd96ff3741c7f9f741f846d3d6c30a5cd21312b0de21d7b720c765b3571a99",
+    "inputs/scalars/agreement_quintic_closed_supports_01.json": "86bf26f0652ee46bb5806700a3b122f38b5c74655d456ff276f267349d7dba7e",
+    "inputs/scalars/quintic_176_exact_assembly_05.json": "6e35db038de03bfe5a3234f61f92ada566a695d520d0d00824b48d31d3765b57",
+    "inputs/scalars/quintic_176_target_A_05.json": "1c36913d2bab189f55ddc7a3077459a8bc95528f62c1db4374d2ead00b0dbf5b",
+    "inputs/scalars/quintic_176_target_B_05.json": "c28a827975a706311bd21e13d31d7104728da3a2527a0ab7dc537a241777de49",
+    "inputs/scalars/quintic_176_target_C_05.json": "d998b096a7f3d70ee8224a0f13bf67a18891dc992c86c6d7bf703c1bc922613d",
+    "verify_certificate.py": "30189179e47cdb414c6648bc6c23704fcb27cf7b35bb1e9fa03b704a61d4de9c",
+    "run_replay.py": "c37dbea08bb25626ae1db80306bac8d3e81a3f3f0b76f5c3f49e0a60db329a82",
+    "COMMANDS.txt": "64217ea3b5810c48364c11a22f9088458a5a97ff0e93da050b0bafd1e83f2d86",
+    "requirements.txt": "a98869ee84ec316349fde0f110b1c02f2479d81073de3e0e758f9d88417566f3",
+    "README.md": "e198f8d9f56e4d3f5e668dc35102531ada4a5720fefd5736b6102db987327e72",
+    "proof.md": "99d5f011d5bca52909c38a81f28e1af0f071c5c6605d576013844964801e7858",
+    ".gitignore": "c800b9370fbaa54b891c9b0627d7f9037212919f5e00dc5555b6543bd62e92bd",
+    "integration-mathematics.md": "cb092686fc525f0f31257563054e15645ebe0832068dcb2f9a5203a6555d4747"
+  },
+  "artifacts": {
+    "inventory.json": {
+      "path": "certificates/inventory.json.gz",
+      "bytes": 7513514,
+      "sha256": "ef14570b3b4c289c91ca5d259c3db3ced54bc827cf566bdcb84ac53f3d2266b4",
+      "uncompressed_bytes": 105612036,
+      "uncompressed_sha256": "d242acf5908416afc378c895b14c63200532cf13b367d520274ebb061fde9dc9"
+    },
+    "verified.json": {
+      "path": "certificates/verified.json.gz",
+      "bytes": 698973,
+      "sha256": "d3bd5b9e8fd037c0702c2dcb88bec8bd0061239ded2050565cdbbf0ffe3b659d",
+      "uncompressed_bytes": 8803819,
+      "uncompressed_sha256": "8090f71052a0f47020f88bf60cf4862e5aac25e2cbe12d96b30f9175b4f1e1e3"
+    },
+    "vertices_00.jsonl": {
+      "path": "certificates/vertices_00.jsonl.gz",
+      "bytes": 9764209,
+      "sha256": "db0d4c183ce5b892adc04bb4405c96858186cf642071f6129be833ab0f685438",
+      "uncompressed_bytes": 62372363,
+      "uncompressed_sha256": "3eb2df57553db2a06709de393b57568796330d99fdb49ca08a0b63fe8fb10247"
+    },
+    "vertices_01.jsonl": {
+      "path": "certificates/vertices_01.jsonl.gz",
+      "bytes": 9768504,
+      "sha256": "a63fb6bfc26f06a2bab074fb5ace3fb303e88590a961c6eacadfeb6d0c5ad35f",
+      "uncompressed_bytes": 62372535,
+      "uncompressed_sha256": "c0668c2e19bf142b0f397abe100a1729e8bc896c93604df04b60966da17656ae"
+    },
+    "vertices_02.jsonl": {
+      "path": "certificates/vertices_02.jsonl.gz",
+      "bytes": 9759227,
+      "sha256": "41ad076e2ca827dbda6e0a6acd30401f0ed39afc6173423fd31c6ee52b66b2b3",
+      "uncompressed_bytes": 62372831,
+      "uncompressed_sha256": "4605e831e3cf9cdf6e8cb82548443df961ad576c7bcb349632c30346b52f99cf"
+    },
+    "vertices_03.jsonl": {
+      "path": "certificates/vertices_03.jsonl.gz",
+      "bytes": 9766659,
+      "sha256": "dd3a12ec9f2e96d8a1ceeca7f65bef01431641f7777d5acab6295c0a9eb451e8",
+      "uncompressed_bytes": 62373855,
+      "uncompressed_sha256": "218f945314e9dff499c676f7afba440a9b577cb7c3b2018c17ba7aa86f9a9505"
+    }
+  }
+}

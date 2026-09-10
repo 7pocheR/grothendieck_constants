@@ -1,6 +1,8 @@
-# A lower bound for the real Grothendieck constant
+# The cubic lower-bound construction for the real Grothendieck constant
 
-This directory contains a proof of
+The stronger [quintic construction](quintic/) proves
+$K_G^{\mathbb R}\ge1375\pi/2454=1.760264832390369\ldots$.
+This directory preserves the earlier cubic proof of
 
 $$
 K_G^{\mathbb R}\ge\frac{1625\pi}{2917}>\frac74.

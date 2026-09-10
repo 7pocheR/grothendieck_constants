@@ -1,0 +1,13 @@
+# Run from this directory with CPython 3.11 or later. Do not use -O/-OO or PYTHONOPTIMIZE.
+# Source and compressed-file hashes only:
+python3 -B verify_certificate.py --mode integrity --output verification/integrity.json
+# Exact agreement, envelope, circle, and finite-matrix arithmetic:
+python3 -B run_replay.py --stage scalar --work verification/scalar
+# All exact geometry and supplied interval-result assembly; no fresh Gaussian integrals:
+python3 -B verify_certificate.py --mode stored --output verification/stored_validation.json
+# Small fresh smoke check: six vertices and eighteen compact-domain integrals, not a full replay:
+python3 -B run_replay.py --stage smoke --work verification/smoke
+# Complete fresh replay with four fixed partitions and up to four concurrent workers:
+python3 -B run_replay.py --stage all --work verification/fresh --workers 4 --rounds 100
+# A bounded resumable invocation; exit status 2 means incomplete, not a certificate:
+python3 -B run_replay.py --stage replay --work verification/fresh --workers 2 --rounds 1

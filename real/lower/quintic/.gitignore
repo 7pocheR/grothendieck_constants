@@ -1,0 +1,4 @@
+verification/
+_work/
+__pycache__/
+*.pyc
