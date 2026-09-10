@@ -1,0 +1,2616 @@
+{
+  "schema_version": 1,
+  "theorem": "K_G^C <= 100000000/71185999",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 40,
+      "sha256": "9eadbe7228489632798badc0ae53d2c9b69605d41d6fd5c4aa923523f7048b7d",
+      "role": "public_entrypoint"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7209,
+      "sha256": "b158ad059bd5bda40dbea2cde4039d3ccb355f5411ffc4b89a23cfb4598f54e6",
+      "role": "reader_documentation"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/inputs.json",
+      "bytes": 35578,
+      "sha256": "d948ea91a2f3a62876a2253713802f514b21b9effcc9d13a2eab0d1f79116dcb",
+      "role": "computation_inputs"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0001.json",
+      "bytes": 131023,
+      "sha256": "4e7dc791d8d66778e2592465a83cf231a23413437a16acee580d8fbba9b99df0",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0001.leaves.jsonl.gz",
+      "bytes": 728753,
+      "sha256": "f6f85e18a9a1746013fa7986ee460c350dd4dacd091fd95d9b0937fa9517f954",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0002.json",
+      "bytes": 130999,
+      "sha256": "7e928f062b9359e3eb1a7945a9e5efc4b838501fd1e3ba7e68ab3fd70c899c7b",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0002.leaves.jsonl.gz",
+      "bytes": 918938,
+      "sha256": "777a7c38d9dbf5a6f99ce00df5a36e4bc7285f5c20b7f6b6942480656843bc30",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0003.json",
+      "bytes": 131004,
+      "sha256": "1e56b937d914ce13e331520dbfe734a64c9f89f2590f6ae2ba6afd76848e1049",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0003.leaves.jsonl.gz",
+      "bytes": 803638,
+      "sha256": "32eba8d310f580738eb3b2a1556fa2965b8a0cc4ba626016fdbce60192db1ce5",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0004.json",
+      "bytes": 130999,
+      "sha256": "db59f1cb7660558c883723ce90b69a25eddb4e99b82e206fd6f995cc1c439487",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0004.leaves.jsonl.gz",
+      "bytes": 728917,
+      "sha256": "36c41228e5de29e4715e9c5bbc3ebb5bd49fc7185c1b12ccb1ba062f8ccb99a4",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0005.json",
+      "bytes": 131029,
+      "sha256": "f76f7404b2952aab6a5648332ceefae74602123aceccf2bc168bc359542c6a4e",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0005.leaves.jsonl.gz",
+      "bytes": 813030,
+      "sha256": "13625fd901b8dc2d748cd2db1221ed232b3f5cc9cf053d52e231d30409eb18a5",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0006.json",
+      "bytes": 131018,
+      "sha256": "e4c632b9c984a8669fd44367267c5fa51a0bb716e8751257edb44be8269c0edb",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0006.leaves.jsonl.gz",
+      "bytes": 870315,
+      "sha256": "6b70d5016ee4673125c511ad904504e22b27ee9a82bf05c6ed55543e5d4b7a42",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0007.json",
+      "bytes": 131013,
+      "sha256": "5747a5e76d844a4da3e28bc9652331f6e3602cbc3395b9f074e2c97ccebb1529",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0007.leaves.jsonl.gz",
+      "bytes": 718788,
+      "sha256": "4cc94e6fabdcf46e6a0cf0212ad0e30fa30f938e44d5c70a1d76a881b4686ff5",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0008.json",
+      "bytes": 131013,
+      "sha256": "2101fdb0e5a62f8c7f819a2fb939084f641d2694af7ec27e769f2c459f0ca4ac",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0008.leaves.jsonl.gz",
+      "bytes": 720573,
+      "sha256": "75143217f1a3e0e97f896692ade3016068c9b7d55b959fbf8894b44434dbb534",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0009.json",
+      "bytes": 130806,
+      "sha256": "77caca005d912064d471ce26ad8fa049b2aac0ddb555b316b69b62fff6fa00b6",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0009.leaves.jsonl.gz",
+      "bytes": 901781,
+      "sha256": "3106d8658bcc87e552413740b5abb7575b9ccd40aab12102a1dde17224535117",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0010.json",
+      "bytes": 131003,
+      "sha256": "08a9e806c1af479125d021b15419a64a40453ea262dd98b48ebcb72f362b1b9d",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0010.leaves.jsonl.gz",
+      "bytes": 759388,
+      "sha256": "8e48498ba4e87e0954783b68d46aa950ff82cb26885635a90f5c08dc1abc8b6f",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0011.json",
+      "bytes": 130988,
+      "sha256": "1e98bd8bace1e512ce8f1056a1d195019c56d94a45a30b6fc9c5481235c41cfc",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0011.leaves.jsonl.gz",
+      "bytes": 718376,
+      "sha256": "bff9ea32ac426d968f32171a7115a853201166fcf4fcdb7e4b5e65da598079b3",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0012.json",
+      "bytes": 130999,
+      "sha256": "d18e9de8685013eaff0e1b8d1ed3d0ab8d1a6840d921b90276a85c48bc2e520a",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0012.leaves.jsonl.gz",
+      "bytes": 760244,
+      "sha256": "4a70fad1abfa4dfd1a094d5328f9f62fdf9fba4b4a4ffd6b7da22cde16f58271",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0013.json",
+      "bytes": 130802,
+      "sha256": "1f811b450d470dd44361a4157f92f3cae46f03c4bfd7a2d02f3465f330848c2d",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0013.leaves.jsonl.gz",
+      "bytes": 850435,
+      "sha256": "bcdafb78e7a0603b974ca0bd5efd4ea21b0d2aa88a86a8ab83e7cb31517c1342",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0014.json",
+      "bytes": 130785,
+      "sha256": "ab352ffb7caedf0e80383896301c8ac17c1dd864946648401da7fdbfde2abe6a",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0014.leaves.jsonl.gz",
+      "bytes": 979459,
+      "sha256": "4fe2f0f96dfc5023fce7bc0c735ccb428b025eedd4bfb235ce540b7b70bb2a31",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0015.json",
+      "bytes": 130757,
+      "sha256": "0f1cea410f1f388f26a45a64d0e007a1aacb98c57465cd8b7ffa7b635340cfe3",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0015.leaves.jsonl.gz",
+      "bytes": 934180,
+      "sha256": "739052a6b1c922032099f331736f07dbbea3f3f155905d86d80c7679042b83a2",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0016.json",
+      "bytes": 130751,
+      "sha256": "e4271047ef383767f2028b5e855e033623c3ac3cd05a93ba100fe818e703c209",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0016.leaves.jsonl.gz",
+      "bytes": 905886,
+      "sha256": "58ca07e159d8fef2be4c22adfd2f5a5807532ac018b77da3f5cd3da3cb11ca35",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0017.json",
+      "bytes": 130767,
+      "sha256": "1fcb73edd3cb7f7ec4d89dbc29bf2680dc1d5e4b588b0b7bb3511334bbebab06",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0017.leaves.jsonl.gz",
+      "bytes": 841101,
+      "sha256": "82c37192dbd245cd90b00743e7233b05f9af6f70b945e167a906ad3566b37b0b",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0018.json",
+      "bytes": 130565,
+      "sha256": "66b9f869c733c83714926e01053693581bfcc178449515dba880967a1b0ed93d",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0018.leaves.jsonl.gz",
+      "bytes": 812257,
+      "sha256": "2ceac446f5689bcf850ca7587eee675603552e212a794589fd7dc165a1a0f549",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0019.json",
+      "bytes": 130989,
+      "sha256": "61f17a9fe697ada1b72dfa23f1be51d2e77c4710f87557c64c0b7852111d1b11",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0019.leaves.jsonl.gz",
+      "bytes": 759380,
+      "sha256": "4c0c783e5478f4c0f593cce818a7e49ca3aca39bbd0a6b3846f3ffe2c0cb14cd",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0020.json",
+      "bytes": 131015,
+      "sha256": "1c6ca8c225e1d7932db0cd4fa64b5d19da60c75ccaa5e3e0bab640509a0c33f3",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0020.leaves.jsonl.gz",
+      "bytes": 716787,
+      "sha256": "6b8d7a8a8d8bb35f5a79f66ac6022473fcc45144797354d5b104cac9657c7b7c",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0021.json",
+      "bytes": 130563,
+      "sha256": "9f34ea8de074f85b9bfdb6a10857d8fd27a30330fae56714f2fd0a59ed1adc7d",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0021.leaves.jsonl.gz",
+      "bytes": 793628,
+      "sha256": "3ba35cf08426181901fe018bfde2abce333d085f9c7d85ee63c7ba6ad691a7e1",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0022.json",
+      "bytes": 130974,
+      "sha256": "0bcb849ffb7273eeb42388eb265ebf41c5bf3ab7ea82b3b39655977882133913",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0022.leaves.jsonl.gz",
+      "bytes": 777915,
+      "sha256": "4ad83517532cbc010ef3a63549278cbcf5d545e2b2f5cbe4fbebe106a9e220af",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0023.json",
+      "bytes": 130540,
+      "sha256": "4d4db9d841c4993f5ada505ac1ba27280f7f7f81a47f58ca784eef9e99106fce",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0023.leaves.jsonl.gz",
+      "bytes": 818381,
+      "sha256": "369ee5e290e4750cc6e94f8087234bc195b548d1f63d74c4170d94e093feb281",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0024.json",
+      "bytes": 130800,
+      "sha256": "1270064569de63e78366e191df93039ea3abd0a961621af5259d3d6640219824",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0024.leaves.jsonl.gz",
+      "bytes": 810942,
+      "sha256": "c030c70bdc3ed95aabf15aab152f61ba67da62df33f0c77383deeaff6a2cadbf",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0025.json",
+      "bytes": 130750,
+      "sha256": "4d58918de7c5ae48095183b99375596904d1aa5216a8fb654d81b2c5a13da157",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0025.leaves.jsonl.gz",
+      "bytes": 842918,
+      "sha256": "284bc5ef009de171034d99df5b7aa2be7011b3a56154ca161bf7503b9d1f4ddb",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0026.json",
+      "bytes": 130781,
+      "sha256": "dc5df84bbccd2066dadd1aa3c3e9be82639387da33b47a887f065f9e419d90bd",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0026.leaves.jsonl.gz",
+      "bytes": 899716,
+      "sha256": "25457b61c83b7bbc6af700c4ccef7f5aa8cd02fcf628c429d74de80ba5369e99",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0027.json",
+      "bytes": 130723,
+      "sha256": "bc426c88509a95f1bad68423985d2da8b7277e15111aa4fdf0ff15d7a3e372a4",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0027.leaves.jsonl.gz",
+      "bytes": 1092462,
+      "sha256": "a3125ee8512c97875389ca66c5f165d56edfcd4eaf2f3881d86b1475d15e9265",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0028.json",
+      "bytes": 131022,
+      "sha256": "67f72444b0008552de150b0a54b55d730c66d40bc79702b89d4861c7a96f9619",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0028.leaves.jsonl.gz",
+      "bytes": 723706,
+      "sha256": "5dc0cfef9f16589824989cedc0f93becaaca2979fb86df1b05e5f01aeefd51d6",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0029.json",
+      "bytes": 130752,
+      "sha256": "9ba7180dbc2ff0348566532741317af046aab036ce8c5d11113539b2a51d7684",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0029.leaves.jsonl.gz",
+      "bytes": 865847,
+      "sha256": "5d1b6b4e0da7ab2965fd6a552dfd363e9f11a3337e0e44d40c30e69e1290255a",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0030.json",
+      "bytes": 130562,
+      "sha256": "63d425621813b4b3711cc656140af0074372a6d0aea5233935cb410f413aecd5",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0030.leaves.jsonl.gz",
+      "bytes": 767058,
+      "sha256": "ec034d83f5607080fbea80a5072e24b1e248b5f549759af312bad81bf8d787c6",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0031.json",
+      "bytes": 130970,
+      "sha256": "da74b3a0b9e28e1b3163870d21c9b3f5aa8dac6f2da8afef047c232ee02464ff",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0031.leaves.jsonl.gz",
+      "bytes": 720327,
+      "sha256": "dc5a1556a0fc08d8bd09f2dca1b75cbbdf7e2b1fdac668e7b9858d144507b3f2",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0032.json",
+      "bytes": 130540,
+      "sha256": "66589e1fd748de33fbe1f419bc8f5b8bcddbee601516ec5c8a6c29a248d7b8e7",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0032.leaves.jsonl.gz",
+      "bytes": 741604,
+      "sha256": "989915a69c236491187d97f36118a10b238a998f0adc81e0eddb4f72f9f48c05",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0033.json",
+      "bytes": 130774,
+      "sha256": "f8387c73f6dd2710defea6fb2952e87b55d7a7a6eb9790af4acbc9759416eacb",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0033.leaves.jsonl.gz",
+      "bytes": 829522,
+      "sha256": "11f95417fcd226072191275430bcb7942ece99489c1a73217f4ed89759f3eb50",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0034.json",
+      "bytes": 130565,
+      "sha256": "cea7035e247599724b10a401d912d63e1d1912e7980aff1cd979ec216729304b",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0034.leaves.jsonl.gz",
+      "bytes": 715665,
+      "sha256": "bebe1e028f1a9d980977a4fa30925e355114ed3e39bf910fb69930b01b9e5109",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0035.json",
+      "bytes": 130516,
+      "sha256": "d84e5042fc9a82b4a717972e946e807198a7509022891012ac42033a43e35590",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0035.leaves.jsonl.gz",
+      "bytes": 718259,
+      "sha256": "3685e64412080cab40c89fa72a310d72bae9aee1524231b64638d488404f6db8",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0036.json",
+      "bytes": 130791,
+      "sha256": "8e184b9d394dfab43755f0ee597118ddb72ac91079c584cbfb8de34918e8525d",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0036.leaves.jsonl.gz",
+      "bytes": 814564,
+      "sha256": "bbd956540f59ecc97646891ec959cb74613724f7fcbcce58293e53f0901f94db",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0037.json",
+      "bytes": 130526,
+      "sha256": "676ac8b9cbc50f48a78c22d353d183ee8dc536bfe531c7542a09541f8b708d97",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0037.leaves.jsonl.gz",
+      "bytes": 761738,
+      "sha256": "a8eb65572b9f2c53b2a4cc640fa7c1bd988cf1e90a7e087eb899939bd0743901",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0038.json",
+      "bytes": 130503,
+      "sha256": "320dd33b973808d16d712dd2d0dfa0f6047bb9f7adeb7e2fe5d1bd84aa0bb749",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0038.leaves.jsonl.gz",
+      "bytes": 718539,
+      "sha256": "2d0e742854424f7d67c5870908c0f03818a172569a2e481c828090b693c9bfea",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0039.json",
+      "bytes": 130538,
+      "sha256": "faf68d92b66466edd240c9c6f21477a65b0093b5ae3d16b7f93a2bac628da846",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0039.leaves.jsonl.gz",
+      "bytes": 726652,
+      "sha256": "86110f784acae29fa944b2c940f226af4b0fa246a830390af79508bf17876783",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0040.json",
+      "bytes": 130769,
+      "sha256": "9df8022a1ccdb2a80111af4ff5b6d736c344ddbb7f8b616e0ddd303cbc2f3199",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0040.leaves.jsonl.gz",
+      "bytes": 833117,
+      "sha256": "351381cbe6ca3a69bbf990dfb98bfe282713de50b29bdf9a2a1b6518e3f9bc58",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0041.json",
+      "bytes": 130825,
+      "sha256": "6b57d30200cdbeb15ccafe9d42475769466bdec5c285746ab77c16d7f1ba0f65",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0041.leaves.jsonl.gz",
+      "bytes": 761237,
+      "sha256": "62dd85fe2aa09639d291ce6a78340bdd1322187df29501cefc0e9c43374bb0da",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0042.json",
+      "bytes": 130756,
+      "sha256": "4de459fd4e469d52862af613f8622fef85bf325ff6888310505c89201773b2a8",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0042.leaves.jsonl.gz",
+      "bytes": 804401,
+      "sha256": "ab7251740c88e219e2b221989ddd20730c789dde810d7814900ca8e8d1704d90",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0043.json",
+      "bytes": 130586,
+      "sha256": "9b34c6e33715a96f9cc3f2b199eaec5066eae1ebc321dd717f3f4c7c66439962",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0043.leaves.jsonl.gz",
+      "bytes": 770401,
+      "sha256": "95cbf333703d1a3d68595acbf17e5315abe369575d46f4b859e6d801a7af8138",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0044.json",
+      "bytes": 130547,
+      "sha256": "7408fb384e3e7828d2b8fce1c8a884be76f49d34615750067ba0281648ef9f52",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0044.leaves.jsonl.gz",
+      "bytes": 770771,
+      "sha256": "c384111b1d29966c02ce708624df6f4203216e5aad9f23da6df937a0243185c0",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0045.json",
+      "bytes": 130519,
+      "sha256": "40ca01b9b19fe17db451d9aa20147bf9f0b20aa7d56b32748774ad355a62be18",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0045.leaves.jsonl.gz",
+      "bytes": 759214,
+      "sha256": "27b095c953aa11e5fe0ac5171f5dd2c0e7ece67add4f365b410f51e91aad3296",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0046.json",
+      "bytes": 130535,
+      "sha256": "00eda966e5064f5168e83d70e4ac1536d9e209b164fbec4d256826ff802adafb",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0046.leaves.jsonl.gz",
+      "bytes": 717947,
+      "sha256": "3173c1aa8a5492d2bc1ec00b1bed45ecf937a52b5195ed4ec22984c31333b9db",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0047.json",
+      "bytes": 130548,
+      "sha256": "af2af895659309e6008fe9c2a3a71f63574861193226970fdd1f03c4b4432286",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0047.leaves.jsonl.gz",
+      "bytes": 764067,
+      "sha256": "c4bd382199c13e03319624beb26ac69645a849a2bc69981b48ebe7b1e0859ed5",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0048.json",
+      "bytes": 130512,
+      "sha256": "e04151f00fd2b7db7207087783092dcbf94a9c91a8150eecab124b98c8ba92b8",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0048.leaves.jsonl.gz",
+      "bytes": 724516,
+      "sha256": "f4e987bb8350cbda4c108447c45db9b42c44ee375643e23bf4d25294750a5c08",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0049.json",
+      "bytes": 130516,
+      "sha256": "6a06a5f7e336f6c173afb443649ea851b2b5dbc7019a44ff4c6a44848fc9cda6",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0049.leaves.jsonl.gz",
+      "bytes": 795280,
+      "sha256": "2f999a9a7c3038ccd7b10d42d09d6f7619802a27c9f35a83f964c129b168850a",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0050.json",
+      "bytes": 130533,
+      "sha256": "ef5f024c2f3ca4a900612333ddc6a989f1819cdbb357121dd77b36db258ec2d4",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0050.leaves.jsonl.gz",
+      "bytes": 831624,
+      "sha256": "62e79419001af41a56f7b1582353e45c18db987704bbde3429bc2e34da7d3cd2",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0051.json",
+      "bytes": 130736,
+      "sha256": "534cfeccd69d4af52cdc55db818841bf5ad80a31688b74bd736f4383ffa2d977",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0051.leaves.jsonl.gz",
+      "bytes": 832516,
+      "sha256": "189e224151f4fa589b4399ec379d856d941ab76b4df2e9ed8793607802b8ba3b",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0052.json",
+      "bytes": 130611,
+      "sha256": "8b2a54547f4bc846b211c921d30927f777354d28e3310480141e52b6084ba750",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0052.leaves.jsonl.gz",
+      "bytes": 852504,
+      "sha256": "9b4bdd9072c5442de1eb72fe9ec3cd4a21fd9e2bd524d68638dd78bb918c5aaf",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0053.json",
+      "bytes": 130727,
+      "sha256": "4a110cac85233ca5cb6a4528ee5b19769eeb461246bc341c634cc8b3e0bf1dc9",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0053.leaves.jsonl.gz",
+      "bytes": 898586,
+      "sha256": "0d27375460191f71bb22ca8c9091e334d7f33d460609af636c38b0e828d70d3c",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0054.json",
+      "bytes": 130530,
+      "sha256": "7f63632478b1bc36e4578c04faa809ff5bb9037aeb17dd88488b9d08a919b301",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0054.leaves.jsonl.gz",
+      "bytes": 711713,
+      "sha256": "be2574a000d13cbb52044e8fc81cf632eb4e154f665abb1e348d1670f54f25be",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0055.json",
+      "bytes": 130799,
+      "sha256": "3e447233310a425f7d5382ba02e1546e8de7bd36621f751c467577ddc8ef4919",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0055.leaves.jsonl.gz",
+      "bytes": 721315,
+      "sha256": "facd95535d5a65b83038442f09973f36e444895b3390fef1292040948d994177",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0056.json",
+      "bytes": 130634,
+      "sha256": "b0ca735a751509ad610d49066358a700c44ccb8c2afa213d1ad330a1ccdd00a9",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0056.leaves.jsonl.gz",
+      "bytes": 768784,
+      "sha256": "db8454e32fd8f41dc620025639d5c4cfe8be8ea8a9fd765deaf34612e73beb51",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0057.json",
+      "bytes": 130737,
+      "sha256": "31fc61230c57c3a3d490dbabc802c382b9598654e55cb05437f7b3c5e10c1a6f",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0057.leaves.jsonl.gz",
+      "bytes": 766599,
+      "sha256": "1e06840be927225d5d18324f3ac507c8abc7e1ba5641bcbe49446503f24ad564",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0058.json",
+      "bytes": 130546,
+      "sha256": "b0e5c9398a0a892ea99e45ac4c8337a6d92f27ec2b5dca76014a00f463f013cf",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0058.leaves.jsonl.gz",
+      "bytes": 764878,
+      "sha256": "d393ce9fe9dc0d310bd5f9f19a21cf9a911c936e894d1fb40e24fb1bcf0f9db7",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0059.json",
+      "bytes": 130577,
+      "sha256": "65e2263f736de3a01f869a9d9b23c866dabd7a44125c0212240db518142a785e",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0059.leaves.jsonl.gz",
+      "bytes": 763731,
+      "sha256": "1fe6f8620e2d3e27e138f8bd2b22eb632c33e9327aa10e743efb763d60b8780c",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0060.json",
+      "bytes": 130522,
+      "sha256": "2e84ec0e496faf40150094d8c5b480d8f7ea121351febc8084fe6e399d4b7532",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0060.leaves.jsonl.gz",
+      "bytes": 762978,
+      "sha256": "3fec45ac8c3e31a692c24e66b1ed45a45bde27f48f894bc63e13377d5ec4ecfc",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0061.json",
+      "bytes": 130563,
+      "sha256": "53b31f91df3f8c69d85157a64cec4172ba7206d25902925ee9bdcd58cb0bd9ef",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0061.leaves.jsonl.gz",
+      "bytes": 757203,
+      "sha256": "6d8dafca78e3c010d893b64ad10a45febb0e3cab63703070855954b6aa389c72",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0062.json",
+      "bytes": 130567,
+      "sha256": "22b96e667d3321133e117bf2e808edba372feb584ba77758f6187a966e0709a3",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0062.leaves.jsonl.gz",
+      "bytes": 780950,
+      "sha256": "b4d61b10ac01ccef7915069f0494e3a71f239db0b3fcc568bd6ccec813b05897",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0063.json",
+      "bytes": 130536,
+      "sha256": "c6646717e556165a1d938f3e6b8f95d7397b8149cef895917b68c2a9fdf41be7",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0063.leaves.jsonl.gz",
+      "bytes": 719513,
+      "sha256": "5b39791a47f5285cb6d8f56aee5b9506218ad9b2b9da039b4af0c8cac8b11968",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0064.json",
+      "bytes": 130512,
+      "sha256": "a726f79f32ad8bd406455c165ebb6dd9d2d57f717b6e78e094c7be4f73d44c7b",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0064.leaves.jsonl.gz",
+      "bytes": 752122,
+      "sha256": "9cce0da9361573ec98e4f13741a8a6abd8252cfb5f0644f30854ffafa61c96dc",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0065.json",
+      "bytes": 130552,
+      "sha256": "4fcbda02f835149490d18f608cc0a796e2a056f9cbfd5bb73079ad5b6f0855bc",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0065.leaves.jsonl.gz",
+      "bytes": 726934,
+      "sha256": "bbbd827583247a6428e6973eaf2528e422757747b1ade36c890cae8d575c4500",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0066.json",
+      "bytes": 130520,
+      "sha256": "edfb567f1534b07cc244d23e276b53cdf81018847a28b372f9a0a7814ec0615b",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0066.leaves.jsonl.gz",
+      "bytes": 775898,
+      "sha256": "b9c57e3d940f5b4d1ddfc6ec12a76381e7dcf4d5d1fb24356dfef57bd1a10a5f",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0067.json",
+      "bytes": 130511,
+      "sha256": "57502da20ca742527953959d943129cfaf7789805d6036cb9f6fe715655ea70b",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0067.leaves.jsonl.gz",
+      "bytes": 777715,
+      "sha256": "fceabddb39802ee28f227bd2efd23bcf913e951a16d5c59ef2d945f94210b051",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0068.json",
+      "bytes": 130535,
+      "sha256": "0cb61a4a1203b5443e5564cfa63e62ea1bb63cd7c511a73e6226d89c4c0d3b99",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0068.leaves.jsonl.gz",
+      "bytes": 796046,
+      "sha256": "8a9fe2d114ec7e66cc67f1cdc57e97a9332925bcea6d860591663ec98f6349ea",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0069.json",
+      "bytes": 130572,
+      "sha256": "fbafe8d644c4207cedd13a4f4efc2272d4525cf0e7f8a6a05994bcb23387a9b7",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0069.leaves.jsonl.gz",
+      "bytes": 832771,
+      "sha256": "e80d0b5f64cbe18248f7317be420d1d293ee920253a4fe0e4ae96bbc041a2dff",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0070.json",
+      "bytes": 130528,
+      "sha256": "5304abf95005b8425da2cacac31c58fbd8c31856d8e9ed5bf387298a1ded845a",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0070.leaves.jsonl.gz",
+      "bytes": 787216,
+      "sha256": "33b884f7fe7002d82cca3d53af6e3ca32ad74d10bb9e8ef404712739d117785e",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0071.json",
+      "bytes": 130573,
+      "sha256": "bde765e507ec45aa08a8748b979440826e2117a24859bc540b1786c3dafa0b04",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0071.leaves.jsonl.gz",
+      "bytes": 784415,
+      "sha256": "b156fe962c9755953fd12663d2d593637003e35144fd006e679253a44201b78c",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0072.json",
+      "bytes": 130538,
+      "sha256": "0179802bdc02e5e0fe8125866ec7670fc9622be64f7835fa26e171e80f2edb03",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0072.leaves.jsonl.gz",
+      "bytes": 836848,
+      "sha256": "b5e0c95feada1d78af0fe987a5ff63afdf5e45e51a0dee600f7b8c8c806dafa5",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0073.json",
+      "bytes": 130736,
+      "sha256": "727effd751dec9eff76720fbc4fa22502c73a1aebdd29b59fb524997b63084c6",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0073.leaves.jsonl.gz",
+      "bytes": 832551,
+      "sha256": "0a2f69bbcc7ed7b671556312e59016836d4bafe0e2a551f92943488bd8f45efb",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0074.json",
+      "bytes": 130774,
+      "sha256": "b396af4a23cde1697ca27fa10a8124ef4c9350b10492e041d923d3657e9a9ac0",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0074.leaves.jsonl.gz",
+      "bytes": 833388,
+      "sha256": "0927d681f7c0088acc2cf0bf0908a86f4c197e5153421cb2292a2916f9c54939",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0075.json",
+      "bytes": 130771,
+      "sha256": "70d466cf2734c8fdb5d62b283f3b9e3342684b3d0f01a0b48fdc23295fe1b7d4",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0075.leaves.jsonl.gz",
+      "bytes": 828811,
+      "sha256": "9b01913e71ed6e9ae7a4d3134c579934b14897bf31e73a79c7c45d17a20d1dae",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0076.json",
+      "bytes": 130708,
+      "sha256": "d7e207d3b93c1b0dfbc91cfd58d54f982dc9f700acbaab0fe44b66b86a2a98f9",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0076.leaves.jsonl.gz",
+      "bytes": 842167,
+      "sha256": "bd42c47fb32841abc33c6d1218f01866e0ea2b916bff0ffb17bdaffb7eaf1f59",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0077.json",
+      "bytes": 130591,
+      "sha256": "d2e094436bed40b7727687ea5cf191e266e69512973cd96b5b905b9f9a7f04c0",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0077.leaves.jsonl.gz",
+      "bytes": 849353,
+      "sha256": "8e831bc658d0a9e16578ed327667b7d63ffc6994801c55c5131b9c5d42497e27",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0078.json",
+      "bytes": 130517,
+      "sha256": "d98d97fd4e71471c03200a2b0e5036b0d37c91c1045c0438fb3c85029912ac1c",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0078.leaves.jsonl.gz",
+      "bytes": 867599,
+      "sha256": "38b7e094a96de79561b7262c25822840608a80fd890c1ad63ac25bcd7a747510",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0079.json",
+      "bytes": 130554,
+      "sha256": "222736237c5b4105544347596767917fed7a210ccbf75964063f3d9b2e5555b9",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0079.leaves.jsonl.gz",
+      "bytes": 751737,
+      "sha256": "709a7adc31dd1141b2d8cf1ee3b8ce65f97405be2a49d288a611c26716be0046",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0080.json",
+      "bytes": 130467,
+      "sha256": "4b888260b73a54c9bb299b7be459d6586a182bd20278fa360cda2adb816bf26c",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0080.leaves.jsonl.gz",
+      "bytes": 717215,
+      "sha256": "0c4f4b067fa937a12cd6d4673013bf1082e4e4334ad516a4309de571d9a9f993",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0081.json",
+      "bytes": 130529,
+      "sha256": "782f18ec38e53c0380487098429379be2a329a0edeac4279bfe9307cbcbc7b9e",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0081.leaves.jsonl.gz",
+      "bytes": 722048,
+      "sha256": "d0095d9ddf8b4f68a084f2b8be4bb9cdec844bfc576e1c8e40b3be1d0db4b3e1",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0082.json",
+      "bytes": 130583,
+      "sha256": "565ace1b1b960011a79cd3e147eace5a33c86d461099c5a11e56f2c8d1b7c594",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0082.leaves.jsonl.gz",
+      "bytes": 837223,
+      "sha256": "4e35cb4d45b0c468baf169ca276ec1ca0a8c53d3d91d604dcf6c10c9523bf52f",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0083.json",
+      "bytes": 130544,
+      "sha256": "5eeecc8cd5b5033c9359ae67dae301a26767ad3fc04c403500be6f354d7a3640",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0083.leaves.jsonl.gz",
+      "bytes": 710190,
+      "sha256": "8dea8328ec0df9fba90ce69b306fdfdf8d409d7a6d239dd1658eda791cdff22d",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0084.json",
+      "bytes": 130543,
+      "sha256": "701d0414da05fc68216a1084f5a998cea8ab22a04390ebb10f3243a758c6a05c",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0084.leaves.jsonl.gz",
+      "bytes": 707356,
+      "sha256": "948f7cec7669fdd8273cae92becba59472493b102c57e91585447f93ffba7388",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0085.json",
+      "bytes": 130549,
+      "sha256": "3fbc0729320fbb78b6877e806529c6b3294b403419b81325d35687fe1029d58e",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0085.leaves.jsonl.gz",
+      "bytes": 761066,
+      "sha256": "a440009a658a871f2018acdb97f053e3fde1d8554662e09a6e2efa901dd3200f",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0086.json",
+      "bytes": 130503,
+      "sha256": "9c517429468bad0d2da0fc9985656c85eb302a44b7c704bd141f6c0739521a3d",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0086.leaves.jsonl.gz",
+      "bytes": 748347,
+      "sha256": "c379e4ee9c7b65c0b8516e5e5a189dac77dcc68fa79de42730d98ff3942be132",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0087.json",
+      "bytes": 130555,
+      "sha256": "96545b18c97b0963f6f34cc9c01e3fb6908ff83e82be34d18c333310618d2b8f",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0087.leaves.jsonl.gz",
+      "bytes": 715536,
+      "sha256": "4e66f420f8d5ffbbd16f1ebd8f4101aa9271343ec00dbb83ac60b43c8fc22d0a",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0088.json",
+      "bytes": 130540,
+      "sha256": "01527a54587a956b67adbca9e2bd7349d09df9a2a1ad98d9a35c2723f9ab1ac5",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0088.leaves.jsonl.gz",
+      "bytes": 729597,
+      "sha256": "3ab7e75eedf17fd46eed1ef7d0597f075dec6cea76cefa672921bd4460d9e1ff",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0089.json",
+      "bytes": 130513,
+      "sha256": "08155e2b8a903c9d02e1eb32ded167bdf2f99dabc2d8e36395492ca826b6c959",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0089.leaves.jsonl.gz",
+      "bytes": 719193,
+      "sha256": "763f0feff09a514425085de7990de0f706717e2d702d10cf7790e3006266a5f3",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0090.json",
+      "bytes": 130538,
+      "sha256": "7199009a1969ee9b6dd39de5b5c824188a22ee4630ea85a6035c074c38af7bda",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0090.leaves.jsonl.gz",
+      "bytes": 723596,
+      "sha256": "f17721d5cc0567aa708f91e94779fe7e0d62ec9dfd875326404faaef63c9a42d",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0091.json",
+      "bytes": 130553,
+      "sha256": "d37d7b3fbe236183cd238a978752ba46ea06bd472ad1610f9ea57e740d4c60ce",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0091.leaves.jsonl.gz",
+      "bytes": 750123,
+      "sha256": "110df6153ee8f470b37908a64f2230afdc777f29b6e5e48dcdf2cab5f6682e97",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0092.json",
+      "bytes": 130498,
+      "sha256": "6efc947d432976630eb99089995c6d42008585615d0274fc8c7e0ed687be678e",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0092.leaves.jsonl.gz",
+      "bytes": 787754,
+      "sha256": "2b508b42e57812866a18b99333dddcf54e3768680ff1af03ba9f0e53d34f566f",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0093.json",
+      "bytes": 130545,
+      "sha256": "13d946912286760695258cd78328c066a112727d8aa74243c5cd274a24d2d1f5",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0093.leaves.jsonl.gz",
+      "bytes": 830719,
+      "sha256": "7005d2d25908827933919be95ae2b85436cc8c9fd75b29eccc6807fd114f0aa3",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0094.json",
+      "bytes": 130742,
+      "sha256": "485b8c24e6d74ed55555d74461330190ed907ab4de805441cfc1c4ff3b742fb1",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0094.leaves.jsonl.gz",
+      "bytes": 811575,
+      "sha256": "afd81a3bb58aec4792f69efa74fd94c9ed69a5e4c5ce2f777a9756a579cf312b",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0095.json",
+      "bytes": 130536,
+      "sha256": "d96a775960b987cb67fd37766a8a0926f2eca28b0ca6ac4e20687db0364412c1",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0095.leaves.jsonl.gz",
+      "bytes": 710407,
+      "sha256": "1afa55d6e6ed56fa01b274bb594e8d363a2771748b09d0facdb6794485cfdcd1",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0096.json",
+      "bytes": 130525,
+      "sha256": "1e317a4216207b6630b7fb18cad9dea9dd943994271aadebf52c4d49aaac4f2c",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0096.leaves.jsonl.gz",
+      "bytes": 732833,
+      "sha256": "e242f62e792cabd2668aa351fbd863410730e0e719102af41631c44838fdd356",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0097.json",
+      "bytes": 130484,
+      "sha256": "49cc851332eb350e85f7c7d3c6359a71213608dbece68920ca5c91e44e1b6806",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0097.leaves.jsonl.gz",
+      "bytes": 710388,
+      "sha256": "cf2f4485e5ee86ce3e60a9eefbf0efa68e57ab767723b09cd675b89e4d872da7",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0098.json",
+      "bytes": 130506,
+      "sha256": "e49c1563712df2ec3dfe12d085669bafbc9c252290281021b2f4940f6ead0402",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0098.leaves.jsonl.gz",
+      "bytes": 723621,
+      "sha256": "66356b0a45bb43758454cef08155f4b1b321180f3418a118535304de5bf63997",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0099.json",
+      "bytes": 130552,
+      "sha256": "79ce82ebf63c9947e50769f44b9227658747e4b31618e7e06b326d6d2256aa91",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0099.leaves.jsonl.gz",
+      "bytes": 832746,
+      "sha256": "8422b9b10f8cc3f2008aa138fa92c985a4e17de3925375cd899b96c538059f46",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0100.json",
+      "bytes": 130534,
+      "sha256": "e1640013bf5c436155ac191e325e91009f6b252598c6046fc6ff509cd80df73f",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0100.leaves.jsonl.gz",
+      "bytes": 734516,
+      "sha256": "ed02ea8543e26e7aff2848f3b5589639919ff53eaa54b0c266a794d3878d9678",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0101.json",
+      "bytes": 130485,
+      "sha256": "7c0fcb0cf3c4861ddb9431ddbe6b2c6908b9cf44b08e8e0ad4b9c7c1f8d7c5e9",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0101.leaves.jsonl.gz",
+      "bytes": 715071,
+      "sha256": "b456bab538d8b632596dafe15749a4f196bde86ed80fbf669bc25536801840fd",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0102.json",
+      "bytes": 130542,
+      "sha256": "827ecd3516b3b2484b1f427e1193d049398a675d51d9834505dece9a4e257c50",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0102.leaves.jsonl.gz",
+      "bytes": 718546,
+      "sha256": "a6abd8a9226c5ddce0e48a29d15a3a2ad68a085adde2aa3347ed9a6e9f36f66b",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0103.json",
+      "bytes": 130533,
+      "sha256": "cab477920f6a33ffd9db64c30a46caa4b190aa08694db81b8238ac3365045486",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0103.leaves.jsonl.gz",
+      "bytes": 795854,
+      "sha256": "b830a4f2130f5c10bbaf7af48c7e7d85ba3934cd44a7941250306e53701e685d",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0104.json",
+      "bytes": 130494,
+      "sha256": "f2dc2c186f1b8fec2dab784bf29c9c401b281f5e936feb34903c5579212e6d38",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0104.leaves.jsonl.gz",
+      "bytes": 672596,
+      "sha256": "bae9961aef6b8b44f61703ffb270c5b977735188197070762354112224994297",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0105.json",
+      "bytes": 130489,
+      "sha256": "8ff0b72243eecb4a289fc0a9457da0267f7861516ed82a4c4380756b00b5d4bf",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0105.leaves.jsonl.gz",
+      "bytes": 732050,
+      "sha256": "c7aa33973658467927a01c1ee1c94366f07db83f03d43df9a55ee85ee95f82b7",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0106.json",
+      "bytes": 130517,
+      "sha256": "19266c82a013dfed7110c87c1ed9250e06f42bb6e2ab327e2d40e82e7e1f7ea5",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0106.leaves.jsonl.gz",
+      "bytes": 714314,
+      "sha256": "b88f5456c908464af37b06e16cbed8a3325ae4148b7c76d2b0751d8589799914",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0107.json",
+      "bytes": 130519,
+      "sha256": "2f9b3aa71dcc50967ad9c72459ba0d54bd39e23f85999b726b765f773dee1406",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0107.leaves.jsonl.gz",
+      "bytes": 727051,
+      "sha256": "76a9dd61c3fefbcba4751e1f093fa89da8ee9900197ae4a1a1c1f1a250f6f290",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0108.json",
+      "bytes": 130506,
+      "sha256": "38ebbeee675256eac00c1c94fc49f3338747f0341a9365069cb5a6593e53a1ae",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0108.leaves.jsonl.gz",
+      "bytes": 717980,
+      "sha256": "502e37ed580972fd7a26a24305c01bef410e08b57d7242c47fc26d8df753b13a",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0109.json",
+      "bytes": 130517,
+      "sha256": "25e21410dd9442fa3e1bd3f981ac7d55723257ff28ff4a1c67eb055a5e1e275e",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0109.leaves.jsonl.gz",
+      "bytes": 734002,
+      "sha256": "45ae5213ad6f7dead702b3d6da8e2fe0a332ec230d85d8008a4900c21293b6e3",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0110.json",
+      "bytes": 130533,
+      "sha256": "032635914ba64d146442470f32cf65a4c1d21f35f3fdec7e12dab10de13a6010",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0110.leaves.jsonl.gz",
+      "bytes": 723626,
+      "sha256": "d91ee4a6c8e8f9a1e188432457751bbff273066d7ca1a7c08a54b9679a90c416",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0111.json",
+      "bytes": 130539,
+      "sha256": "aa99041ec03f6d18262c1f3f1cd334789315ffe16e954140922edb791f07d7ea",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0111.leaves.jsonl.gz",
+      "bytes": 776102,
+      "sha256": "1b67b6193255e5c6439d9f68beb353717f849f46af5565854aae4b2a49dfe198",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0112.json",
+      "bytes": 130561,
+      "sha256": "ae95c601cbcd4ce846f717f2bc71311fb30470dbc9291f107402ff1dfd88dda3",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0112.leaves.jsonl.gz",
+      "bytes": 794948,
+      "sha256": "b72923855ac9263ff465ebfff6cf8dff4bee004913e3fb137f5f001da4005617",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0113.json",
+      "bytes": 130561,
+      "sha256": "24679890b84e0e9d4faf2d7ae82417571032f2112b39a8a78c2659bc92f2d50b",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0113.leaves.jsonl.gz",
+      "bytes": 817785,
+      "sha256": "d6e16e8af238d0e86247de9e23bc8decc83b47cf507c832df2faba2582e10458",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0114.json",
+      "bytes": 130531,
+      "sha256": "24153866d897cfcc35fd71f3088b803236ac87ffa811468aba5deebf649ba136",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0114.leaves.jsonl.gz",
+      "bytes": 707130,
+      "sha256": "0e8097a33deac9063b6ec4bc7f71a85e672a28217890fd8632993898b6365e54",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0115.json",
+      "bytes": 130526,
+      "sha256": "fcc017de02c55c8a116479517dc1fd789492d26db2ee8d3d993705b6ecca3a06",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0115.leaves.jsonl.gz",
+      "bytes": 708465,
+      "sha256": "4cf4f5a8cc89c506154b748639655bf0f3fa399764667bda1dd927cf58624052",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0116.json",
+      "bytes": 130539,
+      "sha256": "8d098daecb93cd44db238e58c2b8a6933189448d30027663ad9ac85f67a74699",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0116.leaves.jsonl.gz",
+      "bytes": 662128,
+      "sha256": "3c41c0b0c83e710aae786ecde2040a7d9df96a108801dd93c0f1ea67a95290fb",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0117.json",
+      "bytes": 130553,
+      "sha256": "c401d586d7884a15e840ef0f5e43af75bc6d8972b55adc01408d75a421670d30",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0117.leaves.jsonl.gz",
+      "bytes": 727931,
+      "sha256": "bca06b416f89ae005f1e555e19a423eb5f18c9e39028f58b6106457425fb0a0f",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0118.json",
+      "bytes": 130528,
+      "sha256": "3135bdcc33af27fe2709130dddbb6e517c5b0c3a8d236cf272a9852b09c1d055",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0118.leaves.jsonl.gz",
+      "bytes": 715160,
+      "sha256": "27775b8d89f981d48a3274b797b5af6364ab9b074610ceb7099f1805655b6278",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0119.json",
+      "bytes": 130493,
+      "sha256": "16ecbafe6c0ef6991b73426eae78c97c6221442c4d4a2c0fdcf63d801e5d1b42",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0119.leaves.jsonl.gz",
+      "bytes": 722542,
+      "sha256": "b370d9a863f6af6cc173f051a7aa705e830724b93ac6967155cf097849af94d9",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0120.json",
+      "bytes": 130550,
+      "sha256": "3fc77585d2f10872d5b373dc4f9487d9b8a35dffcb696cc396c63977c323ec9f",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0120.leaves.jsonl.gz",
+      "bytes": 716401,
+      "sha256": "53923a5ecb5432867c3ec1862f1a32f3970b0455aa39e49643b2484ad414d6c8",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0121.json",
+      "bytes": 130525,
+      "sha256": "fc6c2129811c9455f09ebc47370e48400d5f3e98e7cac01b3fdf718985574ff1",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0121.leaves.jsonl.gz",
+      "bytes": 723527,
+      "sha256": "ad3e9e1445a6165593c2a4abc4b267c1612fb6c8e5374348f67d4bb7653251b7",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0122.json",
+      "bytes": 130519,
+      "sha256": "d65da6d08ab3c7fd2514480543e9f0bacbc3f84914d56ae6a50a920ca774de64",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0122.leaves.jsonl.gz",
+      "bytes": 718399,
+      "sha256": "d2daf335eb5ec25c9831f60bafb90a657d3c139059a98e4dffb6a1c8861d046b",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0123.json",
+      "bytes": 130556,
+      "sha256": "764229612cd034e87d450360e451fb99f05a16e44c2a24e598008cee61e1da28",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0123.leaves.jsonl.gz",
+      "bytes": 718641,
+      "sha256": "cde5daa28ddf524c76547fc84340496578dae726f3a0800530aa02fffb71ede7",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0124.json",
+      "bytes": 130547,
+      "sha256": "9c86e6b96578452b693f709552f9c132a5978628b7b1874ea5632eb48b1f9b9c",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0124.leaves.jsonl.gz",
+      "bytes": 722249,
+      "sha256": "6fd7af533756f07445c451f27d40277be175a919c95ef2326b01071f2c6b1d59",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0125.json",
+      "bytes": 130498,
+      "sha256": "fc1643df9d15c890874fbe3c39bcaabd86a6998822e05ff07f24402ca7ed209f",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0125.leaves.jsonl.gz",
+      "bytes": 720893,
+      "sha256": "1a164c5905e443627d674712824e77c7d889172a558207c32ea5246c0c4fa052",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0126.json",
+      "bytes": 130541,
+      "sha256": "3642f49a967444574826f461b51d27e9b1f7117e04850b45f3d8662a60afb9a2",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0126.leaves.jsonl.gz",
+      "bytes": 727704,
+      "sha256": "6a0b14b73c7cf85418bfa7201a24ba7d8b27f6bddfefe96b95e909a916deb40e",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0127.json",
+      "bytes": 130539,
+      "sha256": "df33cfcec7c49747ad8a582a928b7659a921d9c3b26eb3cc15caa931b3b564d3",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0127.leaves.jsonl.gz",
+      "bytes": 721599,
+      "sha256": "704a4e1b720e5c267576ce19e41c44d2aa2cf5cf770131e171f5ef701ed89614",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0128.json",
+      "bytes": 130524,
+      "sha256": "558ff73711745a2c221b5d2acbe3fba91194eb2b61f19c9f3198624588e8c295",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0128.leaves.jsonl.gz",
+      "bytes": 724766,
+      "sha256": "7cebde25bd823b65f8603c13007b8e2fe7c85ce5486fe25d7bf83d546759f584",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0129.json",
+      "bytes": 130536,
+      "sha256": "999e5e7d2cd62afb179dde5ae97087608ff0f5ee6a231cdb9d4575ce985e0277",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0129.leaves.jsonl.gz",
+      "bytes": 726422,
+      "sha256": "ab0227664f64927371f1a7dd1d0735d66a55e0b6065b6410266e4ec1c69922b3",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0130.json",
+      "bytes": 130552,
+      "sha256": "4ba20cb95f7f34f396689d77a6f811235ca334867353c38748ca5d06d15a587e",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0130.leaves.jsonl.gz",
+      "bytes": 738549,
+      "sha256": "a0b2be55fb28c70c8ce9fc73fc30958155b97025d50e9f49f9faf7103839889b",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0131.json",
+      "bytes": 130507,
+      "sha256": "0d6b9a754a4ed900a579704517776dce1cb56af9be7d523c84c49538e03174c1",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0131.leaves.jsonl.gz",
+      "bytes": 775363,
+      "sha256": "b1d9ed8efd150560b689a2d24a78593dc5e03e99ddd827f58862b24398c18b7c",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0132.json",
+      "bytes": 130548,
+      "sha256": "15c958f3f24ab9fd7f58edc18ccdcbe27eb1ab7cace832ebe8366a3eb927110f",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0132.leaves.jsonl.gz",
+      "bytes": 759043,
+      "sha256": "7fe28e450627c0b470edc2d78e09c3f8ebea606ffb93029b0b66d33327e04b0d",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0133.json",
+      "bytes": 130541,
+      "sha256": "36276db4926203c848b833a4e4ed256fba1d113af77622eeb8ce7652717cce13",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0133.leaves.jsonl.gz",
+      "bytes": 813781,
+      "sha256": "cbf05b18adf18df86809b6551701c4896cf818937d13e879daa78e0a3e101bc6",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0134.json",
+      "bytes": 130477,
+      "sha256": "ff0a4b0484390ad22adb409647f87b0c8b20ac62710e2111fa6db70c26e1ada5",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0134.leaves.jsonl.gz",
+      "bytes": 708758,
+      "sha256": "d828f2e3447427b1ac2dec0761e849b5e63e4afc220aa0c053ed115a9e756642",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0135.json",
+      "bytes": 130537,
+      "sha256": "c138d9c06ff24a8ba64bb8b8fc0b3baecdec4422d31f20e6d4a684aac777ec13",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0135.leaves.jsonl.gz",
+      "bytes": 722938,
+      "sha256": "08ecdadc103fe0c4bc2fde6623d459720f7b6779a101f9a42aac2ecea124dfc1",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0136.json",
+      "bytes": 130541,
+      "sha256": "051eea96f55f49830b9b29e072e87da2d047e37fe9a1fe089b725a7623458859",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0136.leaves.jsonl.gz",
+      "bytes": 779328,
+      "sha256": "87876071404f0be368c2fbf41e733a72d11baa0f7482002a614017d79fe59af3",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0137.json",
+      "bytes": 130574,
+      "sha256": "82068c032fc7dd2459cb82f4006ac5583cf5f4a923178473532180650563d009",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0137.leaves.jsonl.gz",
+      "bytes": 666742,
+      "sha256": "fac2fc7bb705d2a30274bf7e04b780cf2ede1052336da8ac66df446ff16a616a",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0138.json",
+      "bytes": 130548,
+      "sha256": "f555886f99c25131cbe7482dd400f35afbf1cb060e967a5939a723da0dd91ab9",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0138.leaves.jsonl.gz",
+      "bytes": 722281,
+      "sha256": "333ec9294084818f84fd72a5da3dc48c46e95f55e2ad8806bde3b2b76ceb42df",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0139.json",
+      "bytes": 130536,
+      "sha256": "60d662eebf9d8841190e18b3f0846420f8839163836ecac2809694cb2e77498f",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0139.leaves.jsonl.gz",
+      "bytes": 714247,
+      "sha256": "b253581c3ba8155fb1c40f148b9164e67f767f4ae253444ab3144a6e648171b0",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0140.json",
+      "bytes": 130511,
+      "sha256": "4309c063672f355bb3452bf3f4361e8e1c17efe673d9e4544f8fee11ebc07c33",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0140.leaves.jsonl.gz",
+      "bytes": 713076,
+      "sha256": "1b427f533b18f1c172ab573b15f4d105ec0d53e37a44c21e47dae239196bccab",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0141.json",
+      "bytes": 130464,
+      "sha256": "9b6d3955d00e71ecbff83f09ca16b891bc71c89d9d8bde1f86b585b336d405a8",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0141.leaves.jsonl.gz",
+      "bytes": 706058,
+      "sha256": "e358f473f9802150b32dccb38d68440e564c4b58a02be825c10336fa5ab4e18b",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0142.json",
+      "bytes": 130517,
+      "sha256": "2ab112998aba076e870bd4cb6f68b2058a743e704bc0c60b101c3ebd1d907853",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0142.leaves.jsonl.gz",
+      "bytes": 706703,
+      "sha256": "2873f96b2fb01df0fe13960c8ffdb3f5c23120f2c5986eacfaf39a09be270a05",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0143.json",
+      "bytes": 130541,
+      "sha256": "6b51723e50cfef48f1f82455fd405bdfb4d410d12654504a62b66e2c0e11f712",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0143.leaves.jsonl.gz",
+      "bytes": 708694,
+      "sha256": "bfca5fdac4db9e208d0707f074c068a61c6f5005eabb0a5524d56f837a5369fa",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0144.json",
+      "bytes": 130524,
+      "sha256": "4b929bcb5a2cdcbcfb7568356c44de5bff5f7f758781858387f04055934fbe78",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0144.leaves.jsonl.gz",
+      "bytes": 703234,
+      "sha256": "341c9c9a19c4c6bec858ac85f6268a1b2dda859ff59e65fc78ba27bb2ae002db",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0145.json",
+      "bytes": 130489,
+      "sha256": "14933654dfe6b54924450a52dea023086592e97431d11a88fc76ac1141952d92",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0145.leaves.jsonl.gz",
+      "bytes": 709091,
+      "sha256": "d995d5d74eaf6ad52bc39ec3a1eb83f524a81efbb8c24643c09e14c290fe02a3",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0146.json",
+      "bytes": 130513,
+      "sha256": "3b6f529cbc8c0a2185388ae63f121be49409468442d651341793812102b21c22",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0146.leaves.jsonl.gz",
+      "bytes": 705104,
+      "sha256": "79e5da3b5f50b27dd4e13b21d1d467f04b3b821f17c29af69a40cc67b4c750cf",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0147.json",
+      "bytes": 130554,
+      "sha256": "2464627418bd6bfbfb79f490e941c3983731ddfa96c16a2ee731883b9cebb061",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0147.leaves.jsonl.gz",
+      "bytes": 715183,
+      "sha256": "7dcb99944677c437a2e0270e97aba91dc4bb2ec1c70d12d544b34f01bbce2b86",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0148.json",
+      "bytes": 130519,
+      "sha256": "0b4d31fff8e9b0333e985a4512b183acc5d73f7fd416331c089074db4f856018",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0148.leaves.jsonl.gz",
+      "bytes": 706099,
+      "sha256": "d489c02a5c4d2602a0349aca8830d5f01d054cd75c4c67d10ecf0c6471e9d308",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0149.json",
+      "bytes": 130553,
+      "sha256": "db2a8b1775114572bcc104a052f974316690b7ffc35f2c9db9e0a924430c1452",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0149.leaves.jsonl.gz",
+      "bytes": 706802,
+      "sha256": "6a492a67ebdda6b397b336e880683d16fec45ce1844e79840ebfa9c5f1085102",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0150.json",
+      "bytes": 130496,
+      "sha256": "328aa3f4c4109c7af2e9d65a9483d48154019a54a8ffb95b498383a72f5ddab4",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0150.leaves.jsonl.gz",
+      "bytes": 719658,
+      "sha256": "a1166edcded43ac5802a7df678e138a6fc89277028f6b878ef421f7026474122",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0151.json",
+      "bytes": 130485,
+      "sha256": "9ecc8561bd51a5065503c9b18727a32a4ffaec5acf0f31ba2e7c5c3e11ddee8e",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0151.leaves.jsonl.gz",
+      "bytes": 715856,
+      "sha256": "8c1f13d20c3c71b0657020d1ddae6d6f4d8f9522fcacccd12ea92aaccb21e8c5",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0152.json",
+      "bytes": 130564,
+      "sha256": "76190866da265e92019ad81bf34595e10a43eaa286d89cf404a9cb1572e75a42",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0152.leaves.jsonl.gz",
+      "bytes": 717323,
+      "sha256": "6c22e4351ea584c0ae53bf17f20f8032bb57bf1e8c12709ed697f1a4834e15e7",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0153.json",
+      "bytes": 130514,
+      "sha256": "71e0cf8feeaa8ed013f7302d3a0289eb161ba810d0978d55cc9590d94b7b1369",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0153.leaves.jsonl.gz",
+      "bytes": 710210,
+      "sha256": "8ae0f356e0dca79a5344fe7362f710a9766bfbc638b8b8bfca4e7146ccbcb303",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0154.json",
+      "bytes": 130493,
+      "sha256": "c7e390a524b0c01cb01da29bcb95d9b82fbedf3b749430cabfbf8fcc0af253c3",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0154.leaves.jsonl.gz",
+      "bytes": 717327,
+      "sha256": "66f9245d52fe6e423cd6a66d02354f0dc6e3657a014d8e4f84f527f71030c7de",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0155.json",
+      "bytes": 130514,
+      "sha256": "9618d81790bfe5f8e24713848bdc4f9bc5847097cbff0720c34a91296d5fb4ca",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0155.leaves.jsonl.gz",
+      "bytes": 718233,
+      "sha256": "ed199fa3750aef13a39e31c0ca130d39637c84e147d2ab2b87d23ddb27b7104f",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0156.json",
+      "bytes": 130540,
+      "sha256": "3a4f9bf723bfeb0c85f5076fdb14dc085d3cde1ebad0b8ad46e0ee84c468c784",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0156.leaves.jsonl.gz",
+      "bytes": 715133,
+      "sha256": "3626a04ae3be7a5e2e8360b8c235417311b93fa51e5d7161b729755fd825540a",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0157.json",
+      "bytes": 130491,
+      "sha256": "6fadf177522dfe6ceea877655990150aab95b0c8aeafc775a03f11c55957bb1f",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0157.leaves.jsonl.gz",
+      "bytes": 718537,
+      "sha256": "d98016b2ff17f5e391a335f8833c840449dcd3f48b54c9463a0bf9f989f4ba92",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0158.json",
+      "bytes": 130534,
+      "sha256": "2680549ee18baf3ab881ac041bdcf01bbc90c523857d69cf63e7ffcd08b9b19b",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0158.leaves.jsonl.gz",
+      "bytes": 719591,
+      "sha256": "eb31564f0e54c662da2dcd6df1fac55b16fbada6be9637d6b3490babb1cfcc25",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0159.json",
+      "bytes": 130533,
+      "sha256": "8ae3443f75dff956501bb83105907d1aa761dbb0001b6299795dd517c130c235",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0159.leaves.jsonl.gz",
+      "bytes": 721775,
+      "sha256": "89febebcf52876e634c6b2a07d1753c1b476149b0d69905fe9250dfc6d9e71c7",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0160.json",
+      "bytes": 130509,
+      "sha256": "131b858c543e29b2854327d9af1423a598066f8c71346da26b582ae5a3311c77",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0160.leaves.jsonl.gz",
+      "bytes": 719403,
+      "sha256": "f1a187f6814a3391640ae7677199af70a32a985300d57ed1a5bee39fcfefe9b7",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0161.json",
+      "bytes": 130522,
+      "sha256": "802e7dfdee3e1eb4a7a76625b721ebec536d64a1e52406ce2721d5a9e3e24d75",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0161.leaves.jsonl.gz",
+      "bytes": 720452,
+      "sha256": "a6675636edd37280153dfe13f7915da6a06a3d8de47aefe2dcfddb8d17163338",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0162.json",
+      "bytes": 130534,
+      "sha256": "b01d762dc9f08730749bb2be4d37b944786ab41c65aff66546197485c05c823e",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0162.leaves.jsonl.gz",
+      "bytes": 721377,
+      "sha256": "685b6028a7b576d01ec984a210c35a785e644c8d0e79a73105a603ed85b917d5",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0163.json",
+      "bytes": 130524,
+      "sha256": "27e0e58090380d9914b183596b88e073bbe671f47a3bffe586ca0a151fa7bd08",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0163.leaves.jsonl.gz",
+      "bytes": 734578,
+      "sha256": "ce68e5c1c8d8238967fc9d5c3830af4c5b163cd5daf4a3e7e5522dc91ad012e4",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0164.json",
+      "bytes": 130551,
+      "sha256": "125174643ce71ff6074c0608356fce2702e9fb9a8ccc67d9366ba229ca2fbd17",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0164.leaves.jsonl.gz",
+      "bytes": 731122,
+      "sha256": "95217476baea66ff0ce63363ddf8e0a2eca5327ec629a9a0003220c6aa296d42",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0166.json",
+      "bytes": 130524,
+      "sha256": "716dcd79da3783174397d7f15c0d8acc61ea33415607c78e94ddbc05cb8b8bd1",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0166.leaves.jsonl.gz",
+      "bytes": 658210,
+      "sha256": "cf4c3aa0804842153bc937144e612e89ead99d2f6e904f1ae185e1829300ebee",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0167.json",
+      "bytes": 130491,
+      "sha256": "23bdf51de54357efaf514e00c824d48acdf2cad74040b4b226113418e8e92852",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0167.leaves.jsonl.gz",
+      "bytes": 722387,
+      "sha256": "a9f2ece29bc8a1835590a95f8b7faa9a5ba3e12a12e1a798d0114d968eb5d775",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0168.json",
+      "bytes": 130532,
+      "sha256": "744fa3b65a44122be3e602b5e78329785b60fefacb7d14ddea6ac8439a2c7498",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0168.leaves.jsonl.gz",
+      "bytes": 727419,
+      "sha256": "c33bf6f0a1e427217214c8d584118bf02fba3c3255d05bd540ef8c504064c658",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0169.json",
+      "bytes": 130550,
+      "sha256": "5c8508a3123d850efa8deddd05119896a1d02812adb4c506fdae21d3c5044d7f",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0169.leaves.jsonl.gz",
+      "bytes": 729303,
+      "sha256": "f2dd01633cc23f9a44e3dbc2edbb49c930cad5957779b40d60c8c2254ebc1a69",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0170.json",
+      "bytes": 130491,
+      "sha256": "2043476d2e443fa17b5a28de59c42f4d868135aee6265493429986c99e98fbda",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0170.leaves.jsonl.gz",
+      "bytes": 750700,
+      "sha256": "ef19ee6140a3faa5178e8622d7c8451ac3329d38dc39b591a8cc68c9d79c85a6",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0171.json",
+      "bytes": 130541,
+      "sha256": "5e6a4503705b3f449df6bc53064327e24170481766cda73b1775cf99919637d4",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0171.leaves.jsonl.gz",
+      "bytes": 768253,
+      "sha256": "47975414fe02bc9fa7c433c840c3439430f2cb54f1de8b3ee03ef5b2b2a62f3d",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0172.json",
+      "bytes": 130554,
+      "sha256": "37b168ac96e5f4039b674833c6815316dcc7919d48701b2559b79f03a3c3a131",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0172.leaves.jsonl.gz",
+      "bytes": 794259,
+      "sha256": "25bb35719a632946d085e56900ba3e51f16f760917ea5879e6188dd3ce6dcc4f",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0173.json",
+      "bytes": 130528,
+      "sha256": "a84906c296ec278098e14e385d1b2fe5db0de0c0bfbad0ff7f4830a8d4e7e1fb",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0173.leaves.jsonl.gz",
+      "bytes": 664433,
+      "sha256": "2b8e989d9f03dd6dca94c610151c9125dc3794c0d1cab7c393c2accb4ea27769",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0174.json",
+      "bytes": 130499,
+      "sha256": "ea81f9b3c696e576d14d2ad64a7fdb89b94101b74f685255a622b3813676e534",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0174.leaves.jsonl.gz",
+      "bytes": 728292,
+      "sha256": "6fee1abce1325a0e7f3236a642ecec354071fc81b2798bcd59a9269e89297694",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0175.json",
+      "bytes": 130480,
+      "sha256": "b084fa695b4fa7a672d9d1916571e121fd482e6b446ad35a98b954a3c168ea62",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0175.leaves.jsonl.gz",
+      "bytes": 731573,
+      "sha256": "5ebc9ddd0f3f2fe2380391ae8f2b317982bc446ceac3b81a597f5ecf1d10c2f3",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0176.json",
+      "bytes": 130535,
+      "sha256": "01ff82e16362ef9b4831389e842aa9a9918ed16e1059f30cad857f3a883d905e",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0176.leaves.jsonl.gz",
+      "bytes": 733423,
+      "sha256": "3e85694a00191ec5ceb4efd38d455e53003910b2303ada7a490709ece26be004",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0177.json",
+      "bytes": 130542,
+      "sha256": "0ed858c8ac69cbd8afacf4dcb2938d1e3088f6a425067ab829a44a37fc8c6ead",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0177.leaves.jsonl.gz",
+      "bytes": 731466,
+      "sha256": "e0b80f55021ad736fc87d5cbcdec622c88637c66dc731dc056e4e0bd21668be0",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0178.json",
+      "bytes": 130466,
+      "sha256": "d19c6679abe096e093e2acc60d7291e3ac4c8679aa82d5c59cbd4dd76afedb26",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0178.leaves.jsonl.gz",
+      "bytes": 748106,
+      "sha256": "7747e500b588d1ed0e4568762d09961b8851d7853dc5da1a5988ffb806922dc6",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0179.json",
+      "bytes": 130542,
+      "sha256": "94ee7a9bdf6022c6a4171777baae0d0c2782150b87b3eaed0310e85d7b9ba2fe",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0179.leaves.jsonl.gz",
+      "bytes": 755121,
+      "sha256": "4085b35861af09b7a2d5406a698b4bf5a1a8b13527497c7b829279703005011d",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0180.json",
+      "bytes": 130551,
+      "sha256": "d51af1a74a596cfb56e3ffc702a6e23284cdb31b858e7263b5fd9be2ade49ab3",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0180.leaves.jsonl.gz",
+      "bytes": 751505,
+      "sha256": "2694dfcf230b13f07d2fe6f3cffd358c4ccf9c18173fcf422b2b950b249e0118",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0181.json",
+      "bytes": 130498,
+      "sha256": "bb5d96a731370ad935959815f3676ccef1477264c50b150988630a6ea9658e95",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0181.leaves.jsonl.gz",
+      "bytes": 756791,
+      "sha256": "e630b5939508991ebdd1554828fa9c8cdd1bf765217969563d44348146218c34",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0182.json",
+      "bytes": 130527,
+      "sha256": "013c66a5c0a592df2375317db690eb622f1c17a2ce922332ecaed55347ec9988",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0182.leaves.jsonl.gz",
+      "bytes": 760347,
+      "sha256": "548af364bcfcefe96e5a22e73578c6f9ea2b8fbc8944247af4b592316db7fde6",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0183.json",
+      "bytes": 130556,
+      "sha256": "058f82b7aff50b28f37d412f3672c5eec57bc5902dde3b2e20eb0e9a2deed690",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0183.leaves.jsonl.gz",
+      "bytes": 762819,
+      "sha256": "89185be8037b598ff1fb3d6f56c48dcce8809cb06d4fb310333dc533f804605f",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0184.json",
+      "bytes": 130532,
+      "sha256": "d025510bfedf9122e575f59df3c4c9450a2bb2d44d3d282d003a2ef00cc56365",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0184.leaves.jsonl.gz",
+      "bytes": 758291,
+      "sha256": "16312c2d18d80c4c6ffac68e9927a59b0327f6691a506e47ad14966dacb6d126",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0185.json",
+      "bytes": 130542,
+      "sha256": "8ab64adfd3584e951751705eaf856f14be03c073df6d815ad0b1bf8fc9711a30",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0185.leaves.jsonl.gz",
+      "bytes": 758103,
+      "sha256": "62672c01fd99f6f8190467f6ac96a763b0196d3d734707d4d8cad9c0593a8be1",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0186.json",
+      "bytes": 130526,
+      "sha256": "3e6a763b21e2d4617a91abbe2dba3a38c6112c8539e77412c1add8c9a2bb062a",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0186.leaves.jsonl.gz",
+      "bytes": 805210,
+      "sha256": "d4213e26ddbff019748b1be4bca9762a1afda527affd5f32d9e8ce9403f8a613",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0187.json",
+      "bytes": 130526,
+      "sha256": "5e16f02c11a162f1794f90f592bc64ff2d95a08c50a3d465a07b765198eb2858",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0187.leaves.jsonl.gz",
+      "bytes": 780808,
+      "sha256": "356a588376677fffebc8d8b6f863ecc94f546a9b87ade5753f938e867d372b92",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0188.json",
+      "bytes": 130536,
+      "sha256": "792ce37bea4315e3f77366c93ef26c655407913daf7b18afa50609418ae669b4",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0188.leaves.jsonl.gz",
+      "bytes": 671375,
+      "sha256": "23a1b1dc1c39a08eda0df4328595756ee4f6d966802f3e5158b89abb3bd63bcc",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0189.json",
+      "bytes": 130542,
+      "sha256": "1f27bc66b2c3813f6c19a1e08c199b2384f2ef5cec2cde0e28677aab49f7ee9a",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0189.leaves.jsonl.gz",
+      "bytes": 760461,
+      "sha256": "2b9e593c27f0aaf7653bc80fdfe2c2fb9d485f4e14fdb7470736ff8daf0e63be",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0190.json",
+      "bytes": 130504,
+      "sha256": "21a7626ac6067114f1f9b2e4d4330907d08b5a6a69b20d9b5a9f6b08195ff5e7",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0190.leaves.jsonl.gz",
+      "bytes": 759911,
+      "sha256": "f3a8cda945f4da0e037623d6aeb5dabf9f3cb6ad0897b9c4ccdcb9214533c1c5",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0191.json",
+      "bytes": 130553,
+      "sha256": "2dd7eb5b1afc2eac1c10184aa43555939a1a4130577a28ca08b930f13d3c35e1",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0191.leaves.jsonl.gz",
+      "bytes": 774057,
+      "sha256": "507fb57423167e87fd82dd6b82c9a9f9c79de9157fe6424cf7dc1f2f82df30b4",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0192.json",
+      "bytes": 130574,
+      "sha256": "c4f2d1e0cd9d0c6e0cb97e3640944137da4af3dc9f0814aebfebe438e923abd9",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0192.leaves.jsonl.gz",
+      "bytes": 811867,
+      "sha256": "0a284eda52eeab6ddaff55d670aa4f35e4fe8deca28708934cff3a0e853771b1",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0193.json",
+      "bytes": 130549,
+      "sha256": "8be7514fead2bc3e916be70768db90ada37c3047677fc912d68370bf5da3597c",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0193.leaves.jsonl.gz",
+      "bytes": 760939,
+      "sha256": "13816d1aa6a6181f8b29225a3168c604a4447c756718ac51bb83271ba98300d8",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0194.json",
+      "bytes": 130552,
+      "sha256": "99925d361d120de09f535e27e9e462f665b12bf64ac620c0b123d77c987d8d13",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0194.leaves.jsonl.gz",
+      "bytes": 763633,
+      "sha256": "f11830c7515b0b188caaff11dee081fa25873fd45d3a53f3cac6243fd623297c",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0195.json",
+      "bytes": 130559,
+      "sha256": "a2b61bf751b90fe6b382520155763caf042e07de09995615b94e3ba38b619823",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0195.leaves.jsonl.gz",
+      "bytes": 704393,
+      "sha256": "2cda095a78a7dd98700d0409160e4319fdc1704b3767992747b98d55fba9d8bd",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0196.json",
+      "bytes": 130725,
+      "sha256": "154d64e4117fb02664c2df67ae31026e3efa3f95bc4a439961e860d0d614b5ca",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0196.leaves.jsonl.gz",
+      "bytes": 764480,
+      "sha256": "2b3b4af7d2f882a5c83af630ffc5b3d0a0ee1442ca10fe870263012b80a7bc4f",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0197.json",
+      "bytes": 130599,
+      "sha256": "d6698edfbb9b413353c524effb3b80967d8d678b247319674657d18eb9982670",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0197.leaves.jsonl.gz",
+      "bytes": 767801,
+      "sha256": "37a4f5d3fbfaef4c8779c88e8384594d7152b3e942456e62e97715607affaf8c",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0198.json",
+      "bytes": 130830,
+      "sha256": "a12b1de84041950c4b8b81c21b4a8e573af6591ee88e81eebdbed2bde0c18c7b",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0198.leaves.jsonl.gz",
+      "bytes": 842660,
+      "sha256": "a87100ec08fca3384180f039d63a1da51fa7034b59ed3c5d573aeff4a71ba0a6",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0199.json",
+      "bytes": 130831,
+      "sha256": "b6f87731f967d51971fa17f3e35aa74146630eec132c0f324fb723485eda7987",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0199.leaves.jsonl.gz",
+      "bytes": 723770,
+      "sha256": "cbad5a656f55bc0332c04b03ba047831743483687827907296a803e2c17497c4",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0200.json",
+      "bytes": 130587,
+      "sha256": "a38b88d0e75c93503cf9481661d4dc569b685e326e2eb1419e9382933d963383",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0200.leaves.jsonl.gz",
+      "bytes": 767306,
+      "sha256": "cd6ce9f12b6b1d7401fd6c87e00c412705bcd7b38997a8fb69af6493fdaf9d4d",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0201.json",
+      "bytes": 130734,
+      "sha256": "f672056b3ff6a7359e0773915dc757c59a2fcf8bf435f30c793ab5d429fe4db9",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0201.leaves.jsonl.gz",
+      "bytes": 806987,
+      "sha256": "b33dc811993967b5c9cfe502eeab80cde927d475cf6605973e3bd82b6eabbf4b",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0202.json",
+      "bytes": 130748,
+      "sha256": "27654fa7406e6c5ccf80c1e144ab627ea15570724e38fe6f8026ffa74dedbbdd",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0202.leaves.jsonl.gz",
+      "bytes": 816211,
+      "sha256": "d3edcf5ea533c1764fcd13526b3813dd675fb4d3d0e474eca0c9de08b098ac4c",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0203.json",
+      "bytes": 130762,
+      "sha256": "5600751f959c4e2b17e39dc8ff32f0e13a7467a61c02fc84fcfdde8a47e59043",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0203.leaves.jsonl.gz",
+      "bytes": 870068,
+      "sha256": "052fe1638cfabd38565207e33002954f52e1d26a9af531df3b09b3ef2c62a9a0",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0204.json",
+      "bytes": 130757,
+      "sha256": "aebf09dc74ec198a06093cb3311e02934cf7576961b2408b2acb2503a9bbd43c",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0204.leaves.jsonl.gz",
+      "bytes": 909636,
+      "sha256": "3ff232c737ae1009150625e569080c75c90deaffb49cb8c3f9fd97579c688e39",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0205.json",
+      "bytes": 130781,
+      "sha256": "8bf6dcd55d553c0ce62dbfe8372f9592d778b96b93c3b1de2ca214e7f37605d3",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0205.leaves.jsonl.gz",
+      "bytes": 906367,
+      "sha256": "2dc54a1e867903e80b8eae1f52cb38b2b2a144dd78a3967e7c6171258397d29d",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0206.json",
+      "bytes": 130536,
+      "sha256": "f0c389b1a95a7d874e57fc6546888968ce516e1949a292124f19c4ed993548d1",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0206.leaves.jsonl.gz",
+      "bytes": 920719,
+      "sha256": "bb00472538a1397329cc4a1658b1a3e3f8872988f2e3c0ba4e569590a9fd5d3f",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0207.json",
+      "bytes": 130782,
+      "sha256": "c713ae1ac79262832ed2fb8728889dc95344120a66728b76d9ef8819badf01a6",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0207.leaves.jsonl.gz",
+      "bytes": 760554,
+      "sha256": "b000ad63319ef72c2f38a013e1780afb7225b0cffd3058d1ddf2f1eb7dce2ffd",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0208.json",
+      "bytes": 130773,
+      "sha256": "933abb0108f2a86e8cc20ddd91aedda047ff8e817731a705d98608636d03de43",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0208.leaves.jsonl.gz",
+      "bytes": 940384,
+      "sha256": "9af0e7eff1271574601c6cbc88872593147720f147c3522627140df9ffedad15",
+      "role": "complete_cover"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0209.json",
+      "bytes": 130801,
+      "sha256": "bffb370deda1b8f231cc2e9efb96197b46739c16ee229144a8a0209383b6a13e",
+      "role": "coefficient_record"
+    },
+    {
+      "path": "cluster/resident_20260907/results/complex_upper_radial_independent/cluster_attempt/independent_512_480_8192/mode_0209.leaves.jsonl.gz",
+      "bytes": 982408,
+      "sha256": "70607abb794940053be98481acba25f0ea1dcdfa9ebbd16a4fd2fb6d18f62292",
+      "role": "complete_cover"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 34,
+      "sha256": "6be76e6235548d1ae038bc33361fb4fcdc592243d89d8e4c84ca0a4574086053",
+      "role": "public_entrypoint"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/audit_exact.py",
+      "bytes": 13406,
+      "sha256": "2b37f319fb49dba3c9582eaa118e6e67a29b968a4618703beb03107eed4a656b",
+      "role": "source_or_input"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/certificate_final.json",
+      "bytes": 19921123,
+      "sha256": "00966c5de73e6d1152ff9b866d00ac48c6c675e128f122e3ab3c987b2a1d3b57",
+      "role": "certificate"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/check_identities.py",
+      "bytes": 5808,
+      "sha256": "e90ed81b75a767eab3d327ad0183093cde0b297a3abaede1623d8759074f39d3",
+      "role": "source_or_input"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/check_rational_tails.py",
+      "bytes": 2882,
+      "sha256": "fb5e2b9336d55f06ab47fbfdc926e52dc28ead4bc184b24e1a349b33f4323f63",
+      "role": "source_or_input"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/check_rational_tails_v2.py",
+      "bytes": 255,
+      "sha256": "c1b9760a372f52e8f0c68cc90895ce42705f06a7840d47e35ed244b1d65fb321",
+      "role": "source_or_input"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/check_validator.py",
+      "bytes": 2229,
+      "sha256": "4653a6eba068b2785e4e40e55cc0fc59da747439ad2277c9803514733b46fbce",
+      "role": "source_or_input"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/primitive_polynomials.json",
+      "bytes": 27909,
+      "sha256": "df0c52e37de5eaa066b088ec5c7ca8f12755cf988ff04ce78553a637b3c5804c",
+      "role": "source_or_input"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/proof.md",
+      "bytes": 29622,
+      "sha256": "d1f7e19d5e0499bd559676b4a28ecc0a4771335af2b98b395942dc52cc1b25ee",
+      "role": "mathematical_proof"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/proof_final.md",
+      "bytes": 30010,
+      "sha256": "aa2c85749501e50155dcbd54c1eda7401bcaf697afa4314e396ea5b611271bc3",
+      "role": "proof"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/rational_core.py",
+      "bytes": 4088,
+      "sha256": "08c8b4f41426cecb24b5303908cb7bf7859ff82f76b42525d544ba8d50516f67",
+      "role": "source_or_input"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/replay_independent.py",
+      "bytes": 11388,
+      "sha256": "1a322254495ebbc729ee4bc56b3bae9aead273b69dcb17800c9887428e6a168e",
+      "role": "source_or_input"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/source_snapshot/certify_radial.py",
+      "bytes": 10113,
+      "sha256": "ebdf8a03b2e7338ef4f20d6f332ae8e40d7910cc8129be37442c33f119fd2c0c",
+      "role": "source_or_input"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/source_snapshot/radial_low_candidate.json",
+      "bytes": 2452,
+      "sha256": "6f944ffcbeebca2c850fdf3bbe8e6bcb9ca47d9962b4c8da1df18f0486698ce3",
+      "role": "source_or_input"
+    },
+    {
+      "path": "round3/complex_radial_v4_independent_audit/validate_replay.py",
+      "bytes": 10256,
+      "sha256": "3b8634a5cfcdb92625015d99fa218b8f75819f093978f8d302b5beb911929fa3",
+      "role": "source_or_input"
+    },
+    {
+      "path": "verify_certificate.py",
+      "bytes": 15804,
+      "sha256": "74ddcba7288aee399968766e56f275715a6e4ff727cef280631aedf4168f3b24",
+      "role": "public_entrypoint"
+    }
+  ]
+}

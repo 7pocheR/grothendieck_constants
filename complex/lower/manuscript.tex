@@ -1,0 +1,879 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}\newtheorem{remark}[theorem]{Remark}
+\newcommand{\C}{\mathbb C}
+\newcommand{\R}{\mathbb R}
+\newcommand{\E}{\mathbb E}
+\newcommand{\ip}[2]{\langle #1,#2\rangle}
+\newcommand{\norm}[1]{\lVert #1\rVert}
+\newcommand{\KG}{K_G^{\mathbb C}}
+\newcommand{\ind}{\mathbf 1}
+\DeclareMathOperator{\Rea}{Re}
+\title{A lower bound of 1.373 for the complex Grothendieck constant}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}
+We prove that the classical complex Grothendieck constant exceeds
+\(1.373\). The construction subtracts an identity term and the full
+real third-chaos projection from a holomorphic Gaussian first-chaos
+projection. An anisotropic multiplication inequality bounds the cubic
+projection in every dimension. An exact pointwise formula uses the
+orthogonality of the two midpoint functions associated with complex
+phases. The remaining scalar parameter is controlled on its entire
+range by convex tangent bounds. A finite family of auxiliary rational
+step weights supplies different bounds on prescribed parameter intervals
+for one fixed operator. Exact polynomial exponential moments and an
+explicit finite matrix complete the proof.
+\end{abstract}
+
+\section{The constant and the result}
+
+For a nonzero complex \(m\)-by-\(n\) matrix \(A=(a_{ij})\), let
+\begin{align*}
+ S_{\C}(A)&=\max_{|\alpha_i|=|\beta_j|=1}
+ \left|\sum_{i,j}a_{ij}\alpha_i\overline{\beta_j}\right|,\\
+ V_{\C}(A)&=\sup_{d\ge1}\max_{\norm{u_i}=\norm{v_j}=1}
+ \left|\sum_{i,j}a_{ij}\ip{u_i}{v_j}\right|,
+\end{align*}
+where all vectors belong to \(\C^d\) and
+\(\ip{u}{v}=\sum_r u_r\overline{v_r}\). The classical complex
+Grothendieck constant is
+\(\KG=\sup_{m,n,A\ne0}V_{\C}(A)/S_{\C}(A)\).
+
+\begin{theorem}\label{thm:main}
+There is an explicitly specified finite complex matrix \(M\) such that
+\[
+ \frac{V_{\C}(M)}{S_{\C}(M)}>1.373.
+\]
+Consequently, \(\KG>1.373\).
+\end{theorem}
+
+The classical lower bound approximately \(1.33807\) is attributed to
+Davie in Haagerup~\cite{Haagerup} and Friedland--Lim--Zhang~\cite{FLZ}.
+Haagerup proves an upper bound approximately \(1.40491\).
+Theorem~\ref{thm:main} reduces the width of this reported interval by
+approximately \(52\) percent. Heilman~\cite[Section 1.8]{Heilman}
+proposes analysis of a cubic perturbation as a possible improvement in
+the complex case and leaves that analysis open. Here the operator is
+specified with its full real third-chaos projection, and its scalar bound
+covers every measurable complex phase assignment. The proof is independent
+of any unpublished lower-bound argument.
+
+\section{The Gaussian operator and its parameters}
+
+Let \(\gamma_d\) have density \(\pi^{-d}e^{-\norm z^2}\) on
+\(\C^d\), and use a first-linear inner product on
+\(L^2(\gamma_d;\C)\). Let \(P\) be orthogonal projection onto
+\(\operatorname{span}_{\C}\{z_1,\ldots,z_d\}\). The real coordinates
+\[
+w=(\sqrt2\Rea z_1,\sqrt2\operatorname{Im}z_1,\ldots,
+\sqrt2\Rea z_d,\sqrt2\operatorname{Im}z_d)
+\]
+are independent standard Gaussians. For a standard real Gaussian
+coordinate, define the normalized Hermite polynomials by
+\[
+H_r(x)=\frac{(-1)^r}{\sqrt{r!}}e^{x^2/2}
+\frac{d^r}{dx^r}e^{-x^2/2}.
+\]
+The complex span of the products
+\(\prod_{\ell=1}^{2d}H_{a_\ell}(w_\ell)\) with
+\(\sum_\ell a_\ell=j\) is denoted by \(\mathcal H_j(\C^d)\).
+Let \(C_3\) be orthogonal projection onto \(\mathcal H_3(\C^d)\).
+In particular, \(C_3\) is the complexification of the full real
+third-chaos projection. The projections \(P,C_3\) commute with
+unitary changes of the complex coordinates.
+
+Throughout the construction the parameters are
+\begin{equation}\label{eq:parameters}
+\lambda=\frac{53326}{10^6},\qquad
+\beta=\frac{499883}{10^6},\qquad D=\frac{3447}{5000}.
+\end{equation}
+Set
+\begin{equation}\label{eq:T}
+T=P-\lambda I-\beta C_3.
+\end{equation}
+Its scalar norm is
+\[
+\norm T_{\infty\to1}
+=\sup_{\norm f_\infty,\norm g_\infty\le1}|\ip f{Tg}|.
+\]
+Below we prove the dimension-independent bound
+\(\norm T_{\infty\to1}\le D\). Later sections construct a finite
+matrix with scalar value at most \(D\) and vector value greater than
+\(1.373D\).
+
+\section{An anisotropic multiplication inequality}
+
+Write \(z_1=\sqrt s e^{i\phi}\), choosing \(\phi\) arbitrarily on
+the null set \(z_1=0\). For real functions of \(s\), use the notation
+\(E_s[F]=\int_0^\infty F(s)e^{-s}\,ds\). Let
+\(q_R(s)\ge q_I(s)>0\) be measurable weights, and put
+\begin{align}
+ \mathcal Q(k)&=\int\left[q_R(s)(\Rea(e^{-i\phi}k))^2
+ +q_I(s)(\operatorname{Im}(e^{-i\phi}k))^2\right]d\gamma_d,
+ \label{eq:Q}\\
+ a(s)&=\frac12\left(q_R(s)^{-1}+q_I(s)^{-1}\right),&
+ e(s)&=\frac12\left(q_R(s)^{-1}-q_I(s)^{-1}\right).
+ \label{eq:inverseweights}
+\end{align}
+Define
+\begin{equation}\label{eq:profiles}
+p_4(s)=s^3/6,\qquad p_5(s)=s(s-2)^2/2
+\end{equation}
+and the symmetric matrices
+\begin{align}
+G_2&=\begin{pmatrix}
+E_s[a(s)(s-1)^2]&E_s[e(s)s(s-1)]/\sqrt2\\
+E_s[e(s)s(s-1)]/\sqrt2&E_s[a(s)s^2/2]
+\end{pmatrix},\label{eq:G2}\\
+G_3&=\begin{pmatrix}
+E_s[a p_5]&E_s[e(s)s^2(s-2)]/\sqrt{12}\\
+E_s[e(s)s^2(s-2)]/\sqrt{12}&E_s[a p_4]
+\end{pmatrix}.\label{eq:G3}
+\end{align}
+For a real symmetric matrix, \(\lambda_{\max}\) denotes its largest
+eigenvalue.
+
+\begin{lemma}\label{lem:weighted}
+If all the following quantities are at most one,
+\begin{equation}\label{eq:gramconditions}
+\begin{gathered}
+\beta E_s[a],\quad\beta E_s[s/q_R],\quad\beta E_s[s/q_I],
+\quad\beta\lambda_{\max}(G_2),\\
+\beta E_s[p_5/q_R],\quad\beta E_s[p_5/q_I],
+\quad\beta\lambda_{\max}(G_3),
+\end{gathered}
+\end{equation}
+then, in every dimension and for every \(k\in L^2(\gamma_d;\C)\),
+\begin{equation}\label{eq:weighted}
+\beta\norm{C_3k}_2^2\le\mathcal Q(k).
+\end{equation}
+An infinite right-hand side is allowed.
+\end{lemma}
+\begin{proof}
+Regard complex \(L^2\) as a real Hilbert space with inner product
+\(\Rea\ip\cdot\cdot\). The inverse pointwise quadratic form is
+\[
+\mathcal Q^{-1}(v)
+=\int\left[a(s)|v|^2+e(s)\Rea(e^{-2i\phi}v^2)\right]d\gamma_d.
+\]
+Use real orthonormal Hermite bases in the transverse coordinates and
+the exact-degree decomposition
+\[
+\mathcal H_3(\C^d)=\bigoplus_{j=0}^3
+\mathcal H_j(\C)\otimes\mathcal H_{3-j}(\C^{d-1}).
+\]
+Different transverse basis elements, including those of different
+degrees, are orthogonal in both the conjugate and nonconjugate products.
+Consequently it suffices to analyze each first-coordinate degree.
+In that coordinate, orthonormal bases are
+\begin{align*}
+ j=0:&\quad 1,\\
+ j=1:&\quad z_1,\overline{z_1},\\
+ j=2:&\quad z_1^2/\sqrt2,
+ s-1,\overline{z_1}^2/\sqrt2,\\
+ j=3:&\quad z_1^3/\sqrt6,
+ z_1(s-2)/\sqrt2,\overline{z_1}(s-2)/\sqrt2,
+ \overline{z_1}^3/\sqrt6.
+\end{align*}
+Their orthogonality and normalizations follow from angular integration
+and \(E_s[s^r]=r!\).
+
+Write each basis function as \(R_m(s)e^{im\phi}\). The term
+\(a|v|^2\) is diagonal in this basis. The second term retains exactly
+the pairs of angular characters satisfying \(m+n=2\). In degree
+zero this leaves only the diagonal entry \(E_s[a]\). In degree one
+the self-pair \(m=1\) has real and imaginary eigenvalues
+\(E_s[s/q_R]\) and \(E_s[s/q_I]\); the \(m=-1\) entry is their
+average. In degree two the pair \((0,2)\) gives \(G_2\) on real
+coefficients and the same matrix with negated off-diagonal entries on
+imaginary coefficients. These matrices have identical eigenvalues;
+the unpaired \(m=-2\) entry is a diagonal entry of \(G_2\).
+In degree three the self-pair \(m=1\) gives
+\(E_s[p_5/q_R]\) and \(E_s[p_5/q_I]\), while the pair \((-1,3)\)
+gives \(G_3\) and its off-diagonal sign reversal. The unpaired
+\(m=-3\) entry is a diagonal entry of \(G_3\).
+
+Thus \eqref{eq:gramconditions} implies
+\(\mathcal Q^{-1}(v)\le\beta^{-1}\norm v_2^2\) throughout the
+range of \(C_3\). Weighted Cauchy--Schwarz gives
+\[
+|\Rea\ip{k}{v}|^2\le\mathcal Q(k)\mathcal Q^{-1}(v)
+\le\beta^{-1}\mathcal Q(k)\norm v_2^2.
+\]
+Taking the supremum over unit \(v\) in that real Hilbert subspace
+proves \eqref{eq:weighted}. For \(d=1\), only the first-coordinate
+degree three is present; the same sufficient conditions apply.
+\end{proof}
+
+\section{The midpoint phase relation}
+
+For \(\mu>0\), let
+\begin{equation}\label{eq:phi}
+\Phi_\mu(v)=
+\begin{cases}
+v^2/(2\mu),& |v|\le2\mu,\\
+2|v|-2\mu,&|v|\ge2\mu.
+\end{cases}
+\end{equation}
+Equivalently, \(\Phi_\mu(v)=\max_{|r|\le1}(2vr-2\mu r^2)\).
+
+\begin{lemma}\label{lem:pointwise}
+For \(q_R\ge q_I>0\), \(\lambda>0\), and real \(v\),
+\begin{align}
+&\sup_{\substack{|h|^2+|k|^2=1\\\Rea(h\overline k)=0}}
+\left[2v\Rea h-2\lambda|h|^2
++q_R(\Rea k)^2+q_I(\operatorname{Im}k)^2\right]\notag\\
+&\hspace{30mm}=\max\{q_R,q_I+\Phi_{\lambda+q_I/2}(v)\}.
+\label{eq:pointwise}
+\end{align}
+\end{lemma}
+\begin{proof}
+By symmetry take \(v\ge0\). Write
+\(h=\rho e^{i\theta}\),
+\(k=\pm i\sqrt{1-\rho^2}e^{i\theta}\). At \(\rho=0\), the angle
+of \(k\) is unrestricted. With \(x=\cos\theta\), the expression
+to maximize is
+\[
+2v\rho x-2\lambda\rho^2
++(1-\rho^2)\bigl[q_R+(q_I-q_R)x^2\bigr],
+\qquad 0\le\rho\le1,
+\]
+and it suffices to take \(0\le x\le1\). If \(q_R=q_I\), its
+maximum occurs at \(x=1\), yielding \eqref{eq:pointwise}.
+For \(d_0=q_R-q_I>0\), the maximizing angle at \(\rho<1\) satisfies
+\[
+x=\min\left\{\frac{v\rho}{d_0(1-\rho^2)},1\right\}.
+\]
+On the first branch, putting \(w=\rho^2\), the value is
+\[
+q_R-(2\lambda+q_R)w+\frac{v^2w}{d_0(1-w)}.
+\]
+This is convex in \(w\), and its branch condition
+\(v\sqrt w\le d_0(1-w)\) defines an interval starting at zero.
+Its maximum is therefore attained at zero or at the boundary with
+\(x=1\). On the second branch the value is
+\(q_I+2v\rho-(2\lambda+q_I)\rho^2\). This proves the asserted
+upper bound. Its first term is attained at \(h=0,k=1\); its second
+term is attained by real \(h\) and purely imaginary \(k\).
+The endpoint cases follow directly or by continuity.
+\end{proof}
+
+For an auxiliary parameter \(0<b<1/2\) satisfying \(2b^2<\beta\), put
+\begin{equation}\label{eq:cv}
+c=1-2b^2/\beta>0,\qquad A_0=1-2b>0,
+\qquad V(s)=\sqrt s\,(A_0+bs).
+\end{equation}
+
+\begin{proposition}\label{prop:scalar}
+Suppose the positive weights satisfy \eqref{eq:gramconditions} and
+\(E_s[q_R]<\infty\). For \(u\ge0\), define
+\begin{equation}\label{eq:Bu}
+\mathcal B(u)=\lambda-cu+
+E_s\max\{q_R(s),q_I(s)+
+\Phi_{\lambda+q_I(s)/2}(\sqrt u\,V(s))\}.
+\end{equation}
+Then in every dimension,
+\begin{equation}\label{eq:scalar_reduction}
+\norm T_{\infty\to1}\le\sup_{0\le u\le1}\mathcal B(u).
+\end{equation}
+\end{proposition}
+\begin{proof}
+Let \(f,g\) be measurable phase functions, and set
+\(h=(f+g)/2\), \(k=(f-g)/2\). Then
+\(|h|^2+|k|^2=1\) and \(\Rea(h\overline k)=0\) pointwise.
+Self-adjointness gives the exact identity
+\begin{align*}
+\Rea\ip f{Tg}
+={}&\norm{Ph}_2^2-\norm{Pk}_2^2
+-\lambda(\norm h_2^2-\norm k_2^2)\\
+&-\beta(\norm{C_3h}_2^2-\norm{C_3k}_2^2).
+\end{align*}
+Let \(t=\norm{Ph}_2\), and use a unitary coordinate change to write
+\(Ph=tz_1\); when \(t=0\), choose any first coordinate. Applying
+Lemma~\ref{lem:weighted} and discarding \(-\norm{Pk}_2^2\) yields
+\[
+\Rea\ip f{Tg}\le\lambda+t^2-2\lambda\norm h_2^2
+-\beta\norm{C_3h}_2^2+\mathcal Q(k).
+\]
+The function \(\psi=z_1(s-2)/\sqrt2\) is a unit vector in the range
+of \(C_3\), so completing a square gives
+\[
+-\beta\norm{C_3h}_2^2
+\le\frac{2b^2t^2}{\beta}+2\sqrt2bt\Rea\ip h\psi.
+\]
+Also \(t^2=2t\Rea\ip h{z_1}-t^2\). These formulas reduce the
+bound to \(\lambda-ct^2\) plus the integral of
+\[
+2tV(s)\Rea(e^{-i\phi}h)-2\lambda|h|^2
++q_R(\Rea(e^{-i\phi}k))^2
++q_I(\operatorname{Im}(e^{-i\phi}k))^2.
+\]
+Lemma~\ref{lem:pointwise} bounds this integral by the one in
+\eqref{eq:Bu}. Since \(t\le\norm h_2\le1\), the asserted
+real-part bound follows. No pointwise alignment of \(h\) with
+\(z_1\) is assumed.
+
+Multiplying one original function by a constant phase gives the
+absolute-value bound. Finally, every function in the complex unit
+disk is the average of two phase functions: pointwise use
+\[
+re^{i\theta}=\tfrac12e^{i\theta}(r+i\sqrt{1-r^2})
++\tfrac12e^{i\theta}(r-i\sqrt{1-r^2}),\qquad0\le r\le1.
+\]
+This decomposition is measurable, with an arbitrary phase at zero.
+It extends the estimate to both \(L^\infty\) unit balls, proving
+\eqref{eq:scalar_reduction}.
+\end{proof}
+
+\begin{corollary}\label{cor:family}
+Fix \(\lambda,\beta\), and let \(\mathcal I\) be a finite set of
+triples \((b_j,q_{R,j},q_{I,j})\), each satisfying the hypotheses
+of Proposition~\ref{prop:scalar}. Let \(\mathcal B_j\) be its function
+\eqref{eq:Bu}. For the single operator \eqref{eq:T},
+\begin{equation}\label{eq:family_reduction}
+\norm T_{\infty\to1}\le
+\sup_{0\le u\le1}\min_{j\in\mathcal I}\mathcal B_j(u).
+\end{equation}
+\end{corollary}
+\begin{proof}
+For a fixed pair of phase functions, first choose one global phase
+rotation making its pairing real and nonnegative. Form its midpoint
+functions, perform the coordinate alignment in the preceding proof,
+and set \(u=\norm{Ph}_2^2\). These choices are made once. The proof
+of Proposition~\ref{prop:scalar} then bounds this same real pairing
+by \(\mathcal B_j(u)\) for every \(j\in\mathcal I\). Thus it is
+bounded by their minimum at this same \(u\). Taking the supremum
+over phase functions and using the measurable phase decomposition
+from that proposition proves \eqref{eq:family_reduction}.
+\end{proof}
+
+The auxiliary triple may therefore be selected after \(u\) is known.
+Only a choice among valid inequalities is made; the parameters
+\(\lambda,\beta\) and the operator \(T\) are identical in every
+inequality. Below one triple is fixed on each entire parameter
+interval, so convexity can be applied to that interval using the
+same triple at both endpoints.
+
+\section{The rational family and its Gram conditions}
+
+The index set of the family is
+\[
+\mathcal I=\{12,29,32,34,35,36,37,38,39,40,41,42,43,44,45,46\}.
+\]
+Write \(b_j=B_j/10^8\), with integer numerators specified by
+\[
+\begin{array}{c|r@{\qquad}c|r}
+j&B_j&j&B_j\\\hline
+12&676510&39&8771813\\
+29&4210412&40&9162379\\
+32&5558035&41&9540392\\
+34&6558419&42&9965338\\
+35&7059058&43&10352508\\
+36&7516257&44&10727882\\
+37&7993148&45&11098212\\
+38&8408096&46&11429863
+\end{array}
+\]
+These parameters satisfy \(0<b_j<1/2\) and \(2b_j^2<\beta\).
+The accompanying data file \texttt{family.json} gives positive
+integers \(R_{j,i},I_{j,i}\), \(j\in\mathcal I\),
+\(0\le i\le12000\). Define
+\begin{equation}\label{eq:weights}
+(q_{R,j}(s),q_{I,j}(s))=
+\begin{cases}
+(R_{j,i},I_{j,i})/10^8,&i/500\le s<(i+1)/500,\quad i<12000,\\
+(R_{j,12000},I_{j,12000})/10^8,&s\ge24.
+\end{cases}
+\end{equation}
+Every entry satisfies
+\(12576853\le I_{j,i}\le R_{j,i}\le881396009\).
+Thus the weights and their inverses are bounded. The SHA-256
+identifier of the data file is
+\begin{center}\small\texttt{d0d7b6795988bf9846f3dffd55007ddaa906db45edeef1b830cba22570c1f9fe}.
+\end{center}
+This finite integer table specifies all weights. The certificate uses
+only these integers and the rational parameters; no optimization or
+interpolation procedure is part of their definition or verification.
+
+\begin{lemma}\label{lem:gram_certificate}
+Each of the 16 weight pairs \eqref{eq:weights}, with the common
+parameter \(\beta\) in \eqref{eq:parameters}, satisfies all seven
+conditions \eqref{eq:gramconditions} strictly.
+\end{lemma}
+\begin{proof}
+For \(r\le3\), use the exact identity
+\begin{equation}\label{eq:moments}
+\int_a^\infty s^re^{-s}\,ds
+=e^{-a}\sum_{k=0}^r\frac{r!}{k!}a^k.
+\end{equation}
+Subtracting at successive endpoints gives the cell moments. The last
+tail moment is used in full. All scalar and matrix-diagonal entries
+in \eqref{eq:gramconditions} are rational combinations of these
+moments. The squared off-diagonal entries in \(G_2,G_3\) have
+rational factors \(1/2,1/12\).
+
+The program \texttt{verify\_gram.py} evaluates these moments with
+the rational interval arithmetic in \texttt{arithmetic.py}. It encloses
+\(e^{-1/500}\) between the consecutive Taylor sums through degrees
+61 and 60, respectively, and obtains the endpoint exponentials by
+interval multiplication. Every rational conversion, multiplication,
+and division rounds outward onto \(10^{-90}\mathbb Z\), with integer
+endpoints. All sums and differences are also enclosed outwardly.
+There is no numerical quadrature in this calculation.
+
+Across all family members, each of the five scalar quantities in
+\eqref{eq:gramconditions} and each diagonal entry of
+\(\beta G_2,\beta G_3\) is less than
+\[
+0.999989989464410785<1.
+\]
+For every family member the determinant checks give
+\begin{align*}
+\det(I-\beta G_2)&>0.053824287051790764,\\
+\det(I-\beta G_3)&>0.105885670985068696.
+\end{align*}
+The diagonal entries of each \(I-\beta G_j\) are positive, and its
+determinant is positive. Thus these matrices are positive definite,
+which proves the two eigenvalue conditions in
+\eqref{eq:gramconditions}. Every displayed decimal endpoint denotes
+an exact rational number.
+\end{proof}
+
+\section{A certified bound on the entire scalar parameter range}
+
+\subsection{Convex tangent bounds}
+
+Fix one family member and suppress its index for the moment. For fixed
+\(s\), put \(a_s=2\lambda+q_I(s)\). The function
+\(u\mapsto\Phi_{a_s/2}(\sqrt u\,V(s))\) is concave on
+\([0,\infty)\): it is linear up to its transition and then a
+positive multiple of \(\sqrt u\) plus a constant, with matching
+derivatives at the transition. For any \(\tau>0\), its tangent at
+\(u=\tau^2\) is
+\begin{equation}\label{eq:tangent}
+L_{\tau,u}(V)=
+\begin{cases}
+uV^2/a_s,&\tau V\le a_s,\\
+(\tau+u/\tau)V-a_s,&\tau V\ge a_s.
+\end{cases}
+\end{equation}
+This is a global upper bound for the concave function. For fixed
+\(u\ge0\), the two branches agree at their transition and together
+form a nondecreasing function of \(V\ge0\).
+
+On \([24,\infty)\) we instead use
+\begin{equation}\label{eq:tailbound}
+\max\{q_R,q_I+\Phi_{a_s/2}(\sqrt u V)\}
+\le q_R+q_I+uV^2/a_s.
+\end{equation}
+Indeed \(\Phi_{a_s/2}(v)\le v^2/a_s\) on both branches; on the
+linear branch the difference is \((|v|-a_s)^2/a_s\).
+Define
+\begin{align}
+J_\tau(u)={}&\lambda-cu+
+\int_0^{24}e^{-s}\max\{q_R,q_I+L_{\tau,u}(V(s))\}\,ds\notag\\
+&+\int_{24}^\infty e^{-s}(q_R+q_I+uV(s)^2/a_s)\,ds.
+\label{eq:J}
+\end{align}
+Then \(\mathcal B(u)\le J_\tau(u)\). Moreover, \(J_\tau\) is
+convex in \(u\): each integrand on \([0,24]\) is the maximum of
+two affine functions of \(u\), and the remaining terms are affine.
+Consequently,
+\begin{equation}\label{eq:convex_cover}
+\sup_{u\in[l,r]}\mathcal B(u)
+\le\max\{J_\tau(l),J_\tau(r)\}.
+\end{equation}
+
+Restore the family index, writing \(J_{j,\tau}\) for
+\eqref{eq:J} with the data of member \(j\). Use exactly the
+64 intervals \([k/64,(k+1)/64]\), with
+\begin{equation}\label{eq:tau}
+\tau_k=10^{-6}\left\lfloor10^6\sqrt{\frac{2k+1}{128}}\right\rfloor,
+\qquad0\le k<64.
+\end{equation}
+Assign the following single member to the entire \(k\)-th interval:
+\begin{equation}\label{eq:assignment}
+\sigma(k)=
+\begin{cases}
+12,&0\le k\le20,\\
+29,&21\le k\le29,\\
+32,&30\le k\le32,\\
+34,&33\le k\le34,\\
+k,&35\le k\le45,\\
+46,&46\le k\le63.
+\end{cases}
+\end{equation}
+All \(\tau_k\) are positive rationals. A tangent at this rational
+point suffices for \eqref{eq:convex_cover}; it need not be taken
+at the exact midpoint. By \eqref{eq:convex_cover} and
+Corollary~\ref{cor:family},
+\begin{equation}\label{eq:family_cover}
+\norm T_{\infty\to1}\le
+\max_{0\le k<64}\max\left\{
+J_{\sigma(k),\tau_k}(k/64),
+J_{\sigma(k),\tau_k}((k+1)/64)\right\}.
+\end{equation}
+Indeed, on any one interval the minimum in
+\eqref{eq:family_reduction} is bounded above by its selected
+\(\mathcal B_{\sigma(k)}\), and convexity is applied with that
+fixed member and that fixed tangent. The 128 endpoint bounds in
+\eqref{eq:family_cover} consequently control every \(u\in[0,1]\).
+The assignment \eqref{eq:assignment} and the tangent parameters are
+part of the finite data; their validity follows from the exact
+inequalities below, without any assumption about how they were chosen.
+
+\subsection{Exact upper integration}
+
+Write \(F(s)=V(s)^2=s(A_0+bs)^2\). The functions \(V,F\) increase
+on \([0,\infty)\), since \(A_0,b>0\). On a weight cell \([l,r]\),
+the values \(q_R,q_I,a_s\) are positive rational constants.
+
+If \(\tau^2F(r)\le a_s^2\), the whole cell uses the quadratic
+branch of \eqref{eq:tangent}. If
+\(uF(r)\le a_s(q_R-q_I)\), the maximum in \eqref{eq:J} equals
+\(q_R\) throughout the cell. If
+\(uF(l)\ge a_s(q_R-q_I)\), it equals \(q_I+uF/a_s\) throughout
+the cell. Both cases are integrated exactly by \eqref{eq:moments}.
+
+If \(\tau^2F(l)\ge a_s^2\), the whole cell uses the linear
+branch. Put \(L=\tau+u/\tau>0\). The maximum is constantly
+\(q_R\) when \(L^2F(r)\le(q_R+2\lambda)^2\), and equals
+\(LV(s)-2\lambda\) throughout the cell when
+\(L^2F(l)\ge(q_R+2\lambda)^2\). All squared comparisons have
+nonnegative sides before squaring.
+
+For the latter case choose the positive rational number
+\[
+r_0=10^{-8}\left\lfloor10^8\sqrt{(l+r)/2}\right\rfloor.
+\]
+The global inequality \(\sqrt s\le(s+r_0^2)/(2r_0)\), multiplied
+by \(A_0+bs>0\), gives the polynomial upper bound
+\begin{equation}\label{eq:Vmajorant}
+V(s)\le\frac{A_0r_0}{2}
++\left(\frac{A_0}{2r_0}+\frac{br_0}{2}\right)s
++\frac b{2r_0}s^2.
+\end{equation}
+Its coefficients are rational, and multiplication by \(L>0\)
+followed by \eqref{eq:moments} yields the required integral upper
+bound.
+
+For a cell crossing a tangent or maximum transition, subdivide its
+length \(h=1/500\) into 16 equal subintervals. Throughout the
+original cell the weights remain fixed. On each subinterval,
+monotonicity in \(V\) bounds the integrand by the right-endpoint
+value of \(\max(q_R,q_I+L_{\tau,u}(V))\). If
+\(m_0=\int_l^r e^{-s}\,ds\), the exact mass of its subinterval
+indexed by \(v\in\{0,\ldots,15\}\) is
+\begin{equation}\label{eq:subcell_mass}
+ m_0\frac{e^{-vh/16}(1-e^{-h/16})}{1-e^{-h}}.
+\end{equation}
+Every factor in this expression is outwardly enclosed using
+\(e^{-1/500}\) and \(e^{-1/8000}\). Both exponentials are enclosed
+between their Taylor sums through degrees 61 and 60. This expression
+for the subinterval mass follows by integrating the exponential over
+\([l+vh/16,l+(v+1)h/16]\); it does not assume that the exponential
+density is constant.
+
+At a rational subinterval endpoint \(s_*\), the branch is decided
+by the exact comparison \(\tau^2F(s_*)\le a_s^2\). A quadratic
+endpoint value is rational. A linear endpoint value uses a rational
+upper bound on \(V(s_*)=\sqrt{F(s_*)}\), obtained by rounding an
+integer square root upward to a multiple of \(10^{-24}\).
+Monotonicity gives the upper estimate even when a subinterval itself
+contains one or more transitions. The tail in \eqref{eq:J} is
+integrated in full by \eqref{eq:moments}, since its weights are
+constant and \(V^2\) is cubic.
+
+All square-root decisions are exact integer squaring comparisons.
+The choices \(\tau_k,r_0\) need only be positive rational numbers;
+their downward rounding does not affect the tangent or polynomial
+inequalities. The endpoint upper bound for \(V(r)\) is rounded
+upward as required. The interval arithmetic for moments is the same
+outward arithmetic used in Lemma~\ref{lem:gram_certificate}.
+
+\begin{lemma}\label{lem:certificate}
+For the family \eqref{eq:weights} and the fixed assignment
+\eqref{eq:assignment}, the 128 endpoint upper integrals in
+\eqref{eq:family_cover} are all less than \(D=3447/5000\).
+In particular,
+\begin{equation}\label{eq:scalar}
+\norm T_{\infty\to1}\le\frac{3447}{5000}
+\end{equation}
+in every dimension.
+\end{lemma}
+\begin{proof}
+The program \texttt{verify\_scalar.py}, using
+\texttt{scalar\_kernel.py} and the integer interval arithmetic in
+\texttt{arithmetic.py}, performs the classifications and integrations
+above. It verifies the data identifier, the complete 64-interval
+partition, the validity of each selected member, and the occurrence
+of both endpoints of each interval exactly once with its prescribed
+member and tangent. Every endpoint integral in
+\eqref{eq:family_cover} is bounded above by an explicitly integrated
+majorant. Among the 1,536,000 original radial cell evaluations,
+7,304 use the 16 subdivisions in \eqref{eq:subcell_mass}; all other
+cells use their polynomial or constant upper integrands directly.
+
+The largest upper enclosure is less than
+\[
+0.689291686947801369<\frac{3447}{5000}.
+\]
+It occurs for member 41, interval \(k=41\), right endpoint
+\(u=21/32\), and \(\tau=100657/125000\). The margin below \(D\)
+is greater than \(0.000108313052198631\). These numbers bound the
+computed upper majorants; no lower bound on \(\mathcal B_j\) or
+the operator norm is inferred from them. Equation
+\eqref{eq:family_cover} now proves the bound for every parameter in
+\([0,1]\), and Lemma~\ref{lem:gram_certificate} verifies every
+required projection inequality. The programs use Python integers
+and exact fractions only. No numerical quadrature, numerical
+eigenvalue calculation, or numerical maximization is used in the
+verification.
+\end{proof}
+
+\section{A feasible vector assignment}
+
+For \(Z\) distributed according to \(\gamma_d\), let
+\(R=\norm Z\), \(\mu_d=\E R\), and define
+\(F(z)=z/\norm z\) off the null set \(z=0\). The vector function
+\(F\) has unit norm almost everywhere.
+
+\begin{lemma}\label{lem:vector}
+For the operator \eqref{eq:T}, the assignment \(F\) has value
+\begin{equation}\label{eq:Nd}
+ N_d:=\sum_{j=1}^d\ip{F_j}{TF_j}
+ =\frac{\mu_d^2}{d}\left(1-\frac{\beta}{4(d+1)}\right)-\lambda.
+\end{equation}
+For the parameters \eqref{eq:parameters},
+\begin{equation}\label{eq:NdLower}
+ N_d\ge\frac{2d}{2d+1}
+ \left(1-\frac{\beta}{4(d+1)}\right)-\lambda,
+ \qquad N_d\longrightarrow1-\lambda.
+\end{equation}
+\end{lemma}
+\begin{proof}
+Write \(Z=RU\), where \(U\) is uniform on the complex unit sphere
+and independent of \(R\). Gaussian polar integration gives
+\[
+ \E R^2=d,\qquad \E R^3=(d+\tfrac12)\mu_d,
+ \qquad \E|U_j|^2=\frac1d,
+\]
+and
+\[
+ \E|U_j|^4=\frac2{d(d+1)},\qquad
+ \E|U_j|^2|U_k|^2=\frac1{d(d+1)}\quad(j\ne k).
+\]
+For example, the sphere moments follow by writing the independent
+exponential random variables \(|Z_j|^2\) as their sum times the
+normalized coordinates; the normalized coordinates have uniform
+simplex density. Coordinatewise phase rotations show that
+\(\ip{F_j}{z_k}=\delta_{jk}\mu_d/d\). Hence
+\(\sum_j\norm{PF_j}_2^2=\mu_d^2/d\).
+
+Under coordinatewise phase rotations, \(F_j\) has character \(e_j\).
+A degree-three complex Hermite polynomial with this character has
+bidegrees \((2,1)\). The possible orthonormal basis elements are
+exactly
+\[
+ B_j=z_j(|z_j|^2-2)/\sqrt2,
+ \qquad B_{jk}=z_j(|z_k|^2-1)\quad(k\ne j).
+\]
+Indeed, its holomorphic and antiholomorphic multiindices satisfy
+\(\alpha-\delta=e_j\), \(|\alpha|+|\delta|=3\), so
+\(\delta=e_k\), \(\alpha=e_j+e_k\). Gaussian moments give
+\begin{align*}
+ \ip{F_j}{B_j}
+ &=\frac1{\sqrt2}\left(
+ \frac{2(d+1/2)\mu_d}{d(d+1)}-\frac{2\mu_d}{d}\right)
+ =-\frac{\mu_d}{\sqrt2\,d(d+1)},\\
+ \ip{F_j}{B_{jk}}
+ &=\frac{(d+1/2)\mu_d}{d(d+1)}-\frac{\mu_d}{d}
+ =-\frac{\mu_d}{2d(d+1)}.
+\end{align*}
+Squaring and summing over all coordinates gives
+\[
+ \sum_j\norm{C_3F_j}_2^2
+ =d\left(\frac{\mu_d^2}{2d^2(d+1)^2}
+ +(d-1)\frac{\mu_d^2}{4d^2(d+1)^2}\right)
+ =\frac{\mu_d^2}{4d(d+1)}.
+\]
+Since \(\sum_j\norm{F_j}_2^2=1\), this proves \eqref{eq:Nd}.
+Finally, Cauchy--Schwarz gives
+\[
+ d^2=(\E R^2)^2\le(\E R)(\E R^3)
+ =(d+\tfrac12)\mu_d^2,
+ \qquad \mu_d^2\le d.
+\]
+The positive factor \(1-\beta/[4(d+1)]\) yields
+\eqref{eq:NdLower} and the stated limit.
+\end{proof}
+
+\section{An explicit finite matrix}
+
+We now fix
+\begin{equation}\label{eq:finiteparameters}
+ d=10^9,\qquad L=10^9,\qquad \Delta=2^{-80}.
+\end{equation}
+In each of the \(2d\) standard real coordinates, partition
+\([-L,L]\) into consecutive intervals of length \(\Delta\), and
+add the two exterior intervals. Assign endpoints consistently; their
+Gaussian measures are zero. Let \(\mathcal P\) be the finite product
+partition, whose size is \((2L2^{80}+2)^{2d}\).
+
+For two standard real vectors \(w,w'\in\R^{2d}\), write
+\(a=w\cdot w'\), \(r=\norm w^2\), \(s=\norm{w'}^2\). The real
+degree-three projection kernel is
+\begin{equation}\label{eq:kernel}
+ H_3(w,w')=\frac{a^3-3a(r+s)+3(2d+2)a}{6}.
+\end{equation}
+To verify the formula, sum the products of degree-three normalized
+Hermite polynomials, separating the multiindices of types \((3)\),
+\((2,1)\), and \((1,1,1)\). Their contributions are respectively
+\[
+ \sum_i\frac{(w_i^3-3w_i)(w_i'^3-3w_i')}{6},\qquad
+ \sum_{i\ne j}\frac{(w_i^2-1)(w_i'^2-1)w_jw_j'}2,
+ \qquad\sum_{i<j<k}w_iw_jw_kw_i'w_j'w_k'.
+\]
+Expanding these expressions gives \eqref{eq:kernel}.
+
+For cells \(A,B\in\mathcal P\), define the complex matrix
+\begin{equation}\label{eq:matrix}
+ M_{AB}=\int_{A\times B}
+ \left(\sum_{j=1}^d\overline{z_j}v_j-\beta H_3(w,w')\right)
+ \,d\gamma_d(z)d\gamma_d(v)
+ -\lambda\gamma_d(A)\ind_{A=B}.
+\end{equation}
+Here \(w,w'\) are the standardized real coordinates corresponding to
+\(z,v\). All entries are explicit finite sums of products of
+one-dimensional Gaussian interval moments, with the displayed diagonal
+mass term. In particular, \eqref{eq:matrix} specifies a finite matrix
+without a limiting definition.
+
+\begin{lemma}\label{lem:finite}
+The matrix \eqref{eq:matrix} satisfies
+\begin{equation}\label{eq:finitebounds}
+ S_{\C}(M)\le D,\qquad
+ V_{\C}(M)\ge Q_d:=\frac{2d}{2d+1}
+ \left(1-\frac{\beta}{4(d+1)}\right)-\lambda-2\cdot10^{-12}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+The coefficient kernel in \eqref{eq:matrix} has the conjugation
+appropriate to a first-linear inner product. Directly,
+\[
+ \ip{f}{Pg}=\iint\left(\sum_j\overline{z_j}v_j\right)
+ f(z)\overline{g(v)}\,d\gamma_d(z)d\gamma_d(v).
+\]
+The kernel \(H_3\) is real symmetric, and the identity term on step
+functions is \(\sum_A\gamma_d(A)f_A\overline{g_A}\).
+Thus every pair of cellwise phase assignments satisfies
+\[
+ \sum_{A,B}M_{AB}\alpha_A\overline{\beta_B}=\ip{f}{Tg}.
+\]
+Corollary~\ref{cor:family} and Lemma~\ref{lem:certificate} prove
+the scalar bound in \eqref{eq:finitebounds} for all phases.
+
+For each bounded cell, let \(z_A\) be its complex midpoint and put
+\(F_{\mathcal P}(A)=z_A/\norm{z_A}\); for every exterior cell put
+\(F_{\mathcal P}(A)=0\). A midpoint is never zero, since every real
+coordinate midpoint is an odd multiple of \(2^{-81}\).
+On a bounded cell,
+\(\norm{z-z_A}\le\sqrt d\,\Delta/2\). For \(\norm z\ge1\),
+the normalization inequality gives
+\[
+ \norm{F(z)-F_{\mathcal P}(z)}
+ \le2\norm{z-z_A}/\norm z\le\sqrt d\,\Delta.
+\]
+On the remaining bounded cells the difference is at most two, while
+on exterior cells its norm is one almost everywhere. Markov's
+inequality gives
+\[
+ \Pr(\norm Z<1)\le e\E e^{-\norm Z^2}=e2^{-d}.
+\]
+The standard real Gaussian fourth moment is three, so a union bound
+gives exterior probability at most \(6d/L^4\). Therefore
+\begin{equation}\label{eq:approx}
+ \norm{F-F_{\mathcal P}}_2^2
+ \le d2^{-160}+4e2^{-d}+6d/L^4<10^{-24}.
+\end{equation}
+For the last comparison, the first term is below \(10^{-30}\)
+because \(d10^{30}<2^{160}\). The second is below \(10^{-30}\)
+using \(e<3\), \(d\ge200\), and \(12\cdot10^{30}<2^{200}\).
+The third is \(6\cdot10^{-27}\).
+
+The ranges of \(P\) and \(C_3\) are orthogonal. The eigenvalues of
+\(T\) are \(1-\lambda\), \(-\lambda-\beta\), and \(-\lambda\),
+on their respective orthogonal subspaces. Since
+\(\lambda+\beta=553209/10^6<1\),
+\[
+ \norm{T}_{2\to2}=\max(1-\lambda,\lambda+\beta)<1.
+\]
+The same norm holds for componentwise action on vector-valued
+\(L^2\). Since \(\norm{F}_2=1\), \(\norm{F_{\mathcal P}}_2\le1\),
+\eqref{eq:approx} implies
+\[
+ \left|\sum_j\ip{F_j}{TF_j}
+ -\sum_j\ip{(F_{\mathcal P})_j}{T(F_{\mathcal P})_j}\right|
+ <2\cdot10^{-12}.
+\]
+Finally assign to the row and column cells the unit vectors
+\[
+ u_A=\left(F_{\mathcal P}(A),
+ \sqrt{1-\norm{F_{\mathcal P}(A)}^2},0\right),\qquad
+ v_B=\left(F_{\mathcal P}(B),0,
+ \sqrt{1-\norm{F_{\mathcal P}(B)}^2}\right).
+\]
+Their cross inner products are those of \(F_{\mathcal P}\).
+The real part of their matrix value is therefore at least \(Q_d\),
+by Lemma~\ref{lem:vector}. This proves the vector bound.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+The scalar constant is \(D=3447/5000\). For the explicit finite
+parameters \eqref{eq:finiteparameters}, the rational numerator lower
+bound in \eqref{eq:finitebounds} is
+\[
+Q_d=\frac{315558000264346749990112333333}
+{333333333833333333500000000000}.
+\]
+An exact rational comparison gives
+\[
+Q_d-\frac{1373}{1000}D
+=\frac{42599791073649832354633333}
+{333333333833333333500000000000}>0.
+\]
+In particular \(Q_d>0\), so \(M\ne0\). Lemma~\ref{lem:finite}
+yields
+\(V_{\C}(M)/S_{\C}(M)\ge Q_d/D>1373/1000=1.373\).
+The corresponding limiting comparison is
+\[
+\frac{1-\lambda}{D}=\frac{52593}{38300}>1.373.
+\]
+\end{proof}
+
+\begin{thebibliography}{9}
+\bibitem{Haagerup}
+U.~Haagerup, \emph{A new upper bound for the complex Grothendieck
+constant}, Israel Journal of Mathematics \textbf{60} (1987), no.~2,
+199--224. \href{https://doi.org/10.1007/BF02790792}{doi:10.1007/BF02790792}.
+
+\bibitem{FLZ}
+S.~Friedland, L.-H.~Lim, and J.~Zhang,
+\emph{An elementary and unified proof of Grothendieck's inequality},
+L'Enseignement Math\'ematique \textbf{64} (2018), no.~3/4, 327--351.
+\href{https://doi.org/10.4171/LEM/64-3/4-6}{doi:10.4171/LEM/64-3/4-6}.
+
+\bibitem{Heilman}
+S.~Heilman, \emph{A lower bound for Grothendieck's constant},
+\href{https://arxiv.org/abs/2603.22616v1}{arXiv:2603.22616v1} (2026).
+\end{thebibliography}
+\end{document}

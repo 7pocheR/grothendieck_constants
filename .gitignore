@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+*.log
+*.aux
+*.out
+*.toc
+*.synctex.gz
+.verification/
+/real/lower/verification/
+/real/lower/final_exact_02.json
+/real/lower/certificate_arithmetic_02.json

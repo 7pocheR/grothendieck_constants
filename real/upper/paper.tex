@@ -1,0 +1,405 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,longtable,array}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}\newtheorem{definition}[theorem]{Definition}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\E}{\mathbb E}
+\newcommand{\He}{\operatorname{He}}
+\newcommand{\sgn}{\operatorname{sgn}}
+\newcommand{\erf}{\operatorname{erf}}
+\newcommand{\erfc}{\operatorname{erfc}}
+\newcommand{\dd}{\,d}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\newcommand{\fall}[2]{(#1)_{#2}}
+\title{A certified upper bound for the real Grothendieck constant}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}
+An explicit Gaussian rounding scheme gives
+\[
+ K_G^{\R}\leq \frac{\pi}{2(0.8818276493988)}
+ <1.781296297373.
+\]
+The scheme uses a degree-nine polynomial threshold and a degree-eighty-one
+tensor preprocessing polynomial. The proof combines a coefficient inequality
+valid for every finite real matrix, interval enclosures of all 63252 Gaussian
+moments required through degree 501, and a bound on the fourth angular
+derivative on the entire unit circle. We give the Gaussian identities,
+quadrature remainders, boundary convergence argument, and exact rational
+comparisons underlying the certificate. All polynomial coefficients and the
+finite data needed to reproduce the calculation accompany the proof.
+\end{abstract}
+
+\section{Statement and normalization}
+For a finite real matrix $M=(M_{ij})_{1\leq i\leq m,1\leq j\leq n}$, put
+\begin{align*}
+ S(M)&=\max_{\varepsilon_i,\delta_j\in\{-1,1\}}
+       \abs{\sum_{i,j}M_{ij}\varepsilon_i\delta_j},\\
+ V(M)&=\max_{\norm{u_i}=\norm{v_j}=1}
+       \abs{\sum_{i,j}M_{ij}\langle u_i,v_j\rangle}.
+\end{align*}
+The vectors are real. Their span has dimension at most $m+n$, so the latter
+maximum can be taken in $\R^{m+n}$ and is attained. The real Grothendieck
+constant is the least $K$ for which $V(M)\leq K S(M)$ for every such matrix.
+
+\begin{theorem}\label{thm:main}
+For every pair of positive integers $m,n$ and every $M\in\R^{m\times n}$,
+\[
+ V(M)\leq\frac{\pi}{2(0.8818276493988)}S(M).
+\]
+In particular, $K_G^{\R}<1.781296297373<1.78130$.
+\end{theorem}
+
+The normalization throughout is $H=(\pi/2)\E[fg]$ for real Gaussian
+rounding. Gaussian rounding and tensor preprocessing originate in work of
+Krivine~\cite{krivine}; multivariate rounding was developed further by
+Braverman, Makarychev, Makarychev, and Naor~\cite{bmmn}. The combination of
+coordinate-dependent preprocessing, Hermite coefficients, a coefficient
+margin, and a Sobolev estimate follows methods used by Saha et
+al.~\cite{saha}. The argument below proves the needed statements for the
+explicit polynomials used here; it does not use an upper-bound theorem from
+those papers as a premise.
+
+For comparison, the numerical inequalities in Proposition 6.3 of
+\cite{saha}, version 2, imply the upper bound
+\begin{equation}\label{eq:comparison-saha}
+ \frac{\pi}{2\left(0.881573822049-0.000011328860
+              -14.443/\sqrt{10\cdot251^5}\right)}
+ =1.78184132423347648\ldots.
+\end{equation}
+Li et al.~\cite{li}, version 3, separately report $1.7813319810625639$
+as an internally tested upper bound, expressly stating that the authors had
+not verified those certificates and that the reported claims were not
+theorems. The bound in Theorem~\ref{thm:main} is numerically smaller than
+both quantities. No historical priority or exact-value assertion is made.
+
+\section{A coefficient inequality for every finite matrix}
+Let $\gamma$ be standard Gaussian measure on $\R$, with density
+$\phi(x)=(2\pi)^{-1/2}e^{-x^2/2}$. Define the probabilists' Hermite
+polynomials and their normalization by
+\[
+ e^{tx-t^2/2}=\sum_{k\geq0}\He_k(x)\frac{t^k}{k!},
+ \qquad h_k=\frac{\He_k}{\sqrt{k!}}.
+\]
+Taking Gaussian expectations of two generating functions proves
+$\int h_jh_k\dd\gamma=\mathbf1_{j=k}$. These polynomials are complete
+in $L^2(\gamma)$: if $u$ is orthogonal to all polynomials, then
+$\int u(x)e^{zx}\dd\gamma(x)$ is entire, by Cauchy--Schwarz uniformly on
+compact subsets of $\C$, and all its derivatives at zero vanish.
+Its values on the imaginary axis are the Fourier transform of the finite
+measure $u\dd\gamma$, so Fourier uniqueness gives $u=0$. The same argument,
+or iteration in each variable, gives the tensor product basis in two
+dimensions. If $(X,Y)$ are standard real Gaussians with covariance $t$, the
+generating functions give
+\begin{equation}\label{eq:hermite-correlation}
+ \E[h_j(X)h_k(Y)]=\mathbf1_{j=k}t^j,\qquad -1\leq t\leq1.
+\end{equation}
+The endpoints follow either directly from $Y=\pm X$ or by continuity.
+
+Let $L$ be the following odd polynomial:
+\begin{equation}\label{eq:L}
+ L(x)=\frac{3188129h_1(x)+110767301h_3(x)+13189406h_5(x)
+                   -5120076h_7(x)-1681617h_9(x)}{10^9}.
+\end{equation}
+Set $f(w,x)=\sgn(w+L(x))$ and $g(w,x)=\sgn(w-L(x))$.
+The value of the sign at zero is immaterial, since conditioning on $X$
+shows that each threshold has Gaussian measure zero. Write
+\[
+ A_{jk}=\int_{\R^2}f(w,x)h_j(w)h_k(x)\dd\gamma(w)\dd\gamma(x).
+\]
+Since $f^2=1$, Parseval gives $\sum_{j,k}A_{jk}^2=1$. Oddness under
+$(w,x)\mapsto(-w,-x)$ gives $A_{jk}=0$ when $j+k$ is even.
+Moreover, $g(w,x)=f(w,-x)$, so its corresponding coefficient is
+$(-1)^k A_{jk}$.
+
+For independent coordinate pairs $(W,W')$ and $(X,X')$ with covariances
+$\alpha$ and $\beta$, respectively, (\ref{eq:hermite-correlation}) gives
+\begin{equation}\label{eq:F}
+ F(\alpha,\beta):=\frac\pi2\E[f(W,X)g(W',X')]
+ =\frac\pi2\sum_{j,k\geq0}(-1)^k A_{jk}^2\alpha^j\beta^k.
+\end{equation}
+This identity follows first by finite Hermite approximation and the
+$L^2$ contraction property of conditional expectation. The series is
+absolutely and uniformly convergent on the closed complex bidisk, since
+$\sum A_{jk}^2=1$. Thus it also defines a continuous function there,
+holomorphic in the open bidisk.
+
+Let $P(t)=\sum_{d=1,3,\ldots,81}p_dt^d$ be the exact rational polynomial
+in Appendix~\ref{app:polynomial}. Its coefficient norm is
+\begin{equation}\label{eq:Pnorm}
+ \rho_0:=\sum_d|p_d|
+ =\frac{499995394004774337}{500000000000000000}<1.
+\end{equation}
+Define
+\begin{equation}\label{eq:H}
+ H(t)=F(P(t),t)=\sum_{n\geq0}b_nt^n.
+\end{equation}
+The coefficients are real and vanish for even $n$. In the Banach algebra
+of absolutely summable power series, substitution in (\ref{eq:F}) gives
+\begin{equation}\label{eq:Habsolute}
+ \sum_n|b_n|\leq\frac\pi2\sum_{j,k}A_{jk}^2\norm{P}_1^j
+ \leq\frac\pi2.
+\end{equation}
+This also justifies substitution and evaluation at $t=\pm1$.
+
+\begin{lemma}\label{lem:rounding}
+If the coefficients in (\ref{eq:H}) satisfy
+$\Gamma=b_1-\sum_{n\geq3,\ n\ {\rm odd}}|b_n|>0$, then
+$V(M)\leq\pi S(M)/(2\Gamma)$ for every finite real matrix $M$.
+\end{lemma}
+\begin{proof}
+For real unit vectors $u,v$, form the direct sums
+\[
+ U_P(u)=\bigoplus_d\sqrt{|p_d|}\,u^{\otimes d}
+               \ \oplus\sqrt{1-\rho_0}\,e_L,
+ \quad
+ V_P(v)=\bigoplus_d\sgn(p_d)\sqrt{|p_d|}\,v^{\otimes d}
+               \ \oplus\sqrt{1-\rho_0}\,e_R,
+\]
+where $e_L,e_R$ are orthogonal unit vectors in extra coordinates.
+Both vectors have norm one and their cross inner product is
+$P(\langle u,v\rangle)$. This is a finite-dimensional real construction;
+negative polynomial coefficients cause no loss of norm or positivity of
+the joint Gaussian covariance. Use a standard Gaussian vector in this
+space to obtain all $W_i,W'_j$ simultaneously. In an independent Gaussian
+space use the original $u_i,v_j$ to obtain $X_i,X'_j$. Each endpoint has
+independent standard $W$ and $X$, and each cross pair has correlations
+$P(t_{ij})$ and $t_{ij}$, where $t_{ij}=\langle u_i,v_j\rangle$.
+
+Choose vectors attaining $V(M)$, reversing all left vectors if needed so
+that $\sum M_{ij}t_{ij}=V(M)$. For every positive integer $n$, the unit
+vectors $u_i^{\otimes n},v_j^{\otimes n}$ show that
+$|\sum M_{ij}t_{ij}^n|\leq V(M)$. Absolute summability in
+(\ref{eq:Habsolute}) and finiteness of $M$ therefore imply
+\[
+ \E\sum_{i,j}M_{ij}f(W_i,X_i)g(W'_j,X'_j)
+ =\frac2\pi\sum_{i,j}M_{ij}H(t_{ij})
+ \geq\frac2\pi\Gamma V(M).
+\]
+For each Gaussian outcome the signed sum is at most $S(M)$. Taking
+expectations proves the assertion, also when $V(M)=0$.
+\end{proof}
+
+\section{The complete coefficient calculation through degree 501}
+\subsection{One-dimensional moments and exact finite algebra}
+Differentiating the Hermite generating function gives
+\begin{equation}\label{eq:hermite-recurrence}
+ h_{k+1}(x)=\frac{xh_k(x)-\sqrt{k}h_{k-1}(x)}{\sqrt{k+1}},
+ \qquad h'_k(x)=\sqrt{k}\,h_{k-1}(x).
+\end{equation}
+For $a\geq0$, put $q_a(u)=\int\sgn(w+u)h_a(w)\dd\gamma(w)$.
+The identity $(h_{a-1}\phi)'=-\sqrt a\,h_a\phi$, including the
+vanishing boundary term at infinity, gives
+\begin{align}
+ q_0(u)&=\erf(u/\sqrt2),\nonumber\\
+ q_a(u)&=\sqrt{\frac2\pi}\,e^{-u^2/2}
+                      \frac{h_{a-1}(-u)}{\sqrt a}\quad(a\geq1),\label{eq:q}\\
+ q_{a+1}(u)&=\frac{-u\sqrt a\,q_a(u)-(a-1)q_{a-1}(u)}{\sqrt{a(a+1)}}
+                       \quad(a\geq1).\nonumber
+\end{align}
+Consequently
+\begin{equation}\label{eq:Aintegral}
+ A_{ab}=\int_\R h_b(x)q_a(L(x))\dd\gamma(x).
+\end{equation}
+For real $u$, Cauchy--Schwarz gives $|q_a(u)|\leq1$ for every $a$.
+Thus the entire omitted real Gaussian tail satisfies
+\begin{equation}\label{eq:moment-tail}
+ \abs{\int_{|x|>16}h_b(x)q_a(L(x))\dd\gamma(x)}
+ \leq\sqrt{\erfc(16/\sqrt2)}.
+\end{equation}
+For $a+b$ odd the integrand in (\ref{eq:Aintegral}) is even.
+
+We calculate every moment in
+\[
+ \mathcal I=\{(a,b)\in\mathbb Z_{\geq0}^2:a+b\leq501,
+                                      \ a+b\text{ odd}\}.
+\]
+There are $\sum_{r=0}^{250}(2r+2)=63252$ such moments. Since $P(0)=0$,
+$P(t)^at^b$ has order at least $a+b$. It follows rigorously that no
+moment outside $\mathcal I$ contributes to any coefficient of degree at
+most 501. In particular,
+\begin{equation}\label{eq:head-formula}
+ b_n=\frac\pi2\sum_{\substack{a,b\geq0\\a+b\leq n}}
+                (-1)^b A_{ab}^2[t^{n-b}]P(t)^a
+       \quad(1\leq n\leq501).
+\end{equation}
+All powers of $P$ may be computed in $\mathbb Q[t]/(t^{502})$; reduction
+modulo $t^{502}$ is a ring homomorphism. There are 251 odd coefficients
+$b_1,b_3,\ldots,b_{501}$, including $b_1$.
+
+\subsection{Nodes, weights, and a uniform quadrature remainder}
+We use 128 equal panels on $[0,16]$, with half-width $h=1/16$, and
+112-point Gauss--Legendre quadrature on each panel. To specify why the
+quadrature is rigorous, let $\mathcal P_s$ denote the Legendre polynomial
+with $\mathcal P_s(1)=1$. Rodrigues' formula, followed by integration by
+parts, gives orthogonality to polynomials of degree less than $s$ and
+$\int_{-1}^1\mathcal P_s^2=2/(2s+1)$. There are 112 disjoint rational
+brackets inside $(-1,1)$, with exactly checked opposite signs of
+$\mathcal P_{112}$ at their endpoints. Degree 112 therefore implies
+that they contain all its roots, each simple. For a root $z_i$, the
+Lagrange polynomial
+$\ell_i(x)=\mathcal P_{112}(x)/((x-z_i)\mathcal P'_{112}(z_i))$
+gives weights $w_i=\int_{-1}^1\ell_i^2>0$. Polynomial division by
+$\mathcal P_{112}$ shows that $\ell_i^2-\ell_i$ has integral zero,
+so $w_i=\int_{-1}^1\ell_i$. For any polynomial of degree at most 223,
+division gives a multiple of $\mathcal P_{112}$ with quotient of degree
+at most 111, plus an interpolating remainder of degree at most 111.
+Orthogonality and Lagrange interpolation therefore prove exactness
+through degree 223. The
+Christoffel--Darboux identity, obtained by telescoping the three-term
+Legendre recurrence, gives
+\begin{equation}\label{eq:weights}
+ w_i=\frac{2}{(1-z_i^2)\mathcal P'_{112}(z_i)^2},\qquad
+ \sum_iw_i=2.
+\end{equation}
+For completeness, the diagonal identity used here is
+\[
+ \sum_{k=0}^{s-1}\frac{2k+1}{2}\mathcal P_k(x)\mathcal P_k(y)
+ =\frac{s}{2}\frac{\mathcal P_s(x)\mathcal P_{s-1}(y)
+                         -\mathcal P_{s-1}(x)\mathcal P_s(y)}{x-y};
+\]
+at a root of $\mathcal P_s$, use
+$(1-z_i^2)\mathcal P'_s(z_i)=s\mathcal P_{s-1}(z_i)$.
+
+All root and weight evaluations use enclosing intervals. A midpoint
+derivative enclosure is enlarged by
+$\sup_{[-1,1]}|\mathcal P''_{112}|$ times the bracket radius. The exact
+bound is
+\[
+ \sup_{[-1,1]}|\mathcal P_s''|
+ \leq\frac{(s-1)s(s+1)(s+2)}8.
+\]
+Indeed $\mathcal P_s''=3C_{s-2}^{5/2}$; the generating function
+$(1-2xt+t^2)^{-5/2}$ and its factorization for $x=\cos\theta$ bound
+the absolute value of every coefficient by its value at $x=1$.
+Exact rational sign checks, disjointness checks, and further rational
+bisections independently enclose all nodes and the weights
+(\ref{eq:weights}). Initial floating-point guesses play no evidentiary role.
+
+We next bound the integrand on full complex ellipses, uniformly for all
+moments. For $0<\tau<1$ and $z=x+iy$, Mehler's identity implies
+\begin{equation}\label{eq:mehler}
+ \sum_{k\geq0}\tau^k|h_k(z)|^2
+ =(1-\tau^2)^{-1/2}
+     \exp\left(\frac{\tau x^2}{1+\tau}
+                    +\frac{\tau y^2}{1-\tau}\right).
+\end{equation}
+One direct justification, valid for complex $z$, uses the entire kernel
+\[
+ K_s(z,u)=\frac1{\sqrt{1-s^2}}
+ \exp\left(\frac{2szu-s^2(z^2+u^2)}{2(1-s^2)}\right),\quad s=\sqrt\tau.
+\]
+Gaussian integration of its product with the Hermite generating function
+shows that its Hermite coefficients in $u$ are $s^kh_k(z)$.
+It belongs to $L^2(\gamma(du))$ for each complex $z$. Completing the
+square in $\int|K_s(z,u)|^2\dd\gamma(u)$ and using Parseval gives
+(\ref{eq:mehler}), including its convergence assertion.
+
+Fix $N=501$, $\tau=99/100$, and $\rho=3/2$, and let
+$F_N=\tau^{-N/2}(1-\tau^2)^{-1/4}$. Dropping a term from
+(\ref{eq:mehler}) gives, for $b\leq N$,
+\begin{equation}\label{eq:hphi-bound}
+ |h_b(z)\phi(z)|\leq\frac{F_N}{\sqrt{2\pi}}
+ \exp\left(-\frac{(\Re z)^2}{2(1+\tau)}
+                  +\frac{(\Im z)^2}{2(1-\tau)}\right).
+\end{equation}
+Equation (\ref{eq:q}) gives the same exponential bound for $q_a(u)$,
+with prefactor $\sqrt{2/\pi}F_N$, when $1\leq a\leq N$.
+For $q_0$, integrate its derivative along a vertical segment to obtain
+\begin{equation}\label{eq:qzero-bound}
+ |q_0(u)|\leq1+\sqrt{2/\pi}|\Im u|
+                   \exp\bigl(((\Im u)^2-(\Re u)^2)/2\bigr).
+\end{equation}
+
+For a panel centered at $c=(2j+1)h$, define
+\[
+ x_r=h(\rho+\rho^{-1})/2,\quad y_r=h(\rho-\rho^{-1})/2,
+ \quad R=(x_r^2+y_r^2)^{1/2}.
+\]
+The closed Bernstein ellipse for this panel lies in
+$|\Re z-c|\leq x_r$, $|\Im z|\leq y_r$, $|z-c|\leq R$.
+Exact polynomial Taylor expansion bounds $|\Re L(z)|$ below by
+\[
+ U_c=\max\left\{0,|L(c)|-
+                       \sum_{k=1}^9\frac{|L^{(k)}(c)|R^k}{k!}\right\},
+\]
+and bounds $|\Im L(z)|$ above by
+\[
+ V_c=y_r\sum_{k=0}^8\frac{|L^{(k+1)}(c)|R^k}{k!}.
+\]
+The latter bound follows by integrating $L'$ along the vertical segment
+from $\Re z$ to $z$; $L$ is real on the real axis. Also
+$|\Re z|\geq X_c:=\max\{0,c-x_r\}$. Thus a uniform upper bound on
+$|h_b(z)q_a(L(z))\phi(z)|$ on the entire ellipse is
+\begin{align}\label{eq:Mj}
+ M_c={}&\frac{F_N}{\sqrt{2\pi}}
+ e^{-X_c^2/(2(1+\tau))+y_r^2/(2(1-\tau))}\nonumber\\
+ &\quad\cdot\max\left\{\sqrt{2/\pi}F_N
+ e^{-U_c^2/(2(1+\tau))+V_c^2/(2(1-\tau))},
+ 1+\sqrt{2/\pi}V_c e^{(V_c^2-U_c^2)/2}\right\}.
+\end{align}
+
+If an analytic function has absolute value at most $M$ on a Bernstein
+ellipse of parameter $\rho$, its Chebyshev coefficients of positive
+degree have absolute value at most $2M\rho^{-k}$, by the Cauchy formula
+after $z=(w+w^{-1})/2$. Truncation after degree 223 therefore has uniform
+error at most $2M\rho^{-224}/(1-\rho^{-1})$ on $[-1,1]$.
+Both integration and the positive Gauss rule have functional norm two
+on that interval. Exactness through degree 223 now bounds their
+difference by $8M\rho^{-224}/(1-\rho^{-1})$. Scaling each panel and
+doubling the half-line integral gives the uniform complete error
+\begin{equation}\label{eq:uniform-error}
+ E_A=\frac{16h\rho^{-224}}{1-\rho^{-1}}
+           \sum_{j=0}^{127}M_{(2j+1)h}
+           +\sqrt{\erfc(16/\sqrt2)}<4.121\cdot10^{-22}.
+\end{equation}
+The terms are evaluated with outward rounding, including all square
+roots and transcendental functions. The first term is less than
+$4.1200500\cdot10^{-22}$ and the second less than
+$3.574565\cdot10^{-29}$. This bound uses $N=501$ everywhere in
+$F_N$; it is not the degree-251 quadrature error.
+
+\subsection{Finite certificate and resulting coefficient inequalities}
+The accompanying certificate contains the 112 node enclosures, 128
+ellipse bounds, and 32 blocks of four panels each. Each block contains
+every index in $\mathcal I$. The blocks are summed with interval
+arithmetic, after which the symmetric error interval $[-E_A,E_A]$ is
+added once to each moment. No panel is omitted or repeated. The moment
+calculation uses 384-bit working precision, with 640 bits for initial
+node refinement. All decimal intervals are serialized as
+$(m\pm r)10^e$ with integer $m,r,e$ and are read with outward rounding.
+
+Formula (\ref{eq:head-formula}) is then evaluated in two ways: by
+interval power-series arithmetic and by exact rational powers of $P$
+followed by interval evaluation of the moment factors. Both contain
+every odd coefficient through 501 with its factor $(-1)^b$ unchanged.
+The exact rational implementation gives the strict outward inequalities
+\begin{equation}\label{eq:head-bounds}
+ b_1>B:=0.88182999999999823752,
+ \qquad \sum_{\substack{3\leq n\leq501\\n\ {\rm odd}}}|b_n|
+       <h_*:=0.000000001054.
+\end{equation}
+For orientation, the interval sum before this rational enlargement is
+$[1.0537295443\cdot10^{-9}\ \pm\ 5.65\cdot10^{-20}]$.
+Only the outward inequalities (\ref{eq:head-bounds}) are used below.
+
+\input{sobolev.tex}
+\input{conclusion.tex}
+\appendix
+\input{polynomial.tex}
+\input{certificate.tex}
+\input{references.tex}
+\end{document}

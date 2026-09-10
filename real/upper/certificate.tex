@@ -1,0 +1,86 @@
+\section{Certificate contents and reproduction}
+The accompanying directory \nolinkurl{reproducibility/} contains the exact
+input, the numerical programs, and the complete finite enclosures. Its
+\nolinkurl{immutable_manifest.json} specifies SHA-256 hashes for every
+unchanged numerical input, program, and certificate file. The following
+dependencies distinguish finite data from mathematical hypotheses.
+\begin{enumerate}
+\item The exact input is \nolinkurl{head/sources/candidate_rational.json}.
+Its polynomial coefficients are printed in (\ref{eq:L}) and
+Appendix~\ref{app:polynomial}. Its SHA-256 hash is
+\begin{quote}\small\ttfamily
+207b7ed03d6bc1fd44922863e361544bb87442d13801870f0a8bc6705e8a3040.
+\end{quote}
+Only the exact rational coefficient strings determine the polynomials;
+diagnostic fields in the file are not assumptions.
+\item The moment calculation uses \nolinkurl{head/run/gauss_nodes_112.json},
+\nolinkurl{head/run/head501_config.json}, and all 32 files in
+\nolinkurl{head/run/blocks/}. The merged file is
+\nolinkurl{head/run/head_moments_501.json}. Its full index set is
+$\mathcal I$; the complete quadrature and infinite remainders are
+(\ref{eq:uniform-error}) and (\ref{eq:moment-tail}). The configuration
+binds the input, source, node, and block parameters. Each block is bound
+to that configuration and contains exactly its prescribed four panels.
+\item The two complete composed coefficient files are
+\nolinkurl{head/run/forward_head_501.json} and
+\nolinkurl{head/evidence/independent_head.json}. Exact rational powers
+and the index proof in (\ref{eq:head-formula}) establish that no
+coefficient through degree 501 is missing. Moment arithmetic and the
+rational-power assembly use 384 bits; the separate interval-series
+assembly uses 160 bits. The exact node containment calculation uses
+rational arithmetic and does not accept approximate root locations.
+\item The norm calculation uses the files
+\nolinkurl{independent_integrals.json} and
+\nolinkurl{independent_circle.json} in \nolinkurl{norm/evidence/}.
+These contain all 266 integrals and all 512 closed panels with their
+14 terms, including the domain inequalities for each estimate.
+Equations (\ref{eq:S-integral})--(\ref{eq:S-tail}) justify the integral
+values and their complete errors; equations
+(\ref{eq:density-mass})--(\ref{eq:panel-majorant}) justify every other
+finite term. The filename and the auxiliary degree-251 tail field of
+the norm engine do not limit its derivative bound: its integral and
+circle calculations depend only on $L$, $P$, and derivative order four.
+The degree-501 tail is calculated separately from (\ref{eq:tail-final}).
+\item The file \nolinkurl{rational_certificate.json} contains every
+integer $k_j$ in (\ref{eq:rational-square}), the exact rational head
+endpoints, and all the rational inequalities
+(\ref{eq:Cmargin}) and (\ref{eq:tail-rational})--(\ref{eq:reciprocal}).
+It binds the coefficient, integral, and circle files by their hashes.
+The rational caps are at least both the saved panel majorants and
+independently re-summed products of all their saved term enclosures.
+\end{enumerate}
+
+The arithmetic implementation uses Python, python-flint 0.8.0, and
+FLINT 3.3.1. Its mathematical requirements are inclusion-preserving
+real and complex ball operations, correct exact rational arithmetic,
+and the certified integral algorithm described above. Floating-point
+Legendre initializers, approximate optimization data, stored success
+flags, and prior integral caches are not premises. SciPy is optional:
+if unavailable, stored node midpoints provide initial guesses, after
+which all brackets, signs, and weights are proved again.
+
+From the directory containing \nolinkurl{verify.py}, the command
+\begin{quote}\small\ttfamily
+python -B -u verify.py --output /tmp/real-upper-verification
+\end{quote}
+checks hashes and numerical bindings, reproduces the complete moment
+merge and the uniform error, verifies the nodes, reruns both coefficient
+assemblies, and recomputes all smoothing integrals and circle panels
+from an empty integral cache. It then checks the exact rational
+conclusion. Recomputed integral balls may have different endpoints
+because of adaptive subdivision or arithmetic versions; each must be a
+valid enclosure and must itself give $C_4<C_*$. In particular, the
+printed value of $Q$ specifies the supplied rational certificate and
+does not require bitwise equality of independently recomputed
+quadrature results.
+
+The separate program \nolinkurl{reproduce.py} initializes new nodes and
+quadrature errors and recomputes every moment block, with one file per
+block so that interruptions can be resumed. It then performs both
+assemblies, a new integral and circle calculation, and the rational
+comparison. It neither installs software nor acquires computational
+resources. Its command-line options and complete reproduction commands
+are in \nolinkurl{README.txt} and \nolinkurl{commands.txt}. The proof of the
+infinite coefficient bound is the regularity and Parseval argument in
+the main text; no finite file or numerical sample substitutes for that
+argument.

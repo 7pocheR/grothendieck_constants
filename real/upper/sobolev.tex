@@ -1,0 +1,374 @@
+\section{Regularity and a bound on the entire unit circle}
+Let $D=z\,d/dz$. Since $d/d\theta=iD$ on a circle, the fourth
+angular derivative is exactly $D^4$. We will prove
+\begin{equation}\label{eq:C4}
+ \left(\frac1{2\pi}\int_0^{2\pi}|D^4H(e^{i\theta})|^2\dd\theta\right)^{1/2}
+ <C_*:=24744.587741.
+\end{equation}
+Two different estimates for the mixed derivatives of $F$ are used on
+closed angular intervals. Before giving the numerical estimates, we
+establish the boundary regularity needed to interpret this integral and
+to pass from it to coefficient bounds.
+
+\subsection{Gaussian smoothing in one coordinate}
+For $0<r<1$, put $v=1-r$ and
+\[
+ G_r(w,x)=\E_Z f(\sqrt r\,w+\sqrt{1-r}\,Z,x)
+ =\erf\left(\frac{\sqrt r\,w+L(x)}{\sqrt{2v}}\right).
+\]
+Here $Z$ is an independent standard real Gaussian. The generating
+function or (\ref{eq:hermite-correlation}) shows that $G_r$ has Hermite
+coefficient $r^{j/2}A_{jk}$. For nonnegative $p,q$ with $p+q\geq1$ define
+\begin{equation}\label{eq:Spq}
+ S_{pq}(r)=r^{-p}\norm{\partial_w^p\partial_x^qG_r}_{L^2(\gamma^2)}^2
+ =\sum_{j,k}\fall{j}{p}\fall{k}{q}r^{j-p}A_{jk}^2,
+\end{equation}
+where $(j)_p=j!/(j-p)!$ if $j\geq p$ and is zero otherwise.
+To justify this identity without assuming differentiability of $f$, note
+that every fixed derivative of the explicit smooth function $G_r$ is a
+polynomial in $w,x$ times a Gaussian in $\sqrt r\,w+L(x)$. It and all
+lower derivatives have at most polynomial growth and belong to
+$L^2(\gamma^2)$. Gaussian integration by parts therefore has vanishing
+boundary terms. It identifies the Hermite coefficients of the derivative
+as the shifted coefficients of $G_r$ multiplied by
+$\sqrt{(j)_p(k)_q}$. Completeness and Parseval prove
+(\ref{eq:Spq}), including finiteness.
+
+Termwise differentiation of (\ref{eq:F}) now gives
+\begin{equation}\label{eq:smoothing-bound}
+ |\partial_\alpha^p\partial_\beta^qF(\alpha,\beta)|
+ \leq\frac\pi2 S_{pq}(r),\qquad |\alpha|\leq r,\quad |\beta|\leq1.
+\end{equation}
+The differentiated series converges absolutely and uniformly on this
+set, by (\ref{eq:Spq}); terms with insufficient indices vanish. Taking
+$r=(1+\rho_0)/2$ and using $|P(z)|\leq\rho_0$ on $|z|\leq1$ proves
+that every mixed derivative needed through order four is continuous
+after composition on the closed disk. The chain rule consequently gives
+a continuous boundary value for $D^4H$, with uniform convergence of
+$D^4H(se^{i\theta})$ as $s\uparrow1$. This includes $z=1$ and $z=-1$.
+This qualitative argument requires no numerical evaluation at the
+parameter $(1+\rho_0)/2$.
+
+We next give an explicit finite calculation of $S_{pq}(r)$ for
+$1\leq p+q\leq4$. Put $T=\sqrt r\,w+L(x)$ and
+$\psi(T)=\erf(T/\sqrt{2v})$. For $d\geq1$,
+\[
+ \psi^{(d)}(T)=\sqrt{2/\pi}\,v^{-1/2}e^{-T^2/(2v)}U_d(T),
+ \qquad U_d(T)=(-1)^{d-1}v^{-(d-1)/2}\He_{d-1}(T/\sqrt v).
+\]
+In particular,
+\[
+ U_1=1,\quad U_2=-T/v,\quad U_3=T^2/v^2-1/v,
+ \quad U_4=-T^3/v^3+3T/v^2.
+\]
+The chain rule gives
+\begin{equation}\label{eq:R}
+ \partial_w^p\partial_x^qG_r
+ =r^{p/2}\sqrt{2/\pi}\,v^{-1/2}e^{-T^2/(2v)}R_{pq}(x,T),
+ \quad R_{pq}=\sum_k B_{qk}U_{p+k}.
+\end{equation}
+Here $B_{00}=1$; for $q>0$ the nonzero Bell polynomials are
+\begin{align*}
+ B_{11}&=L',\\
+ B_{21}&=L'',&B_{22}&=(L')^2,\\
+ B_{31}&=L''',&B_{32}&=3L'L'',&B_{33}&=(L')^3,\\
+ B_{41}&=L'''',&B_{42}&=4L'L'''+3(L'')^2,&
+ B_{43}&=6(L')^2L'',&B_{44}&=(L')^4.
+\end{align*}
+These identities follow by differentiating the previous row and
+collecting derivatives of $\psi$; no asymptotic chain rule is involved.
+Only $p+k\geq1$ occurs when $p+q\geq1$.
+
+For any polynomial $Q_0$ and fixed real $x$, completing the square in the
+$w$ integral proves
+\begin{equation}\label{eq:tilt}
+ \E_w[e^{-T^2/v}Q_0(T)]
+ =\sqrt{\frac v{1+r}}e^{-L(x)^2/(1+r)}\E[Q_0(Y)],
+ \quad Y\sim N\left(\frac{vL(x)}{1+r},\frac{rv}{1+r}\right).
+\end{equation}
+Indeed the original density has variance $r$ and mean $L(x)$ in the
+$T$ coordinate; adding $T^2/v$ to its exponent gives the stated mean,
+variance, and normalizing factor. The moments of $Y$, with mean $\mu$
+and variance $\sigma^2$, are exactly
+\begin{equation}\label{eq:tilted-moments}
+ \E Y^d=\sum_{\ell=0}^{\lfloor d/2\rfloor}
+ \frac{d!}{2^\ell\ell!(d-2\ell)!}\sigma^{2\ell}\mu^{d-2\ell},
+\end{equation}
+as follows by expanding $\exp(\mu t+\sigma^2t^2/2)$.
+With the real polynomial
+$Q_{pq}(x)=\E[R_{pq}(x,Y)^2]$, equations
+(\ref{eq:Spq})--(\ref{eq:tilted-moments}) give
+\begin{equation}\label{eq:S-integral}
+ S_{pq}(r)=\frac{2}{\pi\sqrt{1-r^2}}
+       \int_\R Q_{pq}(x)e^{-L(x)^2/(1+r)}\dd\gamma(x).
+\end{equation}
+This polynomial is even, is nonnegative on the real line, and has degree
+at most 118 in the cases used here. Its coefficients need not be
+nonnegative. Evenness also follows directly from simultaneous sign
+change of $w,x$ in the squared derivative in (\ref{eq:R}).
+
+There is a second way to construct exactly the same polynomial, used in
+the accompanying implementation. For polynomials in $T$ with polynomial
+coefficients in $x$, let
+\[
+ \mathcal T R=\partial_T R-TR/v,\qquad
+ \mathcal X R=\partial_xR+L'(x)\mathcal T R.
+\]
+If $p>0$, start from $1$, apply $\mathcal T$ a total of $p-1$ times,
+then $\mathcal X$ a total of $q$ times. If $p=0$, start from $L'$ and
+apply $\mathcal X$ a total of $q-1$ times. Differentiating
+$e^{-T^2/(2v)}R$ verifies these rules directly. Squaring the result and
+using (\ref{eq:tilted-moments}) gives $Q_{pq}$, providing a finite
+construction independent of the Bell polynomial listing.
+
+\subsection{The complete error for the smoothing integrals}
+Every finite integral in (\ref{eq:S-integral}) is evaluated on $[0,16]$
+as the sum of the 16 integrals on $[j,j+1]$, then doubled. The complex
+integrand supplied to the interval integrator is the entire function
+\begin{equation}\label{eq:entire-S}
+ J(z)=\frac{2Q_{pq}(z)}{\pi\sqrt{1-r^2}\sqrt{2\pi}}
+       \exp\left(-\frac{L(z)^2}{1+r}-\frac{z^2}{2}\right).
+\end{equation}
+In particular, the square in this formula is the analytic square, not a
+complex absolute square. Enclosing polynomial coefficients enclose the
+exact algebraic coefficients of $L$ and $Q_{pq}$.
+
+The finite-interval calculation uses the certified complex integration
+algorithm in Arb/FLINT~\cite{arb,integration,flintcalc}. Its adaptive
+Gauss--Legendre rule encloses the integrand on a full complex ellipse;
+it accepts a quadrature result only with a rigorous remainder. For an
+ellipse of parameter $\rho>1$, maximum bound $M$, and $s$ nodes, the
+bound used by that algorithm on $[-1,1]$ is
+\begin{equation}\label{eq:library-error}
+ \frac{64M}{15(\rho-1)\rho^{2s-1}}.
+\end{equation}
+It is the analytic Gauss--Legendre remainder bound implemented in the
+cited algorithm; scaling by the interval half-width gives the bound on
+a subinterval. A fully elementary, more conservative remainder
+$8M\rho^{-2s}/(1-\rho^{-1})$ follows from the Chebyshev proof above and
+also explains why such enclosing quadratures converge here. Subdivision
+adds enclosing integrals and their errors, rather than extrapolating
+point samples. Direct integration enclosures on small intervals are
+also permitted by the algorithm. All calls use 384-bit arithmetic,
+relative tolerance $10^{-18}$, absolute tolerance $10^{-20}$, and an
+evaluation limit of $10^6$; these tolerances request accuracy and are
+not themselves claimed as error bounds. Only the returned finite
+enclosures are used. Entire analyticity of (\ref{eq:entire-S}) validates
+every analyticity query and every ellipse bound required by the
+integrator. The mathematical dependence here is the proved enclosing
+quadrature algorithm and the inclusion property of ball arithmetic,
+not an uncertified numerical integration routine.
+
+The infinite remainder is bounded separately. Write
+$L(x)=\sum_{k=0}^9\lambda_k x^k$. The coefficient enclosures prove
+\begin{equation}\label{eq:Ltail}
+ \sum_{k<9}|\lambda_k|16^{k-9}<\frac{|\lambda_9|}{2},
+ \qquad c:=10^{-6}<\frac{|\lambda_9|}{2}.
+\end{equation}
+Hence $|L(x)|\geq c|x|^9$ for $|x|\geq16$. If
+$m=\deg Q_{pq}$, the further checked inequality
+\[
+ \frac{18c^2 16^{18}}{1+r}>m
+\]
+shows that $x^ke^{-c^2x^{18}/(1+r)}$ decreases for $x\geq16$ and
+every $0\leq k\leq m$. Therefore the entire two-sided omitted integral
+in (\ref{eq:S-integral}) is at most
+\begin{equation}\label{eq:S-tail}
+ \frac{2}{\pi\sqrt{1-r^2}}
+   \left(\sum_{k=0}^m|[x^k]Q_{pq}|16^k\right)
+       e^{-c^2 16^{18}/(1+r)}<2^{-100}.
+\end{equation}
+In deriving this bound we used only that the Gaussian measure of
+$\{|x|>16\}$ is at most one, so both tails are included. A symmetric
+interval of this radius is added to twice the finite real integral.
+All 266 required integral records contain the finite integral enclosure,
+this tail bound, and the positive margins in (\ref{eq:Ltail}) and the
+monotonicity test. These records are computed from an empty integral
+cache.
+
+\subsection{Mixed derivative bounds from complex Gaussian densities}
+For $z\in\C$ with $|\Re z|<1$, the analytic continuation of a correlated
+Gaussian density, after the real orthogonal change of variables
+$U=(x+y)/\sqrt2$, $V=(x-y)/\sqrt2$, is
+\[
+ k_z(U,V)=\frac{1}{2\pi\sqrt{1+z}\sqrt{1-z}}
+       \exp\left(-\frac{U^2}{2(1+z)}-\frac{V^2}{2(1-z)}\right).
+\]
+Each square root is its analytic branch in the right half-plane.
+On compact subsets of the strip the real parts of the inverse variances
+are positive and uniformly bounded below. Thus this density and every
+fixed parameter derivative have an integrable Gaussian majorant times
+a polynomial. Differentiation of its integral against bounded real
+functions is justified by dominated convergence and defines a
+holomorphic function.
+
+Let $d_0(z)=\int_{\R^2}|k_z|$. Completing two real Gaussian integrals
+gives
+\begin{equation}\label{eq:density-mass}
+ d_0(z)=\sqrt{\frac{|1+z|\,|1-z|}{1-(\Re z)^2}},\quad
+ v_U=\frac{|1+z|^2}{1+\Re z},\quad
+ v_V=\frac{|1-z|^2}{1-\Re z}.
+\end{equation}
+The probability density $|k_z|/d_0(z)$ is that of independent centered
+real Gaussians with variances $v_U,v_V$. To compute derivatives write
+$\partial_z^p k_z=k_z T_p(U,V;z)$. One explicit formula is
+\begin{align}
+ R_j(v,u)&=\sum_{\ell=0}^j
+ \frac{(2j)!(-1)^{j-\ell}}{2^{2j-\ell}(j-\ell)!(2\ell)!}
+                       v^{-j-\ell}u^{2\ell},\nonumber\\
+ T_p&=\sum_{j=0}^p\binom pj(-1)^{p-j}
+                          R_j(1+z,U)R_{p-j}(1-z,V).\label{eq:density-poly}
+\end{align}
+For a one-dimensional Gaussian density, the heat equation
+$\partial_v=\tfrac12\partial_u^2$ and the Hermite formula for its
+spatial derivatives prove $R_j$. The product rule and
+$\partial_z(1-z)=-1$ then prove (\ref{eq:density-poly}).
+Cauchy--Schwarz under the probability law just described gives
+\begin{equation}\label{eq:density-bound}
+ \norm{\partial_z^pk_z}_{L^1(\R^2)}
+ \leq d_p(z):=d_0(z)\sqrt{\E|T_p(U,V;z)|^2}.
+\end{equation}
+All expectations here are finite polynomial Gaussian moments, without
+any integral truncation.
+
+For an alternative exact construction, the $k$th logarithmic derivative
+$\ell_k=\partial_z^k\log k_z$ has constant, $U^2$, and $V^2$
+coefficients respectively
+\begin{align*}
+ &\frac{(-1)^k(k-1)!}{2(1+z)^k}
+           +\frac{(k-1)!}{2(1-z)^k},\\
+ &\frac{(-1)^{k+1}k!}{2(1+z)^{k+1}},\qquad
+           -\frac{k!}{2(1-z)^{k+1}}.
+\end{align*}
+Starting with $T_0=1$, the finite recurrence
+\[
+ T_m=\sum_{k=1}^m\binom{m-1}{k-1}\ell_kT_{m-k}
+\]
+is obtained by differentiating an exponential generating function for
+$k_{z+t}/k_z$. It is the construction used in the independent
+implementation. To evaluate its squared norm without a cancellation
+assumption, rescale $U=\sqrt{v_U}\,u$, $V=\sqrt{v_V}\,v$, and use
+\[
+ u^{2k}=\sum_{i=0}^k
+ \frac{(2k)!}{2^{k-i}(k-i)!(2i)!}\He_{2i}(u).
+\]
+This identity follows by comparing coefficients in the Hermite
+generating function multiplied by $e^{t^2/2}$. If the resulting
+polynomial is $\sum_{i,j}c_{ij}\He_{2i}(u)\He_{2j}(v)$, then
+\[
+ \E|T_p|^2=\sum_{i,j}|c_{ij}|^2(2i)!(2j)!.
+\]
+Thus all complex conjugations occur only in a finite nonnegative square
+norm, not in the analytic density or its derivative.
+
+Using independent copies of the correlated density for the $W$ and $X$
+coordinates, boundedness $|fg|\leq1$ gives
+\begin{equation}\label{eq:mixed-density}
+ |\partial_\alpha^p\partial_\beta^qF(\alpha,\beta)|
+ \leq\frac\pi2d_p(\alpha)d_q(\beta),
+ \qquad |\Re\alpha|,|\Re\beta|<1.
+\end{equation}
+To identify this analytic function with (\ref{eq:F}), first note their
+equality on the real open square of correlations. Fixing a real second
+coordinate and using the one-variable identity theorem, then fixing a
+complex first coordinate and repeating, proves equality in the open
+bidisk. At boundary points within the strip, the derivatives agree with
+the continuous limits established by (\ref{eq:Spq}). This proves that
+(\ref{eq:mixed-density}) bounds the same derivatives used by the
+coefficient argument.
+
+\subsection{Angular chain rule and complete interval coverage}
+For $s\geq0$ write
+\[
+ D^sH(z)=\sum_{p,q}c^{(s)}_{pq}(z)
+               (\partial_\alpha^p\partial_\beta^qF)(P(z),z).
+\]
+These are exact rational polynomial coefficients. For example they are
+given by the finite formula
+\begin{equation}\label{eq:angular-jets}
+ c^{(s)}_{pq}(z)=\frac{s!}{p!q!}[u^s]
+             (P(ze^u)-P(z))^p(ze^u-z)^q.
+\end{equation}
+Taylor's formula for $F(P(ze^u),ze^u)$ proves this identity in the open
+disk. It can also be computed recursively, with out-of-range indices
+zero, from
+\begin{equation}\label{eq:angular-rec}
+ c^{(0)}_{00}=1,\qquad
+ c^{(s+1)}_{pq}=D c^{(s)}_{pq}+(DP)c^{(s)}_{p-1,q}+z c^{(s)}_{p,q-1}.
+\end{equation}
+For $s=4$ the nonzero indices are precisely
+$p,q\geq0$, $1\leq p+q\leq4$, a set of 14 elements. All these
+polynomials are computed over $\mathbb Q$, so the finite chain rule
+contains no numerical differentiation error.
+
+Divide the first quadrant into the 512 closed intervals
+\[
+ I_j=[j\pi/1024,(j+1)\pi/1024],\qquad 0\leq j<512.
+\]
+Interval sine and cosine of $kI_j$ enclose $z^k=e^{ik\theta}$ for
+every $\theta\in I_j$. This yields enclosures for $P(z)$ and all
+$c^{(4)}_{pq}(z)$ on each whole interval. A smoothing bound is available
+whenever the enclosure proves $|P(z)|<r$ for one of
+$r=78/100,79/100,\ldots,97/100$. A density bound is available when
+both $|\Re P(z)|<1$ and $|\Re z|<1$ are proved by the same interval
+enclosures. Every panel has at least one available estimate. Where
+both are available, their smaller upper bound may be used separately
+for each $(p,q)$. The intervals touching $z=1$ are covered by smoothing;
+the density estimate is not asserted at its singular endpoint.
+
+Let $U_{j,pq}$ be such an upper bound for
+$(2/\pi)|\partial_\alpha^p\partial_\beta^qF|$, and let $C_{j,pq}$
+bound $|c^{(4)}_{pq}|$. Then
+\begin{equation}\label{eq:panel-majorant}
+ |D^4H(e^{i\theta})|\leq M_j:=\frac\pi2
+             \sum_{1\leq p+q\leq4}C_{j,pq}U_{j,pq}
+             \quad(\theta\in I_j).
+\end{equation}
+The circle certificate records all $512\cdot14=7168$ terms, each
+chosen method, and its domain inequalities. Exactly 266 smoothing
+integrals are required: all 14 indices at each of the 19 parameters
+$79/100,\ldots,97/100$. These are the integrals bounded in
+(\ref{eq:S-integral})--(\ref{eq:S-tail}).
+
+Real coefficients and oddness imply
+$D^4H(\bar z)=\overline{D^4H(z)}$ and $D^4H(-z)=-D^4H(z)$.
+The four quadrants therefore give equal contributions to its squared
+norm. Round each $M_j$ upwards to $\widehat M_j=k_j/10^8$ with
+integer $k_j$. The complete list of these 512 rational upper bounds is
+included in the certificate. Summing their exact rational squares gives
+\begin{equation}\label{eq:rational-square}
+ \frac1{2\pi}\int_0^{2\pi}|D^4H(e^{i\theta})|^2\dd\theta
+ \leq\frac1{512}\sum_{j=0}^{511}\widehat M_j^2
+ =Q:=\frac{1567474233421402382277578179}{2560000000000000000}.
+\end{equation}
+The explicit strict rational comparison
+\begin{equation}\label{eq:Cmargin}
+ C_*^2-Q=\frac{107039174409781821}{2560000000000000000}>0
+\end{equation}
+proves (\ref{eq:C4}). The bounds concern complete angular intervals,
+not samples of the circle.
+
+\section{The coefficient tail and the exact numerical conclusion}
+For $0<s<1$, ordinary Fourier Parseval applied to the power series gives
+\[
+ \frac1{2\pi}\int_0^{2\pi}|D^4H(se^{i\theta})|^2\dd\theta
+       =\sum_{n\geq0}n^8|b_n|^2s^{2n}.
+\]
+The continuous boundary extension proved above permits passage to the
+limit on the left by uniform convergence. Monotone convergence of the
+nonnegative series gives the limit on the right. Hence
+\begin{equation}\label{eq:parseval-boundary}
+ \sum_{n\geq0}n^8|b_n|^2
+ =\frac1{2\pi}\int_0^{2\pi}|D^4H(e^{i\theta})|^2\dd\theta<C_*^2.
+\end{equation}
+For every positive odd $N$, Cauchy--Schwarz and the decreasing function
+$(N+2x)^{-8}$ show that
+\begin{align}
+ \sum_{\substack{n>N\\n\ {\rm odd}}}|b_n|
+ &\leq\left(\sum_{n>N}n^8|b_n|^2\right)^{1/2}
+        \left(\sum_{k=1}^{\infty}(N+2k)^{-8}\right)^{1/2}\nonumber\\
+ &<\frac{C_*}{\sqrt{14N^7}},\label{eq:tail-final}
+\end{align}
+because the latter sum is at most
+$\int_0^\infty(N+2x)^{-8}\dd x=1/(14N^7)$.
+For $N=501$ the first omitted coefficient is $b_{503}$.

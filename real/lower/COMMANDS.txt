@@ -1,0 +1,6 @@
+python3 -B check_final_exact_02.py
+python3 -B check_certificate_arithmetic_02.py
+python3 -B check_fibers.py inventory --evidence inputs/fibers --output verification/fibers
+
+python3 -B run_fiber_replay.py --evidence inputs/fibers --output verification/fibers_fresh --workers 2 --seconds-per-part 1200
+python3 -B run_scalar_replay.py --campaign inputs/scalar_campaign --output verification/scalars_fresh --workers 2 --seconds-per-part 1200

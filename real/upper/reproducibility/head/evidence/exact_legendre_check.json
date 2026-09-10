@@ -1,0 +1,682 @@
+{
+  "input_sha256": "207b7ed03d6bc1fd44922863e361544bb87442d13801870f0a8bc6705e8a3040",
+  "checker_sha256": "779293edaea3bf621992ff955bf767d4ec1d3f16ad19dee3a889e6c695505c9b",
+  "precision_bits": 384,
+  "degree": 112,
+  "all_disjoint": true,
+  "all_in_minus1_1": true,
+  "records": [
+    {
+      "index": 0,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 1,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 2,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 3,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 4,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 5,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 6,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 7,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 8,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 9,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 10,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 11,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 12,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 13,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 14,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 15,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 16,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 17,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 18,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 19,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 20,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 21,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 22,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 23,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 24,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 25,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 26,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 27,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 28,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 29,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 30,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 31,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 32,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 33,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 34,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 35,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 36,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 37,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 38,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 39,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 40,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 41,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 42,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 43,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 44,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 45,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 46,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 47,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 48,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 49,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 50,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 51,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 52,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 53,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 54,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 55,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 56,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 57,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 58,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 59,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 60,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 61,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 62,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 63,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 64,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 65,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 66,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 67,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 68,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 69,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 70,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 71,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 72,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 73,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 74,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 75,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 76,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 77,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 78,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 79,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 80,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 81,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 82,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 83,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 84,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 85,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 86,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 87,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 88,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 89,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 90,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 91,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 92,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 93,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 94,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 95,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 96,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 97,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 98,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 99,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 100,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 101,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 102,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 103,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 104,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 105,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 106,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 107,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 108,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 109,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    },
+    {
+      "index": 110,
+      "left_sign": 1,
+      "right_sign": -1,
+      "positive_weight": true
+    },
+    {
+      "index": 111,
+      "left_sign": -1,
+      "right_sign": 1,
+      "positive_weight": true
+    }
+  ]
+}

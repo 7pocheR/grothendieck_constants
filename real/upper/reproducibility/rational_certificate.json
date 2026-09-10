@@ -1,0 +1,2595 @@
+{
+  "head_sha256": "60adc0c1c440a4589d82320bfe0b2bf4db3f6b281fa35351c8bd34aa97d8ec50",
+  "norm_sha256": "bf8f69c462a2a346ee29949d7623da1d31a2e03aba0093060b9e20494f7dccb8",
+  "integrals_sha256": "f4862c11042615e68dd7e07a2ba0b607f17f6cebd478289e75d0289f3f42b3f2",
+  "checker_sha256": "c61363a91bd08c019849cf265ef5317e8c0ec2950bf98faa8d8b1feb3605172c",
+  "panel_count": 512,
+  "panel_caps": [
+    {
+      "panel": 0,
+      "upper_numerator": 465104583433,
+      "denominator": 100000000
+    },
+    {
+      "panel": 1,
+      "upper_numerator": 465222807667,
+      "denominator": 100000000
+    },
+    {
+      "panel": 2,
+      "upper_numerator": 465341791354,
+      "denominator": 100000000
+    },
+    {
+      "panel": 3,
+      "upper_numerator": 465461457711,
+      "denominator": 100000000
+    },
+    {
+      "panel": 4,
+      "upper_numerator": 465581730019,
+      "denominator": 100000000
+    },
+    {
+      "panel": 5,
+      "upper_numerator": 465702531470,
+      "denominator": 100000000
+    },
+    {
+      "panel": 6,
+      "upper_numerator": 465823785443,
+      "denominator": 100000000
+    },
+    {
+      "panel": 7,
+      "upper_numerator": 465945425624,
+      "denominator": 100000000
+    },
+    {
+      "panel": 8,
+      "upper_numerator": 466067388269,
+      "denominator": 100000000
+    },
+    {
+      "panel": 9,
+      "upper_numerator": 466189599846,
+      "denominator": 100000000
+    },
+    {
+      "panel": 10,
+      "upper_numerator": 466311993232,
+      "denominator": 100000000
+    },
+    {
+      "panel": 11,
+      "upper_numerator": 466434504491,
+      "denominator": 100000000
+    },
+    {
+      "panel": 12,
+      "upper_numerator": 466557075042,
+      "denominator": 100000000
+    },
+    {
+      "panel": 13,
+      "upper_numerator": 466679674677,
+      "denominator": 100000000
+    },
+    {
+      "panel": 14,
+      "upper_numerator": 466802290630,
+      "denominator": 100000000
+    },
+    {
+      "panel": 15,
+      "upper_numerator": 466924887471,
+      "denominator": 100000000
+    },
+    {
+      "panel": 16,
+      "upper_numerator": 467047408842,
+      "denominator": 100000000
+    },
+    {
+      "panel": 17,
+      "upper_numerator": 467169783718,
+      "denominator": 100000000
+    },
+    {
+      "panel": 18,
+      "upper_numerator": 467293268257,
+      "denominator": 100000000
+    },
+    {
+      "panel": 19,
+      "upper_numerator": 467416930575,
+      "denominator": 100000000
+    },
+    {
+      "panel": 20,
+      "upper_numerator": 467540491378,
+      "denominator": 100000000
+    },
+    {
+      "panel": 21,
+      "upper_numerator": 467663918873,
+      "denominator": 100000000
+    },
+    {
+      "panel": 22,
+      "upper_numerator": 467787189792,
+      "denominator": 100000000
+    },
+    {
+      "panel": 23,
+      "upper_numerator": 467910294827,
+      "denominator": 100000000
+    },
+    {
+      "panel": 24,
+      "upper_numerator": 468033212906,
+      "denominator": 100000000
+    },
+    {
+      "panel": 25,
+      "upper_numerator": 468155914339,
+      "denominator": 100000000
+    },
+    {
+      "panel": 26,
+      "upper_numerator": 468278396102,
+      "denominator": 100000000
+    },
+    {
+      "panel": 27,
+      "upper_numerator": 468400674022,
+      "denominator": 100000000
+    },
+    {
+      "panel": 28,
+      "upper_numerator": 468522713290,
+      "denominator": 100000000
+    },
+    {
+      "panel": 29,
+      "upper_numerator": 468644493425,
+      "denominator": 100000000
+    },
+    {
+      "panel": 30,
+      "upper_numerator": 468766013833,
+      "denominator": 100000000
+    },
+    {
+      "panel": 31,
+      "upper_numerator": 468887601247,
+      "denominator": 100000000
+    },
+    {
+      "panel": 32,
+      "upper_numerator": 469008868082,
+      "denominator": 100000000
+    },
+    {
+      "panel": 33,
+      "upper_numerator": 469129792712,
+      "denominator": 100000000
+    },
+    {
+      "panel": 34,
+      "upper_numerator": 469250340790,
+      "denominator": 100000000
+    },
+    {
+      "panel": 35,
+      "upper_numerator": 469370516694,
+      "denominator": 100000000
+    },
+    {
+      "panel": 36,
+      "upper_numerator": 469490271921,
+      "denominator": 100000000
+    },
+    {
+      "panel": 37,
+      "upper_numerator": 469609554244,
+      "denominator": 100000000
+    },
+    {
+      "panel": 38,
+      "upper_numerator": 469728308643,
+      "denominator": 100000000
+    },
+    {
+      "panel": 39,
+      "upper_numerator": 469846534201,
+      "denominator": 100000000
+    },
+    {
+      "panel": 40,
+      "upper_numerator": 469964215515,
+      "denominator": 100000000
+    },
+    {
+      "panel": 41,
+      "upper_numerator": 470081270415,
+      "denominator": 100000000
+    },
+    {
+      "panel": 42,
+      "upper_numerator": 556680015912,
+      "denominator": 100000000
+    },
+    {
+      "panel": 43,
+      "upper_numerator": 556814448303,
+      "denominator": 100000000
+    },
+    {
+      "panel": 44,
+      "upper_numerator": 556948037912,
+      "denominator": 100000000
+    },
+    {
+      "panel": 45,
+      "upper_numerator": 557080744258,
+      "denominator": 100000000
+    },
+    {
+      "panel": 46,
+      "upper_numerator": 557212537056,
+      "denominator": 100000000
+    },
+    {
+      "panel": 47,
+      "upper_numerator": 557343643124,
+      "denominator": 100000000
+    },
+    {
+      "panel": 48,
+      "upper_numerator": 557473760811,
+      "denominator": 100000000
+    },
+    {
+      "panel": 49,
+      "upper_numerator": 557602876518,
+      "denominator": 100000000
+    },
+    {
+      "panel": 50,
+      "upper_numerator": 557730944485,
+      "denominator": 100000000
+    },
+    {
+      "panel": 51,
+      "upper_numerator": 557858091819,
+      "denominator": 100000000
+    },
+    {
+      "panel": 52,
+      "upper_numerator": 557984544429,
+      "denominator": 100000000
+    },
+    {
+      "panel": 53,
+      "upper_numerator": 558109947174,
+      "denominator": 100000000
+    },
+    {
+      "panel": 54,
+      "upper_numerator": 558234288163,
+      "denominator": 100000000
+    },
+    {
+      "panel": 55,
+      "upper_numerator": 558357535287,
+      "denominator": 100000000
+    },
+    {
+      "panel": 56,
+      "upper_numerator": 558479683311,
+      "denominator": 100000000
+    },
+    {
+      "panel": 57,
+      "upper_numerator": 558601971381,
+      "denominator": 100000000
+    },
+    {
+      "panel": 58,
+      "upper_numerator": 558723969149,
+      "denominator": 100000000
+    },
+    {
+      "panel": 59,
+      "upper_numerator": 558844872048,
+      "denominator": 100000000
+    },
+    {
+      "panel": 60,
+      "upper_numerator": 558964697108,
+      "denominator": 100000000
+    },
+    {
+      "panel": 61,
+      "upper_numerator": 559083448181,
+      "denominator": 100000000
+    },
+    {
+      "panel": 62,
+      "upper_numerator": 559201137841,
+      "denominator": 100000000
+    },
+    {
+      "panel": 63,
+      "upper_numerator": 559317774609,
+      "denominator": 100000000
+    },
+    {
+      "panel": 64,
+      "upper_numerator": 559434134769,
+      "denominator": 100000000
+    },
+    {
+      "panel": 65,
+      "upper_numerator": 559550264525,
+      "denominator": 100000000
+    },
+    {
+      "panel": 66,
+      "upper_numerator": 559665425115,
+      "denominator": 100000000
+    },
+    {
+      "panel": 67,
+      "upper_numerator": 559779641381,
+      "denominator": 100000000
+    },
+    {
+      "panel": 68,
+      "upper_numerator": 559892931860,
+      "denominator": 100000000
+    },
+    {
+      "panel": 69,
+      "upper_numerator": 560005346638,
+      "denominator": 100000000
+    },
+    {
+      "panel": 70,
+      "upper_numerator": 560116895661,
+      "denominator": 100000000
+    },
+    {
+      "panel": 71,
+      "upper_numerator": 560227581629,
+      "denominator": 100000000
+    },
+    {
+      "panel": 72,
+      "upper_numerator": 560337440360,
+      "denominator": 100000000
+    },
+    {
+      "panel": 73,
+      "upper_numerator": 560448344769,
+      "denominator": 100000000
+    },
+    {
+      "panel": 74,
+      "upper_numerator": 560561790905,
+      "denominator": 100000000
+    },
+    {
+      "panel": 75,
+      "upper_numerator": 560674386809,
+      "denominator": 100000000
+    },
+    {
+      "panel": 76,
+      "upper_numerator": 560786140023,
+      "denominator": 100000000
+    },
+    {
+      "panel": 77,
+      "upper_numerator": 560897098028,
+      "denominator": 100000000
+    },
+    {
+      "panel": 78,
+      "upper_numerator": 561007278194,
+      "denominator": 100000000
+    },
+    {
+      "panel": 79,
+      "upper_numerator": 561116687253,
+      "denominator": 100000000
+    },
+    {
+      "panel": 80,
+      "upper_numerator": 561225320350,
+      "denominator": 100000000
+    },
+    {
+      "panel": 81,
+      "upper_numerator": 670304906938,
+      "denominator": 100000000
+    },
+    {
+      "panel": 82,
+      "upper_numerator": 670427773773,
+      "denominator": 100000000
+    },
+    {
+      "panel": 83,
+      "upper_numerator": 670549703524,
+      "denominator": 100000000
+    },
+    {
+      "panel": 84,
+      "upper_numerator": 670670750518,
+      "denominator": 100000000
+    },
+    {
+      "panel": 85,
+      "upper_numerator": 670792047439,
+      "denominator": 100000000
+    },
+    {
+      "panel": 86,
+      "upper_numerator": 670918141658,
+      "denominator": 100000000
+    },
+    {
+      "panel": 87,
+      "upper_numerator": 671043584907,
+      "denominator": 100000000
+    },
+    {
+      "panel": 88,
+      "upper_numerator": 671168385071,
+      "denominator": 100000000
+    },
+    {
+      "panel": 89,
+      "upper_numerator": 671292586045,
+      "denominator": 100000000
+    },
+    {
+      "panel": 90,
+      "upper_numerator": 671416252894,
+      "denominator": 100000000
+    },
+    {
+      "panel": 91,
+      "upper_numerator": 671539402131,
+      "denominator": 100000000
+    },
+    {
+      "panel": 92,
+      "upper_numerator": 671662096216,
+      "denominator": 100000000
+    },
+    {
+      "panel": 93,
+      "upper_numerator": 671784437502,
+      "denominator": 100000000
+    },
+    {
+      "panel": 94,
+      "upper_numerator": 671906522369,
+      "denominator": 100000000
+    },
+    {
+      "panel": 95,
+      "upper_numerator": 672028275932,
+      "denominator": 100000000
+    },
+    {
+      "panel": 96,
+      "upper_numerator": 672149786714,
+      "denominator": 100000000
+    },
+    {
+      "panel": 97,
+      "upper_numerator": 672271133102,
+      "denominator": 100000000
+    },
+    {
+      "panel": 98,
+      "upper_numerator": 672392365450,
+      "denominator": 100000000
+    },
+    {
+      "panel": 99,
+      "upper_numerator": 672513553667,
+      "denominator": 100000000
+    },
+    {
+      "panel": 100,
+      "upper_numerator": 672634750960,
+      "denominator": 100000000
+    },
+    {
+      "panel": 101,
+      "upper_numerator": 672755975724,
+      "denominator": 100000000
+    },
+    {
+      "panel": 102,
+      "upper_numerator": 672879341921,
+      "denominator": 100000000
+    },
+    {
+      "panel": 103,
+      "upper_numerator": 673011402783,
+      "denominator": 100000000
+    },
+    {
+      "panel": 104,
+      "upper_numerator": 673144528809,
+      "denominator": 100000000
+    },
+    {
+      "panel": 105,
+      "upper_numerator": 673277879014,
+      "denominator": 100000000
+    },
+    {
+      "panel": 106,
+      "upper_numerator": 673411499784,
+      "denominator": 100000000
+    },
+    {
+      "panel": 107,
+      "upper_numerator": 812018267629,
+      "denominator": 100000000
+    },
+    {
+      "panel": 108,
+      "upper_numerator": 812172876111,
+      "denominator": 100000000
+    },
+    {
+      "panel": 109,
+      "upper_numerator": 812327908297,
+      "denominator": 100000000
+    },
+    {
+      "panel": 110,
+      "upper_numerator": 812483452600,
+      "denominator": 100000000
+    },
+    {
+      "panel": 111,
+      "upper_numerator": 812639556483,
+      "denominator": 100000000
+    },
+    {
+      "panel": 112,
+      "upper_numerator": 812796271121,
+      "denominator": 100000000
+    },
+    {
+      "panel": 113,
+      "upper_numerator": 812953709090,
+      "denominator": 100000000
+    },
+    {
+      "panel": 114,
+      "upper_numerator": 813113281655,
+      "denominator": 100000000
+    },
+    {
+      "panel": 115,
+      "upper_numerator": 813274308435,
+      "denominator": 100000000
+    },
+    {
+      "panel": 116,
+      "upper_numerator": 813436221597,
+      "denominator": 100000000
+    },
+    {
+      "panel": 117,
+      "upper_numerator": 813599115297,
+      "denominator": 100000000
+    },
+    {
+      "panel": 118,
+      "upper_numerator": 813763041912,
+      "denominator": 100000000
+    },
+    {
+      "panel": 119,
+      "upper_numerator": 813928110028,
+      "denominator": 100000000
+    },
+    {
+      "panel": 120,
+      "upper_numerator": 814094381643,
+      "denominator": 100000000
+    },
+    {
+      "panel": 121,
+      "upper_numerator": 814261908361,
+      "denominator": 100000000
+    },
+    {
+      "panel": 122,
+      "upper_numerator": 814430807915,
+      "denominator": 100000000
+    },
+    {
+      "panel": 123,
+      "upper_numerator": 814601189319,
+      "denominator": 100000000
+    },
+    {
+      "panel": 124,
+      "upper_numerator": 814773122214,
+      "denominator": 100000000
+    },
+    {
+      "panel": 125,
+      "upper_numerator": 814946683289,
+      "denominator": 100000000
+    },
+    {
+      "panel": 126,
+      "upper_numerator": 815122024799,
+      "denominator": 100000000
+    },
+    {
+      "panel": 127,
+      "upper_numerator": 815299225683,
+      "denominator": 100000000
+    },
+    {
+      "panel": 128,
+      "upper_numerator": 815605740773,
+      "denominator": 100000000
+    },
+    {
+      "panel": 129,
+      "upper_numerator": 994360866978,
+      "denominator": 100000000
+    },
+    {
+      "panel": 130,
+      "upper_numerator": 994884890057,
+      "denominator": 100000000
+    },
+    {
+      "panel": 131,
+      "upper_numerator": 995411118343,
+      "denominator": 100000000
+    },
+    {
+      "panel": 132,
+      "upper_numerator": 995939413063,
+      "denominator": 100000000
+    },
+    {
+      "panel": 133,
+      "upper_numerator": 996469680019,
+      "denominator": 100000000
+    },
+    {
+      "panel": 134,
+      "upper_numerator": 997001859640,
+      "denominator": 100000000
+    },
+    {
+      "panel": 135,
+      "upper_numerator": 997535835589,
+      "denominator": 100000000
+    },
+    {
+      "panel": 136,
+      "upper_numerator": 998071831155,
+      "denominator": 100000000
+    },
+    {
+      "panel": 137,
+      "upper_numerator": 998609486043,
+      "denominator": 100000000
+    },
+    {
+      "panel": 138,
+      "upper_numerator": 999149466514,
+      "denominator": 100000000
+    },
+    {
+      "panel": 139,
+      "upper_numerator": 999691768673,
+      "denominator": 100000000
+    },
+    {
+      "panel": 140,
+      "upper_numerator": 1000235532435,
+      "denominator": 100000000
+    },
+    {
+      "panel": 141,
+      "upper_numerator": 1000780509376,
+      "denominator": 100000000
+    },
+    {
+      "panel": 142,
+      "upper_numerator": 1001326554018,
+      "denominator": 100000000
+    },
+    {
+      "panel": 143,
+      "upper_numerator": 1001873577343,
+      "denominator": 100000000
+    },
+    {
+      "panel": 144,
+      "upper_numerator": 1002421503444,
+      "denominator": 100000000
+    },
+    {
+      "panel": 145,
+      "upper_numerator": 1002970265340,
+      "denominator": 100000000
+    },
+    {
+      "panel": 146,
+      "upper_numerator": 1003521522337,
+      "denominator": 100000000
+    },
+    {
+      "panel": 147,
+      "upper_numerator": 1004079812467,
+      "denominator": 100000000
+    },
+    {
+      "panel": 148,
+      "upper_numerator": 1004638864963,
+      "denominator": 100000000
+    },
+    {
+      "panel": 149,
+      "upper_numerator": 1239623569832,
+      "denominator": 100000000
+    },
+    {
+      "panel": 150,
+      "upper_numerator": 1240301296746,
+      "denominator": 100000000
+    },
+    {
+      "panel": 151,
+      "upper_numerator": 1240979650172,
+      "denominator": 100000000
+    },
+    {
+      "panel": 152,
+      "upper_numerator": 1241658572895,
+      "denominator": 100000000
+    },
+    {
+      "panel": 153,
+      "upper_numerator": 1242338588281,
+      "denominator": 100000000
+    },
+    {
+      "panel": 154,
+      "upper_numerator": 1243024047529,
+      "denominator": 100000000
+    },
+    {
+      "panel": 155,
+      "upper_numerator": 1243711313969,
+      "denominator": 100000000
+    },
+    {
+      "panel": 156,
+      "upper_numerator": 1244401473662,
+      "denominator": 100000000
+    },
+    {
+      "panel": 157,
+      "upper_numerator": 1245093917231,
+      "denominator": 100000000
+    },
+    {
+      "panel": 158,
+      "upper_numerator": 1245786718755,
+      "denominator": 100000000
+    },
+    {
+      "panel": 159,
+      "upper_numerator": 1246479753775,
+      "denominator": 100000000
+    },
+    {
+      "panel": 160,
+      "upper_numerator": 1247172966259,
+      "denominator": 100000000
+    },
+    {
+      "panel": 161,
+      "upper_numerator": 1247866321774,
+      "denominator": 100000000
+    },
+    {
+      "panel": 162,
+      "upper_numerator": 1248559704926,
+      "denominator": 100000000
+    },
+    {
+      "panel": 163,
+      "upper_numerator": 1249252992634,
+      "denominator": 100000000
+    },
+    {
+      "panel": 164,
+      "upper_numerator": 1249946089991,
+      "denominator": 100000000
+    },
+    {
+      "panel": 165,
+      "upper_numerator": 1250638913185,
+      "denominator": 100000000
+    },
+    {
+      "panel": 166,
+      "upper_numerator": 1251331361233,
+      "denominator": 100000000
+    },
+    {
+      "panel": 167,
+      "upper_numerator": 1565083486869,
+      "denominator": 100000000
+    },
+    {
+      "panel": 168,
+      "upper_numerator": 1565929726651,
+      "denominator": 100000000
+    },
+    {
+      "panel": 169,
+      "upper_numerator": 1566775079077,
+      "denominator": 100000000
+    },
+    {
+      "panel": 170,
+      "upper_numerator": 1567621083384,
+      "denominator": 100000000
+    },
+    {
+      "panel": 171,
+      "upper_numerator": 1568490166942,
+      "denominator": 100000000
+    },
+    {
+      "panel": 172,
+      "upper_numerator": 1569364754744,
+      "denominator": 100000000
+    },
+    {
+      "panel": 173,
+      "upper_numerator": 1570237602159,
+      "denominator": 100000000
+    },
+    {
+      "panel": 174,
+      "upper_numerator": 1571108664716,
+      "denominator": 100000000
+    },
+    {
+      "panel": 175,
+      "upper_numerator": 1571977907864,
+      "denominator": 100000000
+    },
+    {
+      "panel": 176,
+      "upper_numerator": 1572845357038,
+      "denominator": 100000000
+    },
+    {
+      "panel": 177,
+      "upper_numerator": 1573710935677,
+      "denominator": 100000000
+    },
+    {
+      "panel": 178,
+      "upper_numerator": 1574574688763,
+      "denominator": 100000000
+    },
+    {
+      "panel": 179,
+      "upper_numerator": 1575436716328,
+      "denominator": 100000000
+    },
+    {
+      "panel": 180,
+      "upper_numerator": 1576296887748,
+      "denominator": 100000000
+    },
+    {
+      "panel": 181,
+      "upper_numerator": 1577155197936,
+      "denominator": 100000000
+    },
+    {
+      "panel": 182,
+      "upper_numerator": 1578011684523,
+      "denominator": 100000000
+    },
+    {
+      "panel": 183,
+      "upper_numerator": 1578866540062,
+      "denominator": 100000000
+    },
+    {
+      "panel": 184,
+      "upper_numerator": 2005461135805,
+      "denominator": 100000000
+    },
+    {
+      "panel": 185,
+      "upper_numerator": 2006517698976,
+      "denominator": 100000000
+    },
+    {
+      "panel": 186,
+      "upper_numerator": 2007572209457,
+      "denominator": 100000000
+    },
+    {
+      "panel": 187,
+      "upper_numerator": 2008626890827,
+      "denominator": 100000000
+    },
+    {
+      "panel": 188,
+      "upper_numerator": 2009680195447,
+      "denominator": 100000000
+    },
+    {
+      "panel": 189,
+      "upper_numerator": 2010731305495,
+      "denominator": 100000000
+    },
+    {
+      "panel": 190,
+      "upper_numerator": 2011780190153,
+      "denominator": 100000000
+    },
+    {
+      "panel": 191,
+      "upper_numerator": 2012826827350,
+      "denominator": 100000000
+    },
+    {
+      "panel": 192,
+      "upper_numerator": 2013889617303,
+      "denominator": 100000000
+    },
+    {
+      "panel": 193,
+      "upper_numerator": 2014973962814,
+      "denominator": 100000000
+    },
+    {
+      "panel": 194,
+      "upper_numerator": 2016067099420,
+      "denominator": 100000000
+    },
+    {
+      "panel": 195,
+      "upper_numerator": 2017158294009,
+      "denominator": 100000000
+    },
+    {
+      "panel": 196,
+      "upper_numerator": 2018247458252,
+      "denominator": 100000000
+    },
+    {
+      "panel": 197,
+      "upper_numerator": 2019334527909,
+      "denominator": 100000000
+    },
+    {
+      "panel": 198,
+      "upper_numerator": 2020419442129,
+      "denominator": 100000000
+    },
+    {
+      "panel": 199,
+      "upper_numerator": 2021502155545,
+      "denominator": 100000000
+    },
+    {
+      "panel": 200,
+      "upper_numerator": 2613678359208,
+      "denominator": 100000000
+    },
+    {
+      "panel": 201,
+      "upper_numerator": 2615036637473,
+      "denominator": 100000000
+    },
+    {
+      "panel": 202,
+      "upper_numerator": 2616391829977,
+      "denominator": 100000000
+    },
+    {
+      "panel": 203,
+      "upper_numerator": 2617743970067,
+      "denominator": 100000000
+    },
+    {
+      "panel": 204,
+      "upper_numerator": 2619093397961,
+      "denominator": 100000000
+    },
+    {
+      "panel": 205,
+      "upper_numerator": 2620459255900,
+      "denominator": 100000000
+    },
+    {
+      "panel": 206,
+      "upper_numerator": 2621830581750,
+      "denominator": 100000000
+    },
+    {
+      "panel": 207,
+      "upper_numerator": 2623198443141,
+      "denominator": 100000000
+    },
+    {
+      "panel": 208,
+      "upper_numerator": 2624562850642,
+      "denominator": 100000000
+    },
+    {
+      "panel": 209,
+      "upper_numerator": 2625923892570,
+      "denominator": 100000000
+    },
+    {
+      "panel": 210,
+      "upper_numerator": 2627281682446,
+      "denominator": 100000000
+    },
+    {
+      "panel": 211,
+      "upper_numerator": 2628636351468,
+      "denominator": 100000000
+    },
+    {
+      "panel": 212,
+      "upper_numerator": 2629988048481,
+      "denominator": 100000000
+    },
+    {
+      "panel": 213,
+      "upper_numerator": 2631338117215,
+      "denominator": 100000000
+    },
+    {
+      "panel": 214,
+      "upper_numerator": 2632689455591,
+      "denominator": 100000000
+    },
+    {
+      "panel": 215,
+      "upper_numerator": 2634038696220,
+      "denominator": 100000000
+    },
+    {
+      "panel": 216,
+      "upper_numerator": 3476501989404,
+      "denominator": 100000000
+    },
+    {
+      "panel": 217,
+      "upper_numerator": 3478231515502,
+      "denominator": 100000000
+    },
+    {
+      "panel": 218,
+      "upper_numerator": 3479962082073,
+      "denominator": 100000000
+    },
+    {
+      "panel": 219,
+      "upper_numerator": 3481690730359,
+      "denominator": 100000000
+    },
+    {
+      "panel": 220,
+      "upper_numerator": 3483424476130,
+      "denominator": 100000000
+    },
+    {
+      "panel": 221,
+      "upper_numerator": 3485156637892,
+      "denominator": 100000000
+    },
+    {
+      "panel": 222,
+      "upper_numerator": 3486887448280,
+      "denominator": 100000000
+    },
+    {
+      "panel": 223,
+      "upper_numerator": 3488617079546,
+      "denominator": 100000000
+    },
+    {
+      "panel": 224,
+      "upper_numerator": 3490345780463,
+      "denominator": 100000000
+    },
+    {
+      "panel": 225,
+      "upper_numerator": 3492073770202,
+      "denominator": 100000000
+    },
+    {
+      "panel": 226,
+      "upper_numerator": 3493801099372,
+      "denominator": 100000000
+    },
+    {
+      "panel": 227,
+      "upper_numerator": 3495527930852,
+      "denominator": 100000000
+    },
+    {
+      "panel": 228,
+      "upper_numerator": 3497261330196,
+      "denominator": 100000000
+    },
+    {
+      "panel": 229,
+      "upper_numerator": 3498994860206,
+      "denominator": 100000000
+    },
+    {
+      "panel": 230,
+      "upper_numerator": 3500728343277,
+      "denominator": 100000000
+    },
+    {
+      "panel": 231,
+      "upper_numerator": 3502461931874,
+      "denominator": 100000000
+    },
+    {
+      "panel": 232,
+      "upper_numerator": 4735937086622,
+      "denominator": 100000000
+    },
+    {
+      "panel": 233,
+      "upper_numerator": 4738211201744,
+      "denominator": 100000000
+    },
+    {
+      "panel": 234,
+      "upper_numerator": 4740486593572,
+      "denominator": 100000000
+    },
+    {
+      "panel": 235,
+      "upper_numerator": 4742763562036,
+      "denominator": 100000000
+    },
+    {
+      "panel": 236,
+      "upper_numerator": 4745042047342,
+      "denominator": 100000000
+    },
+    {
+      "panel": 237,
+      "upper_numerator": 4747322541159,
+      "denominator": 100000000
+    },
+    {
+      "panel": 238,
+      "upper_numerator": 4749605260370,
+      "denominator": 100000000
+    },
+    {
+      "panel": 239,
+      "upper_numerator": 4751890684756,
+      "denominator": 100000000
+    },
+    {
+      "panel": 240,
+      "upper_numerator": 4754179187263,
+      "denominator": 100000000
+    },
+    {
+      "panel": 241,
+      "upper_numerator": 4756471113837,
+      "denominator": 100000000
+    },
+    {
+      "panel": 242,
+      "upper_numerator": 4758766902457,
+      "denominator": 100000000
+    },
+    {
+      "panel": 243,
+      "upper_numerator": 4761067036141,
+      "denominator": 100000000
+    },
+    {
+      "panel": 244,
+      "upper_numerator": 4763397115381,
+      "denominator": 100000000
+    },
+    {
+      "panel": 245,
+      "upper_numerator": 4765812217624,
+      "denominator": 100000000
+    },
+    {
+      "panel": 246,
+      "upper_numerator": 4768230775748,
+      "denominator": 100000000
+    },
+    {
+      "panel": 247,
+      "upper_numerator": 6636522207959,
+      "denominator": 100000000
+    },
+    {
+      "panel": 248,
+      "upper_numerator": 6639799072424,
+      "denominator": 100000000
+    },
+    {
+      "panel": 249,
+      "upper_numerator": 6643081744008,
+      "denominator": 100000000
+    },
+    {
+      "panel": 250,
+      "upper_numerator": 6563526837843,
+      "denominator": 100000000
+    },
+    {
+      "panel": 251,
+      "upper_numerator": 6378339034285,
+      "denominator": 100000000
+    },
+    {
+      "panel": 252,
+      "upper_numerator": 6199851223547,
+      "denominator": 100000000
+    },
+    {
+      "panel": 253,
+      "upper_numerator": 6027805662330,
+      "denominator": 100000000
+    },
+    {
+      "panel": 254,
+      "upper_numerator": 5861955033525,
+      "denominator": 100000000
+    },
+    {
+      "panel": 255,
+      "upper_numerator": 5702062692342,
+      "denominator": 100000000
+    },
+    {
+      "panel": 256,
+      "upper_numerator": 5550466882693,
+      "denominator": 100000000
+    },
+    {
+      "panel": 257,
+      "upper_numerator": 5406679051557,
+      "denominator": 100000000
+    },
+    {
+      "panel": 258,
+      "upper_numerator": 5267859998047,
+      "denominator": 100000000
+    },
+    {
+      "panel": 259,
+      "upper_numerator": 5133828189075,
+      "denominator": 100000000
+    },
+    {
+      "panel": 260,
+      "upper_numerator": 5004409648420,
+      "denominator": 100000000
+    },
+    {
+      "panel": 261,
+      "upper_numerator": 4879437309920,
+      "denominator": 100000000
+    },
+    {
+      "panel": 262,
+      "upper_numerator": 5063250571945,
+      "denominator": 100000000
+    },
+    {
+      "panel": 263,
+      "upper_numerator": 4948585669492,
+      "denominator": 100000000
+    },
+    {
+      "panel": 264,
+      "upper_numerator": 4837908251742,
+      "denominator": 100000000
+    },
+    {
+      "panel": 265,
+      "upper_numerator": 4731075881606,
+      "denominator": 100000000
+    },
+    {
+      "panel": 266,
+      "upper_numerator": 4627951677027,
+      "denominator": 100000000
+    },
+    {
+      "panel": 267,
+      "upper_numerator": 4528404114856,
+      "denominator": 100000000
+    },
+    {
+      "panel": 268,
+      "upper_numerator": 4432306598851,
+      "denominator": 100000000
+    },
+    {
+      "panel": 269,
+      "upper_numerator": 4339539982719,
+      "denominator": 100000000
+    },
+    {
+      "panel": 270,
+      "upper_numerator": 4249986688814,
+      "denominator": 100000000
+    },
+    {
+      "panel": 271,
+      "upper_numerator": 4163532590600,
+      "denominator": 100000000
+    },
+    {
+      "panel": 272,
+      "upper_numerator": 4080069375107,
+      "denominator": 100000000
+    },
+    {
+      "panel": 273,
+      "upper_numerator": 3999493284392,
+      "denominator": 100000000
+    },
+    {
+      "panel": 274,
+      "upper_numerator": 3921704175389,
+      "denominator": 100000000
+    },
+    {
+      "panel": 275,
+      "upper_numerator": 3846605515206,
+      "denominator": 100000000
+    },
+    {
+      "panel": 276,
+      "upper_numerator": 3774105005563,
+      "denominator": 100000000
+    },
+    {
+      "panel": 277,
+      "upper_numerator": 4245164154969,
+      "denominator": 100000000
+    },
+    {
+      "panel": 278,
+      "upper_numerator": 4180758246233,
+      "denominator": 100000000
+    },
+    {
+      "panel": 279,
+      "upper_numerator": 4118697071007,
+      "denominator": 100000000
+    },
+    {
+      "panel": 280,
+      "upper_numerator": 4058903978887,
+      "denominator": 100000000
+    },
+    {
+      "panel": 281,
+      "upper_numerator": 4001299689159,
+      "denominator": 100000000
+    },
+    {
+      "panel": 282,
+      "upper_numerator": 3945808820152,
+      "denominator": 100000000
+    },
+    {
+      "panel": 283,
+      "upper_numerator": 3892385566215,
+      "denominator": 100000000
+    },
+    {
+      "panel": 284,
+      "upper_numerator": 3840969423504,
+      "denominator": 100000000
+    },
+    {
+      "panel": 285,
+      "upper_numerator": 3791480560515,
+      "denominator": 100000000
+    },
+    {
+      "panel": 286,
+      "upper_numerator": 3743835453216,
+      "denominator": 100000000
+    },
+    {
+      "panel": 287,
+      "upper_numerator": 3697982396445,
+      "denominator": 100000000
+    },
+    {
+      "panel": 288,
+      "upper_numerator": 3653859768659,
+      "denominator": 100000000
+    },
+    {
+      "panel": 289,
+      "upper_numerator": 3611404747364,
+      "denominator": 100000000
+    },
+    {
+      "panel": 290,
+      "upper_numerator": 3570559732842,
+      "denominator": 100000000
+    },
+    {
+      "panel": 291,
+      "upper_numerator": 3531587908598,
+      "denominator": 100000000
+    },
+    {
+      "panel": 292,
+      "upper_numerator": 3494589950647,
+      "denominator": 100000000
+    },
+    {
+      "panel": 293,
+      "upper_numerator": 4484076600918,
+      "denominator": 100000000
+    },
+    {
+      "panel": 294,
+      "upper_numerator": 4455494915376,
+      "denominator": 100000000
+    },
+    {
+      "panel": 295,
+      "upper_numerator": 4428240785365,
+      "denominator": 100000000
+    },
+    {
+      "panel": 296,
+      "upper_numerator": 4402270804837,
+      "denominator": 100000000
+    },
+    {
+      "panel": 297,
+      "upper_numerator": 4377543130942,
+      "denominator": 100000000
+    },
+    {
+      "panel": 298,
+      "upper_numerator": 4354017280497,
+      "denominator": 100000000
+    },
+    {
+      "panel": 299,
+      "upper_numerator": 4331824734866,
+      "denominator": 100000000
+    },
+    {
+      "panel": 300,
+      "upper_numerator": 4310994274925,
+      "denominator": 100000000
+    },
+    {
+      "panel": 301,
+      "upper_numerator": 4291233522479,
+      "denominator": 100000000
+    },
+    {
+      "panel": 302,
+      "upper_numerator": 4272508027624,
+      "denominator": 100000000
+    },
+    {
+      "panel": 303,
+      "upper_numerator": 4254784465892,
+      "denominator": 100000000
+    },
+    {
+      "panel": 304,
+      "upper_numerator": 4238030691603,
+      "denominator": 100000000
+    },
+    {
+      "panel": 305,
+      "upper_numerator": 4222215679671,
+      "denominator": 100000000
+    },
+    {
+      "panel": 306,
+      "upper_numerator": 4207309490450,
+      "denominator": 100000000
+    },
+    {
+      "panel": 307,
+      "upper_numerator": 4193409285490,
+      "denominator": 100000000
+    },
+    {
+      "panel": 308,
+      "upper_numerator": 4180551027284,
+      "denominator": 100000000
+    },
+    {
+      "panel": 309,
+      "upper_numerator": 4861041573332,
+      "denominator": 100000000
+    },
+    {
+      "panel": 310,
+      "upper_numerator": 4797511916029,
+      "denominator": 100000000
+    },
+    {
+      "panel": 311,
+      "upper_numerator": 4735396695259,
+      "denominator": 100000000
+    },
+    {
+      "panel": 312,
+      "upper_numerator": 4674818246965,
+      "denominator": 100000000
+    },
+    {
+      "panel": 313,
+      "upper_numerator": 4615605597314,
+      "denominator": 100000000
+    },
+    {
+      "panel": 314,
+      "upper_numerator": 4557720072349,
+      "denominator": 100000000
+    },
+    {
+      "panel": 315,
+      "upper_numerator": 4501133296341,
+      "denominator": 100000000
+    },
+    {
+      "panel": 316,
+      "upper_numerator": 4445817899978,
+      "denominator": 100000000
+    },
+    {
+      "panel": 317,
+      "upper_numerator": 4391746969048,
+      "denominator": 100000000
+    },
+    {
+      "panel": 318,
+      "upper_numerator": 4338894490228,
+      "denominator": 100000000
+    },
+    {
+      "panel": 319,
+      "upper_numerator": 4287234911991,
+      "denominator": 100000000
+    },
+    {
+      "panel": 320,
+      "upper_numerator": 4236825410450,
+      "denominator": 100000000
+    },
+    {
+      "panel": 321,
+      "upper_numerator": 4187632600685,
+      "denominator": 100000000
+    },
+    {
+      "panel": 322,
+      "upper_numerator": 4139561710691,
+      "denominator": 100000000
+    },
+    {
+      "panel": 323,
+      "upper_numerator": 4092571760682,
+      "denominator": 100000000
+    },
+    {
+      "panel": 324,
+      "upper_numerator": 4046638510384,
+      "denominator": 100000000
+    },
+    {
+      "panel": 325,
+      "upper_numerator": 4001740541739,
+      "denominator": 100000000
+    },
+    {
+      "panel": 326,
+      "upper_numerator": 4281761454613,
+      "denominator": 100000000
+    },
+    {
+      "panel": 327,
+      "upper_numerator": 4206424969347,
+      "denominator": 100000000
+    },
+    {
+      "panel": 328,
+      "upper_numerator": 4132475891161,
+      "denominator": 100000000
+    },
+    {
+      "panel": 329,
+      "upper_numerator": 4059913742035,
+      "denominator": 100000000
+    },
+    {
+      "panel": 330,
+      "upper_numerator": 3988730320805,
+      "denominator": 100000000
+    },
+    {
+      "panel": 331,
+      "upper_numerator": 3919100827236,
+      "denominator": 100000000
+    },
+    {
+      "panel": 332,
+      "upper_numerator": 3851357872419,
+      "denominator": 100000000
+    },
+    {
+      "panel": 333,
+      "upper_numerator": 3784856759773,
+      "denominator": 100000000
+    },
+    {
+      "panel": 334,
+      "upper_numerator": 3719576084618,
+      "denominator": 100000000
+    },
+    {
+      "panel": 335,
+      "upper_numerator": 3655506477116,
+      "denominator": 100000000
+    },
+    {
+      "panel": 336,
+      "upper_numerator": 3593057207186,
+      "denominator": 100000000
+    },
+    {
+      "panel": 337,
+      "upper_numerator": 3531848701808,
+      "denominator": 100000000
+    },
+    {
+      "panel": 338,
+      "upper_numerator": 3471752397619,
+      "denominator": 100000000
+    },
+    {
+      "panel": 339,
+      "upper_numerator": 3413113368036,
+      "denominator": 100000000
+    },
+    {
+      "panel": 340,
+      "upper_numerator": 3355554254067,
+      "denominator": 100000000
+    },
+    {
+      "panel": 341,
+      "upper_numerator": 3299418666781,
+      "denominator": 100000000
+    },
+    {
+      "panel": 342,
+      "upper_numerator": 3245725526188,
+      "denominator": 100000000
+    },
+    {
+      "panel": 343,
+      "upper_numerator": 3354470139167,
+      "denominator": 100000000
+    },
+    {
+      "panel": 344,
+      "upper_numerator": 3302257490278,
+      "denominator": 100000000
+    },
+    {
+      "panel": 345,
+      "upper_numerator": 3250940147869,
+      "denominator": 100000000
+    },
+    {
+      "panel": 346,
+      "upper_numerator": 3200503209861,
+      "denominator": 100000000
+    },
+    {
+      "panel": 347,
+      "upper_numerator": 3150932044299,
+      "denominator": 100000000
+    },
+    {
+      "panel": 348,
+      "upper_numerator": 3102212566589,
+      "denominator": 100000000
+    },
+    {
+      "panel": 349,
+      "upper_numerator": 3054330740534,
+      "denominator": 100000000
+    },
+    {
+      "panel": 350,
+      "upper_numerator": 3007272511626,
+      "denominator": 100000000
+    },
+    {
+      "panel": 351,
+      "upper_numerator": 2961024379041,
+      "denominator": 100000000
+    },
+    {
+      "panel": 352,
+      "upper_numerator": 2915573236394,
+      "denominator": 100000000
+    },
+    {
+      "panel": 353,
+      "upper_numerator": 2870905882679,
+      "denominator": 100000000
+    },
+    {
+      "panel": 354,
+      "upper_numerator": 2827009893706,
+      "denominator": 100000000
+    },
+    {
+      "panel": 355,
+      "upper_numerator": 2783872703537,
+      "denominator": 100000000
+    },
+    {
+      "panel": 356,
+      "upper_numerator": 2741481593481,
+      "denominator": 100000000
+    },
+    {
+      "panel": 357,
+      "upper_numerator": 2699842694659,
+      "denominator": 100000000
+    },
+    {
+      "panel": 358,
+      "upper_numerator": 2658931764776,
+      "denominator": 100000000
+    },
+    {
+      "panel": 359,
+      "upper_numerator": 2618756175327,
+      "denominator": 100000000
+    },
+    {
+      "panel": 360,
+      "upper_numerator": 2579280691450,
+      "denominator": 100000000
+    },
+    {
+      "panel": 361,
+      "upper_numerator": 2540497020938,
+      "denominator": 100000000
+    },
+    {
+      "panel": 362,
+      "upper_numerator": 2584400600465,
+      "denominator": 100000000
+    },
+    {
+      "panel": 363,
+      "upper_numerator": 2540350606450,
+      "denominator": 100000000
+    },
+    {
+      "panel": 364,
+      "upper_numerator": 2497060217563,
+      "denominator": 100000000
+    },
+    {
+      "panel": 365,
+      "upper_numerator": 2454525397587,
+      "denominator": 100000000
+    },
+    {
+      "panel": 366,
+      "upper_numerator": 2412764627168,
+      "denominator": 100000000
+    },
+    {
+      "panel": 367,
+      "upper_numerator": 2371735779695,
+      "denominator": 100000000
+    },
+    {
+      "panel": 368,
+      "upper_numerator": 2331416778423,
+      "denominator": 100000000
+    },
+    {
+      "panel": 369,
+      "upper_numerator": 2291794990053,
+      "denominator": 100000000
+    },
+    {
+      "panel": 370,
+      "upper_numerator": 2252858283735,
+      "denominator": 100000000
+    },
+    {
+      "panel": 371,
+      "upper_numerator": 2214595213376,
+      "denominator": 100000000
+    },
+    {
+      "panel": 372,
+      "upper_numerator": 2176995256078,
+      "denominator": 100000000
+    },
+    {
+      "panel": 373,
+      "upper_numerator": 2140049785778,
+      "denominator": 100000000
+    },
+    {
+      "panel": 374,
+      "upper_numerator": 2103745524893,
+      "denominator": 100000000
+    },
+    {
+      "panel": 375,
+      "upper_numerator": 2068075248403,
+      "denominator": 100000000
+    },
+    {
+      "panel": 376,
+      "upper_numerator": 2033030657265,
+      "denominator": 100000000
+    },
+    {
+      "panel": 377,
+      "upper_numerator": 1998604377280,
+      "denominator": 100000000
+    },
+    {
+      "panel": 378,
+      "upper_numerator": 1964783505456,
+      "denominator": 100000000
+    },
+    {
+      "panel": 379,
+      "upper_numerator": 1931553214180,
+      "denominator": 100000000
+    },
+    {
+      "panel": 380,
+      "upper_numerator": 1898905052456,
+      "denominator": 100000000
+    },
+    {
+      "panel": 381,
+      "upper_numerator": 1866828227460,
+      "denominator": 100000000
+    },
+    {
+      "panel": 382,
+      "upper_numerator": 1868613244012,
+      "denominator": 100000000
+    },
+    {
+      "panel": 383,
+      "upper_numerator": 1837264452789,
+      "denominator": 100000000
+    },
+    {
+      "panel": 384,
+      "upper_numerator": 1806608425164,
+      "denominator": 100000000
+    },
+    {
+      "panel": 385,
+      "upper_numerator": 1776625005295,
+      "denominator": 100000000
+    },
+    {
+      "panel": 386,
+      "upper_numerator": 1747158188043,
+      "denominator": 100000000
+    },
+    {
+      "panel": 387,
+      "upper_numerator": 1718199787064,
+      "denominator": 100000000
+    },
+    {
+      "panel": 388,
+      "upper_numerator": 1689741452225,
+      "denominator": 100000000
+    },
+    {
+      "panel": 389,
+      "upper_numerator": 1661775270030,
+      "denominator": 100000000
+    },
+    {
+      "panel": 390,
+      "upper_numerator": 1634299783591,
+      "denominator": 100000000
+    },
+    {
+      "panel": 391,
+      "upper_numerator": 1607304050014,
+      "denominator": 100000000
+    },
+    {
+      "panel": 392,
+      "upper_numerator": 1580820259562,
+      "denominator": 100000000
+    },
+    {
+      "panel": 393,
+      "upper_numerator": 1554817871541,
+      "denominator": 100000000
+    },
+    {
+      "panel": 394,
+      "upper_numerator": 1529267285072,
+      "denominator": 100000000
+    },
+    {
+      "panel": 395,
+      "upper_numerator": 1504251091122,
+      "denominator": 100000000
+    },
+    {
+      "panel": 396,
+      "upper_numerator": 1479759519183,
+      "denominator": 100000000
+    },
+    {
+      "panel": 397,
+      "upper_numerator": 1455690526788,
+      "denominator": 100000000
+    },
+    {
+      "panel": 398,
+      "upper_numerator": 1432038693671,
+      "denominator": 100000000
+    },
+    {
+      "panel": 399,
+      "upper_numerator": 1408813380438,
+      "denominator": 100000000
+    },
+    {
+      "panel": 400,
+      "upper_numerator": 1386049485856,
+      "denominator": 100000000
+    },
+    {
+      "panel": 401,
+      "upper_numerator": 1363744515937,
+      "denominator": 100000000
+    },
+    {
+      "panel": 402,
+      "upper_numerator": 1341825888511,
+      "denominator": 100000000
+    },
+    {
+      "panel": 403,
+      "upper_numerator": 1320291639974,
+      "denominator": 100000000
+    },
+    {
+      "panel": 404,
+      "upper_numerator": 1299134559928,
+      "denominator": 100000000
+    },
+    {
+      "panel": 405,
+      "upper_numerator": 1278436386034,
+      "denominator": 100000000
+    },
+    {
+      "panel": 406,
+      "upper_numerator": 1258134087275,
+      "denominator": 100000000
+    },
+    {
+      "panel": 407,
+      "upper_numerator": 1238183899521,
+      "denominator": 100000000
+    },
+    {
+      "panel": 408,
+      "upper_numerator": 1218580644539,
+      "denominator": 100000000
+    },
+    {
+      "panel": 409,
+      "upper_numerator": 1199323567256,
+      "denominator": 100000000
+    },
+    {
+      "panel": 410,
+      "upper_numerator": 1180459584942,
+      "denominator": 100000000
+    },
+    {
+      "panel": 411,
+      "upper_numerator": 1161935522494,
+      "denominator": 100000000
+    },
+    {
+      "panel": 412,
+      "upper_numerator": 1143749838063,
+      "denominator": 100000000
+    },
+    {
+      "panel": 413,
+      "upper_numerator": 1125935919315,
+      "denominator": 100000000
+    },
+    {
+      "panel": 414,
+      "upper_numerator": 1108552530165,
+      "denominator": 100000000
+    },
+    {
+      "panel": 415,
+      "upper_numerator": 1091501412548,
+      "denominator": 100000000
+    },
+    {
+      "panel": 416,
+      "upper_numerator": 1074747968587,
+      "denominator": 100000000
+    },
+    {
+      "panel": 417,
+      "upper_numerator": 1058291415743,
+      "denominator": 100000000
+    },
+    {
+      "panel": 418,
+      "upper_numerator": 1042122747973,
+      "denominator": 100000000
+    },
+    {
+      "panel": 419,
+      "upper_numerator": 1026237807085,
+      "denominator": 100000000
+    },
+    {
+      "panel": 420,
+      "upper_numerator": 1010632075790,
+      "denominator": 100000000
+    },
+    {
+      "panel": 421,
+      "upper_numerator": 995301300263,
+      "denominator": 100000000
+    },
+    {
+      "panel": 422,
+      "upper_numerator": 980270038904,
+      "denominator": 100000000
+    },
+    {
+      "panel": 423,
+      "upper_numerator": 965504448235,
+      "denominator": 100000000
+    },
+    {
+      "panel": 424,
+      "upper_numerator": 951000358458,
+      "denominator": 100000000
+    },
+    {
+      "panel": 425,
+      "upper_numerator": 936753734986,
+      "denominator": 100000000
+    },
+    {
+      "panel": 426,
+      "upper_numerator": 922764233904,
+      "denominator": 100000000
+    },
+    {
+      "panel": 427,
+      "upper_numerator": 909070746789,
+      "denominator": 100000000
+    },
+    {
+      "panel": 428,
+      "upper_numerator": 895641931611,
+      "denominator": 100000000
+    },
+    {
+      "panel": 429,
+      "upper_numerator": 882453593619,
+      "denominator": 100000000
+    },
+    {
+      "panel": 430,
+      "upper_numerator": 869571285422,
+      "denominator": 100000000
+    },
+    {
+      "panel": 431,
+      "upper_numerator": 856935816837,
+      "denominator": 100000000
+    },
+    {
+      "panel": 432,
+      "upper_numerator": 844535624964,
+      "denominator": 100000000
+    },
+    {
+      "panel": 433,
+      "upper_numerator": 832386446580,
+      "denominator": 100000000
+    },
+    {
+      "panel": 434,
+      "upper_numerator": 820455790143,
+      "denominator": 100000000
+    },
+    {
+      "panel": 435,
+      "upper_numerator": 808740011651,
+      "denominator": 100000000
+    },
+    {
+      "panel": 436,
+      "upper_numerator": 797235862968,
+      "denominator": 100000000
+    },
+    {
+      "panel": 437,
+      "upper_numerator": 785940093139,
+      "denominator": 100000000
+    },
+    {
+      "panel": 438,
+      "upper_numerator": 774852806440,
+      "denominator": 100000000
+    },
+    {
+      "panel": 439,
+      "upper_numerator": 763984459426,
+      "denominator": 100000000
+    },
+    {
+      "panel": 440,
+      "upper_numerator": 753322669932,
+      "denominator": 100000000
+    },
+    {
+      "panel": 441,
+      "upper_numerator": 742885696819,
+      "denominator": 100000000
+    },
+    {
+      "panel": 442,
+      "upper_numerator": 732649925262,
+      "denominator": 100000000
+    },
+    {
+      "panel": 443,
+      "upper_numerator": 722603267566,
+      "denominator": 100000000
+    },
+    {
+      "panel": 444,
+      "upper_numerator": 712802665045,
+      "denominator": 100000000
+    },
+    {
+      "panel": 445,
+      "upper_numerator": 703212219692,
+      "denominator": 100000000
+    },
+    {
+      "panel": 446,
+      "upper_numerator": 693803975204,
+      "denominator": 100000000
+    },
+    {
+      "panel": 447,
+      "upper_numerator": 684573709836,
+      "denominator": 100000000
+    },
+    {
+      "panel": 448,
+      "upper_numerator": 675532190921,
+      "denominator": 100000000
+    },
+    {
+      "panel": 449,
+      "upper_numerator": 666675972385,
+      "denominator": 100000000
+    },
+    {
+      "panel": 450,
+      "upper_numerator": 657997374368,
+      "denominator": 100000000
+    },
+    {
+      "panel": 451,
+      "upper_numerator": 649506415822,
+      "denominator": 100000000
+    },
+    {
+      "panel": 452,
+      "upper_numerator": 641182482747,
+      "denominator": 100000000
+    },
+    {
+      "panel": 453,
+      "upper_numerator": 633021867190,
+      "denominator": 100000000
+    },
+    {
+      "panel": 454,
+      "upper_numerator": 625025281504,
+      "denominator": 100000000
+    },
+    {
+      "panel": 455,
+      "upper_numerator": 617193736748,
+      "denominator": 100000000
+    },
+    {
+      "panel": 456,
+      "upper_numerator": 609521377927,
+      "denominator": 100000000
+    },
+    {
+      "panel": 457,
+      "upper_numerator": 602003432427,
+      "denominator": 100000000
+    },
+    {
+      "panel": 458,
+      "upper_numerator": 594646698859,
+      "denominator": 100000000
+    },
+    {
+      "panel": 459,
+      "upper_numerator": 587459648005,
+      "denominator": 100000000
+    },
+    {
+      "panel": 460,
+      "upper_numerator": 580450937773,
+      "denominator": 100000000
+    },
+    {
+      "panel": 461,
+      "upper_numerator": 573595374143,
+      "denominator": 100000000
+    },
+    {
+      "panel": 462,
+      "upper_numerator": 566887496945,
+      "denominator": 100000000
+    },
+    {
+      "panel": 463,
+      "upper_numerator": 560323305580,
+      "denominator": 100000000
+    },
+    {
+      "panel": 464,
+      "upper_numerator": 553903035929,
+      "denominator": 100000000
+    },
+    {
+      "panel": 465,
+      "upper_numerator": 547636452645,
+      "denominator": 100000000
+    },
+    {
+      "panel": 466,
+      "upper_numerator": 541515186891,
+      "denominator": 100000000
+    },
+    {
+      "panel": 467,
+      "upper_numerator": 535550974756,
+      "denominator": 100000000
+    },
+    {
+      "panel": 468,
+      "upper_numerator": 529723939840,
+      "denominator": 100000000
+    },
+    {
+      "panel": 469,
+      "upper_numerator": 524033142315,
+      "denominator": 100000000
+    },
+    {
+      "panel": 470,
+      "upper_numerator": 518479772099,
+      "denominator": 100000000
+    },
+    {
+      "panel": 471,
+      "upper_numerator": 513062928523,
+      "denominator": 100000000
+    },
+    {
+      "panel": 472,
+      "upper_numerator": 507779162463,
+      "denominator": 100000000
+    },
+    {
+      "panel": 473,
+      "upper_numerator": 502627641854,
+      "denominator": 100000000
+    },
+    {
+      "panel": 474,
+      "upper_numerator": 497635590283,
+      "denominator": 100000000
+    },
+    {
+      "panel": 475,
+      "upper_numerator": 492807560359,
+      "denominator": 100000000
+    },
+    {
+      "panel": 476,
+      "upper_numerator": 488106958302,
+      "denominator": 100000000
+    },
+    {
+      "panel": 477,
+      "upper_numerator": 483533060596,
+      "denominator": 100000000
+    },
+    {
+      "panel": 478,
+      "upper_numerator": 479085196194,
+      "denominator": 100000000
+    },
+    {
+      "panel": 479,
+      "upper_numerator": 474762648101,
+      "denominator": 100000000
+    },
+    {
+      "panel": 480,
+      "upper_numerator": 470564816269,
+      "denominator": 100000000
+    },
+    {
+      "panel": 481,
+      "upper_numerator": 466491117826,
+      "denominator": 100000000
+    },
+    {
+      "panel": 482,
+      "upper_numerator": 462541462666,
+      "denominator": 100000000
+    },
+    {
+      "panel": 483,
+      "upper_numerator": 458715198902,
+      "denominator": 100000000
+    },
+    {
+      "panel": 484,
+      "upper_numerator": 455011612537,
+      "denominator": 100000000
+    },
+    {
+      "panel": 485,
+      "upper_numerator": 451430254784,
+      "denominator": 100000000
+    },
+    {
+      "panel": 486,
+      "upper_numerator": 447971536762,
+      "denominator": 100000000
+    },
+    {
+      "panel": 487,
+      "upper_numerator": 444657046355,
+      "denominator": 100000000
+    },
+    {
+      "panel": 488,
+      "upper_numerator": 441463181540,
+      "denominator": 100000000
+    },
+    {
+      "panel": 489,
+      "upper_numerator": 438388864815,
+      "denominator": 100000000
+    },
+    {
+      "panel": 490,
+      "upper_numerator": 435433875324,
+      "denominator": 100000000
+    },
+    {
+      "panel": 491,
+      "upper_numerator": 432642363675,
+      "denominator": 100000000
+    },
+    {
+      "panel": 492,
+      "upper_numerator": 430001731873,
+      "denominator": 100000000
+    },
+    {
+      "panel": 493,
+      "upper_numerator": 427475158617,
+      "denominator": 100000000
+    },
+    {
+      "panel": 494,
+      "upper_numerator": 425062489636,
+      "denominator": 100000000
+    },
+    {
+      "panel": 495,
+      "upper_numerator": 422763660050,
+      "denominator": 100000000
+    },
+    {
+      "panel": 496,
+      "upper_numerator": 420580176767,
+      "denominator": 100000000
+    },
+    {
+      "panel": 497,
+      "upper_numerator": 418510486517,
+      "denominator": 100000000
+    },
+    {
+      "panel": 498,
+      "upper_numerator": 416554342141,
+      "denominator": 100000000
+    },
+    {
+      "panel": 499,
+      "upper_numerator": 414716996393,
+      "denominator": 100000000
+    },
+    {
+      "panel": 500,
+      "upper_numerator": 412993553937,
+      "denominator": 100000000
+    },
+    {
+      "panel": 501,
+      "upper_numerator": 411383101394,
+      "denominator": 100000000
+    },
+    {
+      "panel": 502,
+      "upper_numerator": 409885536674,
+      "denominator": 100000000
+    },
+    {
+      "panel": 503,
+      "upper_numerator": 408500777959,
+      "denominator": 100000000
+    },
+    {
+      "panel": 504,
+      "upper_numerator": 407228746662,
+      "denominator": 100000000
+    },
+    {
+      "panel": 505,
+      "upper_numerator": 406069379077,
+      "denominator": 100000000
+    },
+    {
+      "panel": 506,
+      "upper_numerator": 405022579794,
+      "denominator": 100000000
+    },
+    {
+      "panel": 507,
+      "upper_numerator": 404088263940,
+      "denominator": 100000000
+    },
+    {
+      "panel": 508,
+      "upper_numerator": 403266388228,
+      "denominator": 100000000
+    },
+    {
+      "panel": 509,
+      "upper_numerator": 402556889063,
+      "denominator": 100000000
+    },
+    {
+      "panel": 510,
+      "upper_numerator": 401959727904,
+      "denominator": 100000000
+    },
+    {
+      "panel": 511,
+      "upper_numerator": 401474847169,
+      "denominator": 100000000
+    }
+  ],
+  "C4_squared_rational_upper": "1567474233421402382277578179/2560000000000000000",
+  "C4_squared_rational_margin": "107039174409781821/2560000000000000000",
+  "C4_rational_upper": "24744587741/1000000",
+  "tail_squared_margin": "3104661541167915364988902768147/20000000000000000000000000000000000",
+  "tail_rational_upper": "469909429461/200000000000000000",
+  "tail_denominator_square": "110915468186323549014",
+  "b1_rational_lower": "11022874999999977969/12500000000000000000",
+  "actual_b1_lower_endpoint": "881829999999998237530228356142695388918913216690122084208016936892896373201879547624120850621686949870317135881635274271/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "nonlinear_head_upper": "527/500000000000",
+  "exact_head_upper_from_all_balls": "42149181771527306309881610653567261919326004098185972153499845677464080248373614915200023063813033182908734946050998586514117759/40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "head_margin": "10818228472693690118389346432738080673995901814027846500154322535919751626385084799976936186966817091265053949001413485882241/40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "b1_margin": "10228356142695388918913216690122084208016936892896373201879547624120850621686949870317135881635274271/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "gamma_rational_lower": "22045691234971273313/25000000000000000000",
+  "gamma_simplified_lower": "2204569123497/2500000000000",
+  "gamma_rational_rounding_margin": "1273313/25000000000000000000",
+  "pi_lower_machin": "87952512685202230727004432426206773893526513603627716914222497656931686496458799416529386226609491557367613465844623833019196414600919253361120928067108601439839271185742973431801306388068549273883463800353421940091588244616144635543648321509995715642262939279232862319323016913047375596683015522360770921450387139329111463881575363999294948211155491999219872879565303937454344494126529513904597088947077985678352560380714061907155857155650702004/27996154302405127319505812980825512798316913157383948893671342970313617028624073782100658693324612481189176992572017568407367828380931660090836440983132569738298329465455899460622244791201100583361190970000353366747730494772786534124560910141156778802529283253699652648819799666381704207228016884712466634955176978071429153023080266339886362500069428865895592877487563879649830544472029466545446928121593406502132239666025270707905292510986328125",
+  "pi_upper_machin": "7698789646995170841459746190210848365183252534411837757936879401352539914957616237157033860486745555180782116682035113767575541010099305328633398077006482737735106454174518893857589665507903075471447759216016374673747772080811396824353015773961820050126384777895849519011884280861042825371574985951557112369173126083474088456609563944979032293588269239828684188715341047015278680824510945177419930222486591282658794955895533998148963869944016/2450600856287978792344830533501296615808276567057995211364589465372946642095207872945209178176556124821797324326606464208204323136931396517115985450458900381497026440841012890234961291924257329472627489889913811623372358219637833207100795691703294655427013117216054747712732591024465976368412395153487039351129792726968116193963714425507813457403531876708705456617317963590433513460201105245483003459462667539270341876544989645481109619140625",
+  "pi_decimal_upper": "39269908169872415480783042291/12500000000000000000000000000",
+  "K_upper_decimal": "1.781296297373",
+  "strict_reciprocal_margin_exact": "8045255950767709/12500000000000000000000000000",
+  "coefficient_sign_intervals": {
+    "positive": 48,
+    "negative": 203,
+    "undetermined": 0
+  },
+  "all_directional_inequalities_exactly_verified": true
+}

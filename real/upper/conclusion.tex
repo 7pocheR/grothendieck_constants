@@ -1,0 +1,63 @@
+Put
+\[
+ T_*=0.000002349547147305,\qquad \gamma_*=0.8818276493988.
+\]
+All these displayed terminating decimals denote exact rational numbers.
+The certificate checks the following integer comparison:
+\begin{equation}\label{eq:tail-rational}
+ T_*^2(14\cdot501^7)-C_*^2
+ =\frac{3104661541167915364988902768147}
+        {20000000000000000000000000000000000}>0.
+\end{equation}
+Thus (\ref{eq:head-bounds}) and (\ref{eq:tail-final}) give
+\begin{align}
+ \Gamma
+ &> B-h_*-T_*\nonumber\\
+ &=0.88182764939885093252
+   =\frac{22045691234971273313}{25000000000000000000}
+   >\gamma_*,\label{eq:gamma-exact}\\
+ B-h_*-T_*-\gamma_*
+ &=\frac{1273313}{25000000000000000000}>0.\nonumber
+\end{align}
+In particular, the coefficient margin is positive with a fixed uniform
+constant, independent of the dimensions or entries of $M$.
+
+We give an elementary rational verification of the last reciprocal
+comparison, so it does not depend on a decimal approximation to $\pi$.
+Machin's identity is
+\[
+ \pi=16\arctan(1/5)-4\arctan(1/239).
+\]
+It follows, for example, by applying the tangent addition law to
+$4\arctan(1/5)-\arctan(1/239)$ and observing that this angle lies in
+$(0,\pi/2)$ and has tangent one. For $0<x<1$, let
+$s_{64}(x)=\sum_{k=0}^{63}(-1)^kx^{2k+1}/(2k+1)$. The alternating
+series remainder gives
+\[
+ s_{64}(x)<\arctan x<s_{64}(x)+x^{129}/129.
+\]
+Substitution at $1/5$ and $1/239$ proves, by rational arithmetic,
+\[
+ \pi<\pi_U:=3.141592653589793238462643383280.
+\]
+Finally,
+\begin{equation}\label{eq:reciprocal}
+ 2\gamma_*\,(1.781296297373)-\pi_U
+ =\frac{8045255950767709}{12500000000000000000000000000}>0.
+\end{equation}
+Lemma~\ref{lem:rounding}, (\ref{eq:gamma-exact}), and
+(\ref{eq:reciprocal}) prove Theorem~\ref{thm:main}. Taking the supremum
+over finite matrices is legitimate because the same constant
+$\pi/(2\gamma_*)$ works for every matrix, and that constant is strictly
+less than the displayed decimal.
+
+The degree-501 calculation also proves the conservative bound
+$K_G^{\R}<1.78130$ using only $C_4<27159$ in place of
+(\ref{eq:C4}). Indeed, rational comparisons give
+\[
+ \frac{27159}{\sqrt{14\cdot501^7}}<0.000002578800327634,
+ \quad B-h_*-0.000002578800327634>0.8818274201456,
+\]
+and $\pi/(2\cdot0.8818274201456)<1.781296760466<1.78130$.
+The sharper stated bound uses specifically (\ref{eq:rational-square})
+and (\ref{eq:Cmargin}).
