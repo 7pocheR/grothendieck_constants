@@ -1,0 +1,63 @@
+{
+  "source_binding": "610feb8067131ce868af9e74ffd4802834aba787ad36a7ce55fa358da55423f2",
+  "task": {
+    "workers": 8,
+    "wall_seconds": 10320,
+    "conditioning_wall_seconds": 600,
+    "validation_reserved_seconds": 1200,
+    "output": "cluster_outputs/full",
+    "threshold": "1/10000000000",
+    "target": "711896/1000000",
+    "aggregate_bits": 320,
+    "maximum_output_bytes": 17179869184,
+    "settings": {
+      "radii": [
+        "21/20",
+        "51/50",
+        "101/100",
+        "201/200",
+        "501/500"
+      ],
+      "precision_bits": [
+        768,
+        1024,
+        1536,
+        2048,
+        3072
+      ],
+      "minimum_degree": 127,
+      "maximum_degree": 1536,
+      "panels": 64,
+      "max_depth": 18,
+      "max_leaves": 16384,
+      "max_evaluations": 32768,
+      "radius_seconds": 20,
+      "mode_seconds": 150,
+      "worker_memory_bytes": 3000000000,
+      "maximum_file_bytes": 268435456,
+      "per_mode_tail": "1/100000000000000",
+      "per_mode_width": "1/100000000000000",
+      "replay_extra_degree": 8,
+      "replay_extra_bits": 128
+    }
+  },
+  "input_facts": {
+    "norms": {
+      "P": "1999999015980406524216029/2000000000000000000000000",
+      "B": "1",
+      "C": "1"
+    },
+    "M": "19007117794841543023/399600000000000000000",
+    "phase_error": "2481861045053572732427524988679905533322860263730665113527571095424564637381739509124313249751343/38208383616191961600000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "B_unit_circle_modulus_upper": "9999999761405111210308884068461635514769/10000000000000000718200000000000012895281",
+    "B_unit_circle_squared_deficit": "477189779015782231863076754761024/10000000000000000718200000000000012895281"
+  },
+  "environment": {
+    "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:48:32) [GCC 14.3.0]",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.39",
+    "python_flint": "0.8.0",
+    "flint_version": "3.3.1",
+    "flint_release": "30301",
+    "assertions_enabled": true
+  }
+}

@@ -1,0 +1,36 @@
+# Run from the coupled package directory. Choose an external directory first.
+# These Linux commands perform the computation on the machine running them.
+# Change the following two paths to directories you control.
+coupled_output=/absolute/path/to/coupled-results
+coupled_environment=/absolute/path/to/coupled-python
+
+# Standard-library metadata and exact final arithmetic; no physical evaluations.
+python3 -B check_exact.py
+
+# Full rational inventory reconstruction; no physical evaluations.
+python3 -B check_inventory.py
+
+# Dependency setup, if it is not already installed in your Python environment.
+python3 -m venv "$coupled_environment"
+"$coupled_environment/bin/python" -m pip install -r requirements.txt
+
+# Every command below must succeed. In a script, use set -e before this sequence.
+"$coupled_environment/bin/python" -B run_generation.py --output "$coupled_output/raw" --stage conditioning --workers 4
+"$coupled_environment/bin/python" -B run_generation.py --output "$coupled_output/raw" --stage complete --workers 4 --resume
+"$coupled_environment/bin/python" -B run_validation.py --evidence "$coupled_output/raw" --output "$coupled_output/validation" --stage conditioning --cpus 4
+"$coupled_environment/bin/python" -B run_validation.py --evidence "$coupled_output/raw" --output "$coupled_output/validation" --stage complete --cpus 4
+"$coupled_environment/bin/python" -B independent_aggregate.py --raw "$coupled_output/raw" --validation "$coupled_output/validation" --output "$coupled_output/aggregation" --stage complete
+"$coupled_environment/bin/python" -B check_exact.py --validation "$coupled_output/validation" --aggregation "$coupled_output/aggregation"
+
+# Resume: repeat the interrupted generation command with --resume; repeat a
+# validation command as written; repeat aggregation with --resume appended.
+# Use new empty validation/aggregation directories for wholly fresh checks.
+
+# Optional route if the original raw records are supplied. No raw data download
+# is required by the generation route above, and no download URL is assigned.
+coupled_raw=/absolute/path/to/original-raw-records
+python3 -B prepare_reference_inputs.py --raw "$coupled_raw"
+python3 -B run_validation.py --reference --evidence "$coupled_raw" --output "$coupled_output/saved_validation" --stage conditioning --cpus 4
+python3 -B run_validation.py --reference --evidence "$coupled_raw" --output "$coupled_output/saved_validation" --stage complete --cpus 4
+python3 -B independent_aggregate.py --raw "$coupled_raw" --validation "$coupled_output/saved_validation" --output "$coupled_output/saved_aggregation" --stage complete
+python3 -B check_exact.py --validation "$coupled_output/saved_validation" --aggregation "$coupled_output/saved_aggregation"

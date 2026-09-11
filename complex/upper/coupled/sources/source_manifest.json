@@ -1,0 +1,10 @@
+{
+  "candidate_definition.json": "4cecb6da89809273d7b56656f4439c71dacb24c0da09143e13fe165b5f2e0eb0",
+  "coupled_arb.py": "c8a9089244e15f3d79d1ec0afb7c5affb794fcd649aa9396d600c1fec0e84e1d",
+  "coupled_exact.py": "730363ba4ef79aaa6fb90aebdd1e325e9be1f2499f17e7ba125ab26ff972187d",
+  "full_common.py": "052f3d522c15cdbca9999059530f4de996bc75ec338224f4955763c6c80ac91d",
+  "full_task.json": "6ebd647edddec93d57058970ee6d0a69165bc6f83310380ded740ead74cd480f",
+  "full_worker.py": "ad096383398cbdff2e4e2538c8fc2ab3151077ab00522e7621696e88aec1ad6a",
+  "source_snapshot/winding_exact_core.py": "d85c2e1c0f0be469fc1d6ebb0ced69fdacd5060a93a85a5b4e5577357b450ebc",
+  "validate_records.py": "73a9691b0348a988b48c04fd7741eb006530e01b79daa467ab72eeadd6c275c6"
+}

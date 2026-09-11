@@ -1,0 +1,32 @@
+{
+  "contract": "unchanged_validate_mode_with_full_replay_binding_and_reconstructed_dyadic_contribution_v1",
+  "source_manifest_sha256": "610feb8067131ce868af9e74ffd4802834aba787ad36a7ce55fa358da55423f2",
+  "validator_manifest_sha256": "8ab6bf80545d6d715c43e75acc061f51c89398322180e7d233e518f50a542479",
+  "validator_source_sha256": "0dac76e1752da9c9107a749001a819f5d263417879e387f28ab9c3fe48592eb9",
+  "task_sha256": "b066c0d6ab2187b9880c89857150c599bbefd0b35fca27470ce3d01b1b5252b6",
+  "candidate_sha256": "2647d8db1250a946f0ba0d7c7613abb1e796c04c3d683f05b5eedef0b3c7b858",
+  "evidence_dependency_sha256": {
+    "complete_inventory.json": "3041e74d324411eef94a3e25045aa9cbd82ec2f1e96ef4e19f8c2e0facd54f35",
+    "execution_inputs.json": "554fdabce23615aace8c8b5bc2e30d536f108079fcc6d12a1448e54bf8dbaeb4"
+  },
+  "complete_inventory_sha256": "f4971aae74108843572cd7c65fb0dd81a0ffe6163be2d4d8aed3db72e5ad845c",
+  "condition_indices": [
+    0,
+    1,
+    2,
+    1243,
+    2487,
+    3730,
+    4974,
+    6217,
+    7461,
+    8704,
+    9946,
+    9947
+  ],
+  "aggregate_bits": 320,
+  "maximum_output_bytes": 1073741824,
+  "per_worker_memory_bytes": 3000000000,
+  "per_mode_seconds": 150,
+  "trusted_execution_dependency": "The contour and primitive implications rely on successful execution of the specified exact validate_mode source on all hashed evidence. A checkpoint is an execution record, not a proof reconstructed from a Boolean. Resume rechecks every dependency hash and reconstructs its exact arithmetic summary and dyadic contribution from the raw record."
+}

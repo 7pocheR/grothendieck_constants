@@ -1,6 +1,6 @@
 # A certified upper bound for the complex Grothendieck constant
 
-The [stronger construction](winding/) proves $K_G^{\mathbb C}\le 100000000/71188883<1.404713710707$. The earlier construction below and its complete verification package remain available.
+The [strongest construction](coupled/) proves $K_G^{\mathbb C}\le 200000000000/142379302169<1.404698554869$. The [preceding winding construction](winding/) and the earlier construction below remain available with their verification packages.
 
 For complex scalar phases and complex unit vectors, the construction proves
 

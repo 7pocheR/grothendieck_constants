@@ -11,7 +11,7 @@ The definitions allow every finite matrix size and every finite vector dimension
 - **Real lower:** $K_G^{\mathbb R}\ge 1375\pi/2454=1.760264832390369\ldots$. [Proof and verification](real/lower/quintic/).
 - **Real upper:** $K_G^{\mathbb R}\le \pi/[2(0.8818276493988)]<1.781296297373$. [Paper and verification](real/upper/).
 - **Complex lower:** $K_G^{\mathbb C}>1.373$. [Paper and verification](complex/lower/).
-- **Complex upper:** $K_G^{\mathbb C}\le 100000000/71188883<1.404713710707$. [Proof and verification](complex/upper/winding/).
+- **Complex upper:** $K_G^{\mathbb C}\le 200000000000/142379302169<1.404698554869$. [Proof and verification](complex/upper/coupled/).
 
 The [two-page comparison](docs/grothendieck_bounds_comparison.pdf) gives exact statements, literature comparisons, numerical improvements, and comments on the methods. This snapshot contains the four results listed above.
 
@@ -27,14 +27,14 @@ The companion [Li et al., arXiv:2608.11195v3, Section 3](https://arxiv.org/html/
 
 The quintic construction improves this repository's earlier lower bound $1625\pi/2917$ by approximately $0.01014894$. With the real upper endpoint fixed, it removes **32.55%** of the former remaining real interval. The earlier [cubic construction](real/lower/) remains available.
 
-The complex upper construction improves this repository's earlier endpoint by approximately $0.00005691$. With the complex lower endpoint fixed at $1.373$, it removes **0.1791%** of the former remaining interval. The [earlier upper construction](complex/upper/) remains available.
+The complex upper construction improves the preceding [winding construction](complex/upper/winding/) by approximately $0.00001516$. With the complex lower endpoint fixed at $1.373$, it removes **0.04779%** of the preceding remaining interval. The original complete calculation supports the bound; a full rerun through the new portable entrypoints remains to be completed. All earlier constructions remain available.
 
 ## Methods
 
 - The real lower proof bounds $(33/20)P_1-P_3-(3/20)P_5$, where $P_j$ is the Hermite projection of degree $j$. Full three-by-three transverse majorants, agreement estimates, a circle inequality, and one-dimensional ternary certificates give a scalar bound in every dimension. Finite Gaussian partitions give explicit matrix witnesses.
 - The real upper proof uses polynomial Gaussian threshold rounding and signed tensor preprocessing. Certified finite coefficients and an analytic bound on the entire remaining coefficient tail give a universal inequality for finite matrices.
 - The complex lower proof combines a cubic Gaussian correction with anisotropic radial multiplication inequalities and exact midpoint orthogonality. A finite family of auxiliary weights covers the complete scalar parameter range for one fixed operator.
-- The complex upper proof uses nonlinear complex phase rounding, including radially damped perturbations, and signed tensor preprocessing. Complete contour enclosures, zero winding numbers, and a homotopy argument justify analytic continuation and the Cauchy estimates for all scalar tails. The certificate also includes all omitted phase orders and primitive modes.
+- The complex upper proof uses three Gaussian coordinates, a mixed linear phase, bounded nonlinear phase perturbations, and signed tensor preprocessing. Complete contour enclosures, zero winding numbers, and a homotopy argument justify analytic continuation and the Cauchy estimates for all scalar tails. The certificate also includes all omitted phase orders and primitive modes.
 
 ## Reproduction and interpretation
 
