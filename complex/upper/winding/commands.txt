@@ -1,0 +1,18 @@
+# Run from the directory containing README.md.
+# Exact compact-data and mathematical input checks (standard library only):
+python3 -B verify_certificate.py
+
+# Optional complete saved-record validation, if raw-records is available:
+python3 -B verify_certificate.py --raw-records raw-records --output verification/saved_validation.json
+
+# Install the pinned native dependency and run the portable small smoke test:
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -B smoke_test.py
+
+# Full native replay and full exact validation (Linux):
+.venv/bin/python -B run_replay.py --output verification/recomputed --workers 4
+.venv/bin/python -B verify_certificate.py --replay verification/recomputed --output verification/recomputed_validation.json
+
+# Resume unchanged checkpoints after interruption:
+.venv/bin/python -B run_replay.py --output verification/recomputed --workers 4 --resume

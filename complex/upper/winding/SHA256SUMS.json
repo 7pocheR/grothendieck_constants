@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "files": {
+    "README.md": "43ff34bc7dbd68a3e2d63524df2a6f6f012d788ebb5be222b66fa5f5ce3ce897",
+    "check_algebra.py": "15c6d0768f96ae170fd1df5a995b48bb5626e3882ba04437c7f04ec9a1d38387",
+    "commands.txt": "864270cf402102eb8af0aec5a114ef05be94fcac58c8edc9f99aa8b88c87db35",
+    "data/candidate.json": "478adc9f90fd4529e0ffcde703f2cc7fd772c592ffe986dc7d2486b7209e709f",
+    "data/coefficients.jsonl.gz": "8312698ac73231dcc39e287db5efa360633c9dcc6d4dafd4f9bc0051e7bd9d07",
+    "data/plan.json": "69d610f2843bfa38779a3d0d9b7aa1ffd9a9d5d7360ff67276cc2c30fd9dfa29",
+    "data/primitive_polynomials.json": "4f3aa36662851d979c684642cfece8e813cb073c6c5e9f2548dd02f31562da37",
+    "data/raw_records_manifest.json": "f92fd9082e3e889500f6eff9f53600e77647833294c30982e8ef5079650e3c09",
+    "proof.md": "bf040d0f570a5ac4427d210657557e0dcce5bb9970983e57cb09b41c7068f5f7",
+    "requirements.txt": "a98869ee84ec316349fde0f110b1c02f2479d81073de3e0e758f9d88417566f3",
+    "run_replay.py": "1bc49187cfa8dc3fd3b5a20978181e5a8f0b5beb25e631dfb0fe021e9359f07c",
+    "smoke_test.py": "1936e5c38ebf0dbb0e26e26d7a02fa4d1b0eb5d9b82d6ce78ffb313927a0297b",
+    "sources/exact_core.py": "d85c2e1c0f0be469fc1d6ebb0ced69fdacd5060a93a85a5b4e5577357b450ebc",
+    "sources/geometry_check.py": "312f197e1d9610052528313ce9a3670780b5343f7cccfa362b561ea08bb2ccce",
+    "sources/native.py": "54e09cc74cb52bc2125034f5b025512ddac4c8c5d78376827f5260cab4bce217",
+    "sources/package_core.py": "1f1aee72cbe5f33d922aac37f387f4830828d1ae713f3ab4bcf262d3c74d7bd1",
+    "verify_certificate.py": "640f5f7e6467533d3113f358ea355ddf6cdaf297cab96d1b76d826f14422a7b3"
+  }
+}
