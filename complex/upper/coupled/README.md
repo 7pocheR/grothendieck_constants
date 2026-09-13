@@ -1,5 +1,7 @@
 # A coupled complex Grothendieck upper bound
 
+The [amplitude refinement](../epsilon/) gives the stronger endpoint $K_G^{\mathbb C}<1.404698554831$ using the same primitive functions. This directory retains the preceding coupled construction.
+
 For arbitrary finite complex matrices and arbitrary complex unit vectors,
 
 \[

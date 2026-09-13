@@ -1,0 +1,726 @@
+{
+  "coefficient_group_blocks": [
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        0,
+        128
+      ],
+      "path": "blocks/block_0000.json",
+      "sha256": "6c3c4e804875cdb0d904db605df67a80f2bae2ffc04a665029c141b356f9b4c2"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        128,
+        256
+      ],
+      "path": "blocks/block_0001.json",
+      "sha256": "3b2436e7ef08a1a3053ca370c90d38390197d7b8e75c38554a0aea108ac16239"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        256,
+        384
+      ],
+      "path": "blocks/block_0002.json",
+      "sha256": "61c2edada51fc82b6ce7ea50f00b6593dd5b89ec55ff369bfe72b50dd8336413"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        384,
+        512
+      ],
+      "path": "blocks/block_0003.json",
+      "sha256": "2d6dca915981cb593d58a3590ca8882a7128b42768f985fb8bd349bfeaa9abb3"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        512,
+        640
+      ],
+      "path": "blocks/block_0004.json",
+      "sha256": "e4a13eefd3d945f4ecd4e6e9601a14f0bd330bfe721cc56a1b8dc4a5a6a6ecb1"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        640,
+        768
+      ],
+      "path": "blocks/block_0005.json",
+      "sha256": "cd01dc7f70e2db851bac74e255404f90d343b66a5f95b2100d4e6f4b1e875677"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        768,
+        896
+      ],
+      "path": "blocks/block_0006.json",
+      "sha256": "ffeab5ea620f04bfd0a93bbc1e5b5a40d4e3b292bb7512faba5ea9ed438ebdb5"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        896,
+        1024
+      ],
+      "path": "blocks/block_0007.json",
+      "sha256": "8ec6d6e6b3a7d6540db631ffa240ab195670a9405640b3ff9f4d87ab95983da6"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        1024,
+        1152
+      ],
+      "path": "blocks/block_0008.json",
+      "sha256": "efd2a554e0ca1b18d50fcf8e1810689fd556efc644e3d520965d14a446dbcbc9"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        1152,
+        1280
+      ],
+      "path": "blocks/block_0009.json",
+      "sha256": "6129aa0371d4931d688a97c5ea9805f0390713d968ffa4189769bdf799bdd9bc"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        1280,
+        1408
+      ],
+      "path": "blocks/block_0010.json",
+      "sha256": "76c7c9005bf22d4a4a690b92aa486eb6ff6b1e48b7733d30dad90eaa54bc39fb"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        1408,
+        1536
+      ],
+      "path": "blocks/block_0011.json",
+      "sha256": "923b696612b75128f4b3ebf66a4432f0f37c1e68fac2778b8a132fd3ce3797f5"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        1536,
+        1664
+      ],
+      "path": "blocks/block_0012.json",
+      "sha256": "bc39ba0114eb9a5c9456a94ea026fa8054617075b28f2a674a74486a8ac61088"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        1664,
+        1792
+      ],
+      "path": "blocks/block_0013.json",
+      "sha256": "b29dd1d0b98171582d96f3559be7aef2ffad6052eaa0ab8767d867be81a0d59f"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        1792,
+        1920
+      ],
+      "path": "blocks/block_0014.json",
+      "sha256": "e16fc1e07dcd937461cc5bf69702b1483dabd268ea9da5422e0be329e7602426"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        1920,
+        2048
+      ],
+      "path": "blocks/block_0015.json",
+      "sha256": "d1dc5a9b8b7d5112462978b290d6302867f480d6251925e8213b08bed648417f"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        2048,
+        2176
+      ],
+      "path": "blocks/block_0016.json",
+      "sha256": "f97293a69bdc6765638db82ca662e3ab27bb672e7ccdd9e7c32078a48bfa383f"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        2176,
+        2304
+      ],
+      "path": "blocks/block_0017.json",
+      "sha256": "2eda95d4436a3e477e1be3967adfdd2e7384f7e4fb600a4bc3807765b1617bda"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        2304,
+        2432
+      ],
+      "path": "blocks/block_0018.json",
+      "sha256": "a03ff401b9793a5711763e1588ef6435f09a332f45e7f4c814712594f000a940"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        2432,
+        2560
+      ],
+      "path": "blocks/block_0019.json",
+      "sha256": "583dc55e5a2a5703d55844927ecebdb4a8dbce21c6a2e1a6ef2b1e49b38a2397"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        2560,
+        2688
+      ],
+      "path": "blocks/block_0020.json",
+      "sha256": "d8ce7dc7b9ef58816352a094932aad9057459f2639efd8904cc4955ef298af24"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        2688,
+        2816
+      ],
+      "path": "blocks/block_0021.json",
+      "sha256": "f4557d39ef1716a5dabb192f1042b61bd38f5823f5711af35172e17cfedb8d4c"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        2816,
+        2944
+      ],
+      "path": "blocks/block_0022.json",
+      "sha256": "0be90aab67d3d75e03786cf2ddce9976b7cd36e6f20def8cc82065e7236bbda4"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        2944,
+        3072
+      ],
+      "path": "blocks/block_0023.json",
+      "sha256": "56dcf7ad1814c9f5c529590bd16fb8439ca7d0712e91d1580a7d64574e2c43b3"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        3072,
+        3200
+      ],
+      "path": "blocks/block_0024.json",
+      "sha256": "0057e15696718dd8eaa5422671c46f1c760257509a055cc3291407b605586b04"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        3200,
+        3328
+      ],
+      "path": "blocks/block_0025.json",
+      "sha256": "74c2bda90a56136306bb6362fa6871e47b55dca2c59c54fb903d8ec6959779c9"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        3328,
+        3456
+      ],
+      "path": "blocks/block_0026.json",
+      "sha256": "ff64efed14bdda07fb4ad825c85e64c927a24baf4f73d67ab55db55230e589d2"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        3456,
+        3584
+      ],
+      "path": "blocks/block_0027.json",
+      "sha256": "1c04cdfb9d640b161a3b61a45d65b0bd56c775f388a5a2918c3769e2b9fba9d2"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        3584,
+        3712
+      ],
+      "path": "blocks/block_0028.json",
+      "sha256": "3e511bf02b54c1d2acfcc02218f0cb5baec7b1fc72101eb3937e332b80779142"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        3712,
+        3840
+      ],
+      "path": "blocks/block_0029.json",
+      "sha256": "1db03fff3d45964bc280def53ad4c07962e380a2f85976a49466118a3ee27f5a"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        3840,
+        3968
+      ],
+      "path": "blocks/block_0030.json",
+      "sha256": "af372bec2942768b5fdb44824d3d148749d55e62e793f9898589d20ec3dd1ec8"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        3968,
+        4096
+      ],
+      "path": "blocks/block_0031.json",
+      "sha256": "b9fcbfe27e751c8a85dc4926e343304abb0d0daf56122bd368da2c306330f73f"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        4096,
+        4224
+      ],
+      "path": "blocks/block_0032.json",
+      "sha256": "c8cf26155faa94a42e31c593cfe7be477babefdabd81fc4ef5bc7be56c9216d4"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        4224,
+        4352
+      ],
+      "path": "blocks/block_0033.json",
+      "sha256": "535bcc90f695db4f6e65ed4b59c62dcd48a4de2c3e132eec453d1ef15b18b3fe"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        4352,
+        4480
+      ],
+      "path": "blocks/block_0034.json",
+      "sha256": "6bbadbe7e8b18b4d26ad20f44785c25a851f722a6d0d02c15a26193249b8854a"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        4480,
+        4608
+      ],
+      "path": "blocks/block_0035.json",
+      "sha256": "b0c924701efbe4fc763382dc7cded1f4a11733b8de253ddcfdd8ca1a9bd935b2"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        4608,
+        4736
+      ],
+      "path": "blocks/block_0036.json",
+      "sha256": "e849cb36bab777097b12adbf76dd44b3c94836bb86b5e2f9f220453fa38b2a7a"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        4736,
+        4864
+      ],
+      "path": "blocks/block_0037.json",
+      "sha256": "c27f0cbf18cc6c673c1de291d6ff56dbbe799e90e96e48b253f56adc3f7bea6e"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        4864,
+        4992
+      ],
+      "path": "blocks/block_0038.json",
+      "sha256": "ae7a6c0cd5ccef9b168be3644ffc27180d4bc9a188cb41c738547f82fd341e1f"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        4992,
+        5120
+      ],
+      "path": "blocks/block_0039.json",
+      "sha256": "ce81101bbd5001cffc589d9c6ffce06e09c2543537ad0d0d4975fe113150db0e"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        5120,
+        5248
+      ],
+      "path": "blocks/block_0040.json",
+      "sha256": "754a87d9d1887b8319b6b3469f871482887cecd4b4ac23b74ec3a6760156d457"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        5248,
+        5376
+      ],
+      "path": "blocks/block_0041.json",
+      "sha256": "e571e17ad5605a57e012f45a35f93b87cf5f2942f10d7518210bacbf1d79637c"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        5376,
+        5504
+      ],
+      "path": "blocks/block_0042.json",
+      "sha256": "fb09e18fd27027cbdda7934fb5a191e856107c5e1431d006af7fe3ade4740e4f"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        5504,
+        5632
+      ],
+      "path": "blocks/block_0043.json",
+      "sha256": "2914882a7372ffa0a758acc91355c8e518f86812c464707a6ae7136fd9ab91dd"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        5632,
+        5760
+      ],
+      "path": "blocks/block_0044.json",
+      "sha256": "088f696ebc931bb6c16feb252251216eb455f16f7b4f9dc9d3357f1725678f37"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        5760,
+        5888
+      ],
+      "path": "blocks/block_0045.json",
+      "sha256": "f9adda85836503076440900e06e2023aa7c9bb06480fa9190bf65cfa5e687c6d"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        5888,
+        6016
+      ],
+      "path": "blocks/block_0046.json",
+      "sha256": "d3b22ebd1d2f0056f5413862f7b2635353796912c4ae4fa270707afb70ef42ca"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        6016,
+        6144
+      ],
+      "path": "blocks/block_0047.json",
+      "sha256": "177606393d64616fd258047a49d0c82791102260638228311cbbc7d838be4d75"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        6144,
+        6272
+      ],
+      "path": "blocks/block_0048.json",
+      "sha256": "402497b80b1ea6fc585e044620573dcb0fb6f6d8a0684352838c7acbb0e15286"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        6272,
+        6400
+      ],
+      "path": "blocks/block_0049.json",
+      "sha256": "79e8b012f471984bffc4ca16bf3ae57337a53071bf717242085376529270e89f"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        6400,
+        6528
+      ],
+      "path": "blocks/block_0050.json",
+      "sha256": "cc33a34a5938a0b9d95300d092b4f793875dc3ca077d25f04afd69597c8223b5"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        6528,
+        6656
+      ],
+      "path": "blocks/block_0051.json",
+      "sha256": "61747c3956cb1198a2217e8e5d4321c7cdcbba37337ccd7784b9fd3858906844"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        6656,
+        6784
+      ],
+      "path": "blocks/block_0052.json",
+      "sha256": "cd2fdfab971c73f2de93128da5857667a068a9c7adaaffb0600d4ede0fcde956"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        6784,
+        6912
+      ],
+      "path": "blocks/block_0053.json",
+      "sha256": "bb0656fa4c55c2f488d172ae48819a106626f11e0869ef6de9e2420665cc04ab"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        6912,
+        7040
+      ],
+      "path": "blocks/block_0054.json",
+      "sha256": "f58d490d0e8e630a64d8805fe5df19bec10b5c485b97e4ccb74fcbed282e911d"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        7040,
+        7168
+      ],
+      "path": "blocks/block_0055.json",
+      "sha256": "aec663a97504c7a139f8a8a53cc10af2d333836f27498ca6de89a28e1e54fda7"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        7168,
+        7296
+      ],
+      "path": "blocks/block_0056.json",
+      "sha256": "7a7456092674aea1ab26b6348dbda2aaec48e0d221e1126d461b7a2db443816a"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        7296,
+        7424
+      ],
+      "path": "blocks/block_0057.json",
+      "sha256": "330bc08d62f0b7f01ebcc48006c0ce2889e49275e348961c31eb04f012d8d0eb"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        7424,
+        7552
+      ],
+      "path": "blocks/block_0058.json",
+      "sha256": "49d2cbcf05170e1b342fc03c3fdbf59ad864ca3d836e52e2f3523cb563be4d3f"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        7552,
+        7680
+      ],
+      "path": "blocks/block_0059.json",
+      "sha256": "12b764d478a5c9e72151c5984f30717f1d8dcfab0727df2974825f5a7cf7d07e"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        7680,
+        7808
+      ],
+      "path": "blocks/block_0060.json",
+      "sha256": "c71b7ccc8c261ed36235683e927082103fdc98a164b629d4357a79a663164192"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        7808,
+        7936
+      ],
+      "path": "blocks/block_0061.json",
+      "sha256": "c310be952de72f1fade8fc5d65987688220571da8ef677582e1ccd797d029c88"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        7936,
+        8064
+      ],
+      "path": "blocks/block_0062.json",
+      "sha256": "92471023686d17f0770738b6b7437b318e3bd9a50942a7924da151d30640c178"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        8064,
+        8192
+      ],
+      "path": "blocks/block_0063.json",
+      "sha256": "7faa285f9b3722b6d53ba4389047126de2c15fb0afc7feaec26acf402490e866"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        8192,
+        8320
+      ],
+      "path": "blocks/block_0064.json",
+      "sha256": "25e165878ddbcd2ffe55a5775a8748c992188710214c6daac5a454c7b7f6d3b5"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        8320,
+        8448
+      ],
+      "path": "blocks/block_0065.json",
+      "sha256": "35dbe53a94efdec27b59784ef2e7b610bf4e391abce970ce8588dc71dc041fc6"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        8448,
+        8576
+      ],
+      "path": "blocks/block_0066.json",
+      "sha256": "4edebb657de06f40b045d22bbf0c1f24799bfec4b52e7f10277c9b19f15a3635"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        8576,
+        8704
+      ],
+      "path": "blocks/block_0067.json",
+      "sha256": "0da9f0e4413041a0dfe0139e3c889c96d63dfdfe5d2fbf20fc40ecccc7859787"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        8704,
+        8832
+      ],
+      "path": "blocks/block_0068.json",
+      "sha256": "fd910e0b9cf699a62c4afc76f8aa1747d6cf100d7d82af26d99f7a95695afd79"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        8832,
+        8960
+      ],
+      "path": "blocks/block_0069.json",
+      "sha256": "8ecd3b6fa4efe7488e7686028e1c91bda24351903a3dd413720f5bdc58da8807"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        8960,
+        9088
+      ],
+      "path": "blocks/block_0070.json",
+      "sha256": "5a35273288743e8871c4b7229de93c9e75211cc04862f1395fe9c846e5cd5808"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        9088,
+        9216
+      ],
+      "path": "blocks/block_0071.json",
+      "sha256": "a35bddb5a1d687d287cee5ab3ce751cf1c793d07656ca8d4518c33ab58e54fe8"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        9216,
+        9344
+      ],
+      "path": "blocks/block_0072.json",
+      "sha256": "1bb39e278aa9ef73773aa63d8d596058ea6a766169e716c1f373e5b2f972d73d"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        9344,
+        9472
+      ],
+      "path": "blocks/block_0073.json",
+      "sha256": "78ca97fa83da3c8f894c48b1ce3517c71827685a9184613bc726c07b2e8a9cf6"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        9472,
+        9600
+      ],
+      "path": "blocks/block_0074.json",
+      "sha256": "24d342ce5a421383636d00f902b57b01b5c4407b3e48dbbc955669c587bacf95"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        9600,
+        9728
+      ],
+      "path": "blocks/block_0075.json",
+      "sha256": "39205c32e5ec025f59895923755cb99362a43904b7481fe426f08883742cf902"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        9728,
+        9856
+      ],
+      "path": "blocks/block_0076.json",
+      "sha256": "e0d5976168a58bb54fa7683cbfedbe3949ea97b138e6cbb393858ed014dfb3e5"
+    },
+    {
+      "index_semantics": "half-open interval",
+      "indices": [
+        9856,
+        9948
+      ],
+      "path": "blocks/block_0077.json",
+      "sha256": "a790941325d92d3da6cc863939974de40c9b8e20c7a3d976c8956d6b64023e3b"
+    }
+  ],
+  "group_count": 6,
+  "group_independent_arithmetic_sha256": "6cc96b1ab14a4cd2268275f50050b3f22ca153ef7767e1f1f5f18a48cbdcd928",
+  "group_producer_summary_sha256": "626b820a7207eeb8c49cb6e2e578f90497a5d83d620559c96a9770d2f36380b0",
+  "largest_radial_index": 1010,
+  "omitted_modes": 110522,
+  "original_coefficient_contributions": 2415418,
+  "original_independent_aggregation_sha256": "cc62a22c6d118226fbe4ef4176d695f3ea309f204125f675069594757af76add",
+  "original_native_validation_report_sha256": "c0d068bea87deb04dacdd277863d3398b81c28fe73223a884bf9addffb5dd1f4",
+  "primitive_inventory_canonical_json_sha256": "f4971aae74108843572cd7c65fb0dd81a0ffe6163be2d4d8aed3db72e5ad845c",
+  "primitive_inventory_gzip_bytes": 316932,
+  "primitive_inventory_gzip_sha256": "d5cc1ed7217f41be31a4977aef8437faad27d9dc6ea7b27c0c9f5b5bec312cd4",
+  "raw_dependency_inventory": {
+    "bytes": 1703948,
+    "mode_and_circle_dependency_records": 39792,
+    "sha256": "c6e8b1b720eab20cdb2fe4a2e05976455b3059df036b2c82a56a5076b2b36bba"
+  },
+  "retained_modes": 9948,
+  "saved_group_interval_entries": 3381,
+  "source_expansion_modes": 120470,
+  "status": "bulk files not included in this small package"
+}

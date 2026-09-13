@@ -1,0 +1,72 @@
+{
+  "flint_extension_sha256": {
+    "flint_base/flint_base.cpython-311-x86_64-linux-gnu.so": "e3f0a2e2730b11dc8d487b136d006ce1f4fc84ffb5446b8357813b113858267b",
+    "flint_base/flint_context.cpython-311-x86_64-linux-gnu.so": "d77e53b802649845bdd23d1b56378b294eaa1256cff9493e33bb8855fb061ed0",
+    "functions/showgood.cpython-311-x86_64-linux-gnu.so": "80a64643e3c2f7bae59cfba26fbe39a109a030a29e64e4825c3a237264bbaee7",
+    "pyflint.cpython-311-x86_64-linux-gnu.so": "41b23fcb78b6f43dd8ebe510e79c5ce9339679df5fd9ab6a1f259f203cad849c",
+    "types/_gr.cpython-311-x86_64-linux-gnu.so": "63482b91c90799584affe21328863a8f1ba9a5bcbfbe6782751125180240e47a",
+    "types/acb.cpython-311-x86_64-linux-gnu.so": "3fc0adbb273961b8dbe38e0a3325a7328d8d490121c8575063f59bcb199f185a",
+    "types/acb_mat.cpython-311-x86_64-linux-gnu.so": "04085e386943ef4cbf34001d1a000cd74907f3caee4d82341a8733610877602f",
+    "types/acb_poly.cpython-311-x86_64-linux-gnu.so": "c0ee8a41486917e70e66490433e313ee7a02aa8eacb474980306d38f4b4432eb",
+    "types/acb_series.cpython-311-x86_64-linux-gnu.so": "959d17dde036f9a09fd095fb889da09bbb4ac091593420f2fcaf4087ff020f22",
+    "types/acb_theta.cpython-311-x86_64-linux-gnu.so": "78a012f804be6565a4983682d69cd3eb420c37dae91809681f5916e8d345de02",
+    "types/arb.cpython-311-x86_64-linux-gnu.so": "a799aea904a9582790bc662bc7f5fbbb5d3b26ac782c3e9f979a1c0b70d8bec0",
+    "types/arb_mat.cpython-311-x86_64-linux-gnu.so": "c0c66a2d80009d4396522cf304f417880887b2f0f3457d8bfe443114944f463d",
+    "types/arb_poly.cpython-311-x86_64-linux-gnu.so": "471ff7f50225168a995da566484677dcf0eeae3e742da8309f9ad474c1df4980",
+    "types/arb_series.cpython-311-x86_64-linux-gnu.so": "a5615121af0bfd7288c5f3ba3ca3eab998acd7ceae4d95340f12a6e6635655c2",
+    "types/arf.cpython-311-x86_64-linux-gnu.so": "6f00976dfa65a7bf3aeb0da5345fa430684a9446615276e379a51cc1bfaa88c3",
+    "types/dirichlet.cpython-311-x86_64-linux-gnu.so": "0f1e307c34338a600ee0b6b0b33c48b067ea8bb9918cefaf2be294997c11bdd3",
+    "types/fmpq.cpython-311-x86_64-linux-gnu.so": "3a91f25f565c129e603966ed1d9f78906d12d8a63cb1b44406be6503df5aecf7",
+    "types/fmpq_mat.cpython-311-x86_64-linux-gnu.so": "b9ac1e4c2cb4907b3bd7e185f7c9207c3b90236fe572fc57b8bbe4a52be6675a",
+    "types/fmpq_mpoly.cpython-311-x86_64-linux-gnu.so": "e83972ca699fc099f4aa5be6de6711e9b6f39c88f6c2768d6e32abe147711892",
+    "types/fmpq_poly.cpython-311-x86_64-linux-gnu.so": "b3ddc86540ca78066e3754a289db55bfebbcda986ce4a2be090e5ed3434eb89a",
+    "types/fmpq_series.cpython-311-x86_64-linux-gnu.so": "ea7c6e4f1d80f83fc17fc41cf7c51cfe75bf71e806646e642aefe6f518add330",
+    "types/fmpq_vec.cpython-311-x86_64-linux-gnu.so": "7b783a3c604df76961e27f8b8d2825fd639c383735f8cd499d980ba81063bda5",
+    "types/fmpz.cpython-311-x86_64-linux-gnu.so": "24b1b977bae7107e33b11ca23fb3384cbc8e36f48d187e0e030ad9f3a56dc30d",
+    "types/fmpz_mat.cpython-311-x86_64-linux-gnu.so": "e0fab8b767fb6381bb7e60f9685fa7a4584dbf9d57afa085b73cc700267bd519",
+    "types/fmpz_mod.cpython-311-x86_64-linux-gnu.so": "c2d5fd0cb90bdbac5a354e3aead91b71cbfd6c415d6d08c301a5cddc80f07832",
+    "types/fmpz_mod_mat.cpython-311-x86_64-linux-gnu.so": "4c08063b849c2fb93802c2ce42a57bce3438d79ce6f99d5df28c8fdf13b8df81",
+    "types/fmpz_mod_mpoly.cpython-311-x86_64-linux-gnu.so": "c687b22294e736bd5b2869c4a8c57918f060e1b3eb741cba68ca3a48ce3d712f",
+    "types/fmpz_mod_poly.cpython-311-x86_64-linux-gnu.so": "2bcb2637b7d65ea3060921e4a69116bc7fe82c3ed7c0b7aac55738c17ffd0b02",
+    "types/fmpz_mpoly.cpython-311-x86_64-linux-gnu.so": "f01418a6faa377fe4549cfcfc2abec6a13bae71009a86c16b41bdb870319a60c",
+    "types/fmpz_poly.cpython-311-x86_64-linux-gnu.so": "6a70ecc9bde52f89e482befb6d9a1d767a411e9f6c1bcc7e45c2a03a98e0ee07",
+    "types/fmpz_series.cpython-311-x86_64-linux-gnu.so": "a8676f26a1e9e65c1fda527ebb906518999fc408dc2eafa88dbae36daaa869ee",
+    "types/fmpz_vec.cpython-311-x86_64-linux-gnu.so": "617d7bf060e4f91e17c62fe39af444a1c38f632339b184beee6ed47c08dd476e",
+    "types/fq_default.cpython-311-x86_64-linux-gnu.so": "650a02058cc83d26cfb14883cf9715e81b74472bed3938ac5817e62d9c13bcdc",
+    "types/fq_default_poly.cpython-311-x86_64-linux-gnu.so": "7e59430fe4d7d725910db01fd9838722fd27799dce44a4fcecc129da490d6ba4",
+    "types/nmod.cpython-311-x86_64-linux-gnu.so": "2db6b667c5f9a93aa87c4d6fd1d1c970e588937009267daaadd1dda3c4b13c9d",
+    "types/nmod_mat.cpython-311-x86_64-linux-gnu.so": "5ce1e4f9f08b207b2ceae390fa9bc4296736da7235ee8a2aa53af7386f9d36f4",
+    "types/nmod_mpoly.cpython-311-x86_64-linux-gnu.so": "8288d006189a6dceaf6cd678417b89a501de3f5d31ea30a39ac170149f9d96e3",
+    "types/nmod_poly.cpython-311-x86_64-linux-gnu.so": "8052612c018a269c851583d9277c731a0a42b82c07c26a5d89a27d0ee5e2c5bd",
+    "types/nmod_series.cpython-311-x86_64-linux-gnu.so": "7011068eb7d0c03da3fc572157a1cbff6991fdeeda8b470e75387c50e716ab0e"
+  },
+  "flint_version": "3.3.1",
+  "loaded_numeric_library_sha256": [
+    {
+      "filename": "flint_base.cpython-311-x86_64-linux-gnu.so",
+      "sha256": "e3f0a2e2730b11dc8d487b136d006ce1f4fc84ffb5446b8357813b113858267b"
+    },
+    {
+      "filename": "flint_context.cpython-311-x86_64-linux-gnu.so",
+      "sha256": "d77e53b802649845bdd23d1b56378b294eaa1256cff9493e33bb8855fb061ed0"
+    },
+    {
+      "filename": "pyflint.cpython-311-x86_64-linux-gnu.so",
+      "sha256": "41b23fcb78b6f43dd8ebe510e79c5ce9339679df5fd9ab6a1f259f203cad849c"
+    },
+    {
+      "filename": "libflint-24205715.so.21.0.0",
+      "sha256": "513ac27a526bef27a1aa66bf0756ce62bbe41eba41f54f14771d8306b52a4228"
+    },
+    {
+      "filename": "libgmp-e0c82b6b.so.10.5.0",
+      "sha256": "33d24e675b10f8b1ab93a8ad3fa2ed5012e1b0d89dcdb97273877c6c6b9450d8"
+    },
+    {
+      "filename": "libmpfr-be332c05.so.6.2.2",
+      "sha256": "c4dfcfc7c5c7ab71d427e15f2f9fae4ace88592a81d4596a918dcc02eadfc6e3"
+    }
+  ],
+  "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:48:32) [GCC 14.3.0]",
+  "python_flint": "0.8.0"
+}

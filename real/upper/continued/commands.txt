@@ -1,0 +1,12 @@
+From this result directory, using Python 3.11 or later:
+
+python3 -B verify.py
+
+To save the complete rational endpoint check in a new file outside the package:
+
+python3 -B verify.py --output /tmp/continued-real-upper-endpoint.json
+
+The output file must not already exist. These commands use only the Python
+standard library. They check the consequences of the supplied numerical
+enclosures; they do not reexecute the primitive integrals, the pair sums,
+or the circle panels. See reproduction.md for the numerical scope.

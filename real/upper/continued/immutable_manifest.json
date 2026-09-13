@@ -1,0 +1,105 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 2025,
+      "sha256": "e887d531c0146f773ab71d86f98fcb307a1399f2e244ca385052618d285ee527"
+    },
+    "certificate/external_dependencies.json": {
+      "bytes": 419231,
+      "sha256": "004f945676178e53d66d8810de1f6af08d9a87ad19a3a667e59d2027eaf2f4d7"
+    },
+    "certificate/head_coefficients.json": {
+      "bytes": 172555,
+      "sha256": "b17377df72c59263e11d7da5c23b6c694c2b334e7d654039fbd3c4332fda106a"
+    },
+    "certificate/head_error_input.json": {
+      "bytes": 150809,
+      "sha256": "2de5b96d53110e13c9c914d328c1ae136c1bf6a9805c3131e30d521c09b071b5"
+    },
+    "certificate/physical.json": {
+      "bytes": 3929,
+      "sha256": "3077b5a8011868ff8a9200590bebb73cb41ad3ba10b09eb37860d5074c3b1653"
+    },
+    "certificate/scalar_bounds.json": {
+      "bytes": 3274,
+      "sha256": "ad7de6b6e4dad6dcefe5b5cfaebe599f70703008088157f08fcfa5c5c8ceed91"
+    },
+    "certificate/software.json": {
+      "bytes": 5924,
+      "sha256": "87297342ea1b5c2c775f0ad80914e7d7ee09b48bee2a210a2268d21d6f7e2ab5"
+    },
+    "commands.txt": {
+      "bytes": 519,
+      "sha256": "2f386b9c5d2a2795e3b6f2b1667737d2c71502d988ad171c18fdc4026ca8342e"
+    },
+    "head_estimates.md": {
+      "bytes": 13673,
+      "sha256": "6fbdb03faa96312e35eb014026542a563da191dbfb76b98685e6c84d69eca516"
+    },
+    "mathematical_note.md": {
+      "bytes": 18058,
+      "sha256": "7583d33a8c990715de3a9bff8fac6efddd9b2be5464c6668e6c3f6b8169698db"
+    },
+    "reproduction.md": {
+      "bytes": 9836,
+      "sha256": "3f3569d6739a3fb1749bb4fa24d02034d2be91f7ea679cb53ca5c0b58693fd27"
+    },
+    "source/head/error_replay.py": {
+      "bytes": 4799,
+      "sha256": "2c2dedef223b8dc01f294cf0b56835b23cb15a1174d0d5917da5ae72cb2554b6"
+    },
+    "source/head/exact.py": {
+      "bytes": 3381,
+      "sha256": "6ab0c07a3151ae909011aa815cf934f7d0553f164868a9e4b0b9d843d3c6dcef"
+    },
+    "source/head/primitives.py": {
+      "bytes": 11460,
+      "sha256": "d00d06ba57329ee1611b941b2701a31c9a6a032adb40f66be5f699cd7eb95223"
+    },
+    "source/requirements.txt": {
+      "bytes": 20,
+      "sha256": "a98869ee84ec316349fde0f110b1c02f2479d81073de3e0e758f9d88417566f3"
+    },
+    "source/tail/certify_fourier_circle.py": {
+      "bytes": 9604,
+      "sha256": "ecb8587bf26924f657703130da2953a4b833e0902847a6872e06077bddcc4c11"
+    },
+    "source/tail/conditional_fourier_terms.py": {
+      "bytes": 4827,
+      "sha256": "f12d04b40f6a5201e96f6a21923f04fbc051c8fdf6e90fc3e7965c81d2e9533f"
+    },
+    "source/tail/cutoff.py": {
+      "bytes": 1480,
+      "sha256": "682f5663e1eb0337815f729e32c8d0cf6d3f1a3dcd7b84751f62b8dc3910303f"
+    },
+    "source/tail/directional_density.py": {
+      "bytes": 4807,
+      "sha256": "7edfe0720828020ca0192969981500e7520444192b9f061fbea893c2a3c3c50f"
+    },
+    "source/tail/fourier_dominant_energy_pilot.py": {
+      "bytes": 13317,
+      "sha256": "ad33e1aa171de31cb93ed715edd5f4b11a9b1466c3c26d7ae55c768392b83c12"
+    },
+    "source/tail/fourier_mixed_energy_grid.py": {
+      "bytes": 11609,
+      "sha256": "e9596bf134fdffd2e7e2f1e402a7047fd7c509c9290fa19221e97443291bffab"
+    },
+    "source/tail/plan_fourier_circle_enclosure.py": {
+      "bytes": 8558,
+      "sha256": "faf392032b5d00bfd84b07922add7a26b99f8a0b33291d529832e4f11b283df9"
+    },
+    "source/tail/run_tail_comparison.py": {
+      "bytes": 4288,
+      "sha256": "ae1746cf40d46d6bc0ebc8c09a805bf19bf72cb47b615243bd14cb8a3e664ff2"
+    },
+    "source/tail/tail_engine_sharp.py": {
+      "bytes": 9015,
+      "sha256": "08798c05260089ab540e9e71c72e2f24582883e041e2af62901ca0e1cdc03331"
+    },
+    "verify.py": {
+      "bytes": 7823,
+      "sha256": "f0bf861dd9fdc9606a8d5597aea05acd24d449d3b211a5b96d4f342686f3a8c3"
+    }
+  },
+  "schema": "immutable-result-files-v1"
+}

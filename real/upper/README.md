@@ -1,5 +1,7 @@
 # An upper bound for the real Grothendieck constant
 
+A stronger upper bound, $K_G^{\mathbb R}<1.779754412112$, is available in the [five-variable construction](continued/). This directory retains the earlier polynomial-threshold result.
+
 The accompanying proof establishes
 
 $$

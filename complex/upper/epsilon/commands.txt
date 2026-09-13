@@ -1,0 +1,12 @@
+From this result directory, using Python 3.11 or later:
+
+python3 -B verify.py
+
+To save the exact result in a new file outside the package:
+
+python3 -B verify.py --output /tmp/complex-epsilon-endpoint.json
+
+The output file must not already exist. These commands need only the
+Python standard library. They recompute the full finite objective from
+the six supplied groups, including all errors, but do not reexecute the
+original primitive integrals or complete contour certificates.
